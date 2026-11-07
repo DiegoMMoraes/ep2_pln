@@ -1,0 +1,57 @@
+Experimento final_bertimbau_large_suave: neuralmind/bert-large-portuguese-cased (encoder) | modos ['final'] | saída /kaggle/working/saida/final_bertimbau_large_suave
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokens por texto: mediana 182, p90 512, 10.9% truncados
+
+========== FINAL (100% do treino) | semente 42 ==========
+  rótulos suaves: 1935 linhas com rótulos divergentes
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 14391.16it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/kaggle/working/ep2_treino.py:305: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/2512 | perda 1.1230 | ~12.9 min restantes
+  época 1 | lote 400/2512 | perda 1.1032 | ~12.6 min restantes
+  época 1 | lote 600/2512 | perda 1.1028 | ~11.6 min restantes
+  época 1 | lote 800/2512 | perda 1.0934 | ~10.4 min restantes
+  época 1 | lote 1000/2512 | perda 1.0902 | ~9.2 min restantes
+  época 1 | lote 1200/2512 | perda 1.0922 | ~8.0 min restantes
+  época 1 | lote 1400/2512 | perda 1.0879 | ~6.7 min restantes
+  época 1 | lote 1600/2512 | perda 1.0842 | ~5.5 min restantes
+  época 1 | lote 1800/2512 | perda 1.0812 | ~4.3 min restantes
+  época 1 | lote 2000/2512 | perda 1.0775 | ~3.1 min restantes
+  época 1 | lote 2200/2512 | perda 1.0733 | ~1.9 min restantes
+  época 1 | lote 2400/2512 | perda 1.0710 | ~0.7 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0695 | lotes_nao_finitos=0 | minutos=15.3401
+  época 2 | lote 200/2512 | perda 0.9965 | ~13.8 min restantes
+  época 2 | lote 400/2512 | perda 1.0038 | ~13.4 min restantes
+  época 2 | lote 600/2512 | perda 1.0061 | ~11.7 min restantes
+  época 2 | lote 800/2512 | perda 1.0039 | ~10.6 min restantes
+  época 2 | lote 1000/2512 | perda 0.9998 | ~9.4 min restantes
+  época 2 | lote 1200/2512 | perda 0.9966 | ~8.2 min restantes
+  época 2 | lote 1400/2512 | perda 0.9967 | ~6.9 min restantes
+  época 2 | lote 1600/2512 | perda 0.9977 | ~5.7 min restantes
+  época 2 | lote 1800/2512 | perda 0.9959 | ~4.4 min restantes
+  época 2 | lote 2000/2512 | perda 0.9962 | ~3.2 min restantes
+  época 2 | lote 2200/2512 | perda 0.9968 | ~1.9 min restantes
+  época 2 | lote 2400/2512 | perda 0.9963 | ~0.7 min restantes
+  semente=42 | epoca=2 | perda_treino=0.9954 | lotes_nao_finitos=0 | minutos=15.5058
+test1: 900 textos | distribuição prevista {'c5': 367, 'c1': 291, 'c234': 242}
+test2: 897 textos | distribuição prevista {'c5': 360, 'c1': 311, 'c234': 226}
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'final_test1_semente42.csv', 'final_test2_semente42.csv', 'historico.csv', 'log.txt']

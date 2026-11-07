@@ -1,0 +1,37 @@
+Avaliação: 3976 textos (fold 1 agrupado)
+
+--- Modelos de base ---
+bertimbau                          acc 0.4590
+logreg_C0.25_w12c25                acc 0.4620
+svc_C0.05_w13c25                   acc 0.4610
+ridge_a10_w12c25                   acc 0.4608
+nbsvm_C0.25_w12_semacento          acc 0.4600
+cnb_a0.1_w12_semacento             acc 0.4547
+mnb_a0.03_w13                      acc 0.4540
+
+--- Concordância entre as predições (fração de textos com o mesmo rótulo) ---
+                           bertimbau  logreg_C0.25_w12c25  svc_C0.05_w13c25  ridge_a10_w12c25  nbsvm_C0.25_w12_semacento  cnb_a0.1_w12_semacento  mnb_a0.03_w13
+bertimbau                       1.00                 0.68              0.67              0.68                       0.57                    0.62           0.63
+logreg_C0.25_w12c25             0.68                 1.00              0.95              0.96                       0.71                    0.75           0.74
+svc_C0.05_w13c25                0.67                 0.95              1.00              0.97                       0.72                    0.76           0.75
+ridge_a10_w12c25                0.68                 0.96              0.97              1.00                       0.72                    0.76           0.75
+nbsvm_C0.25_w12_semacento       0.57                 0.71              0.72              0.72                       1.00                    0.74           0.71
+cnb_a0.1_w12_semacento          0.62                 0.75              0.76              0.76                       0.74                    1.00           0.84
+mnb_a0.03_w13                   0.63                 0.74              0.75              0.75                       0.71                    0.84           1.00
+
+Oráculo (algum modelo acerta): 0.6952 | todos acertam: 0.2276
+
+--- Combinações (acc média nas partições da CV do meta-modelo) ---
+EP1: ensemble entregue (sem treino aqui)                acc 0.4711 (±0.0163)
+Média simples das probabilidades                        acc 0.4638 (±0.0176)
+Média simples sem BERT                                  acc 0.4620 (±0.0168)
+Stacking LogReg C=0.01 [todos]                          acc 0.4701 (±0.0126)
+Stacking LogReg C=0.1 [todos]                           acc 0.4684 (±0.0138)
+Stacking LogReg C=1 [todos]                             acc 0.4688 (±0.0135)
+Stacking HistGradientBoosting [todos]                   acc 0.4546 (±0.0147)
+Stacking LogReg C=0.01 [sem BERT]                       acc 0.4605 (±0.0150)
+Stacking LogReg C=0.1 [sem BERT]                        acc 0.4605 (±0.0163)
+Stacking LogReg C=1 [sem BERT]                          acc 0.4598 (±0.0153)
+Stacking HistGradientBoosting [sem BERT]                acc 0.4494 (±0.0181)
+
+Resultados -> resultados/stacking_holdout.csv

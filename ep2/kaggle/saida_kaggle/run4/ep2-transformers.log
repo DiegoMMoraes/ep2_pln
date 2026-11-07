@@ -1,0 +1,176 @@
+[{"stream_name":"stderr","time":7.204754814,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.204807027,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":8.25995038,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.259980896,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.259991098,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.259993914,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.907350719,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.907386043,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.90739115,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.907394894,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.116904233,"data":"dependências ok \n"}
+,{"stream_name":"stdout","time":10.136111965,"data":"Writing ep2_treino.py\n"}
+,{"stream_name":"stdout","time":20.035662234,"data":"   train.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/train.xlsx\n"}
+,{"stream_name":"stdout","time":20.035697788,"data":"   test1.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test1.xlsx\n"}
+,{"stream_name":"stdout","time":20.43913838,"data":"   test2.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test2.xlsx\n"}
+,{"stream_name":"stdout","time":20.439165937,"data":"   divisao_80_20.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/divisao_80_20.csv\n"}
+,{"stream_name":"stdout","time":20.947247363,"data":"   folds_5.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/folds_5.csv\n"}
+,{"stream_name":"stdout","time":20.955493814,"data":"2 GPU(s): ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":20.955516356,"data":"[GPU 0] iniciado: est_ema_s42 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":20.956395796,"data":"[GPU 1] iniciado: est_llrd_s42 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":80.963233891,"data":"--- 1 min | GPU 0 est_ema_s42: ========== HOLDOUT 80/20 | semente 42 ========== || GPU 1 est_llrd_s42: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":140.964536521,"data":"--- 2 min | GPU 0 est_ema_s42: ========== HOLDOUT 80/20 | semente 42 ========== || GPU 1 est_llrd_s42: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":200.964643223,"data":"--- 3 min | GPU 0 est_ema_s42: época 1 | lote 200/2015 | perda 1.1145 | ~11.0 min restantes || GPU 1 est_llrd_s42: época 1 | lote 200/2015 | perda 1.1084 | ~10.7 min restantes\n"}
+,{"stream_name":"stdout","time":260.965725619,"data":"--- 4 min | GPU 0 est_ema_s42: época 1 | lote 400/2015 | perda 1.1064 | ~9.8 min restantes || GPU 1 est_llrd_s42: época 1 | lote 400/2015 | perda 1.1064 | ~9.6 min restantes\n"}
+,{"stream_name":"stdout","time":320.966825364,"data":"--- 5 min | GPU 0 est_ema_s42: época 1 | lote 600/2015 | perda 1.1050 | ~8.8 min restantes || GPU 1 est_llrd_s42: época 1 | lote 600/2015 | perda 1.1057 | ~8.5 min restantes\n"}
+,{"stream_name":"stdout","time":380.968982535,"data":"--- 6 min | GPU 0 est_ema_s42: época 1 | lote 800/2015 | perda 1.0977 | ~7.4 min restantes || GPU 1 est_llrd_s42: época 1 | lote 800/2015 | perda 1.1046 | ~7.2 min restantes\n"}
+,{"stream_name":"stdout","time":440.969818464,"data":"--- 7 min | GPU 0 est_ema_s42: época 1 | lote 800/2015 | perda 1.0977 | ~7.4 min restantes || GPU 1 est_llrd_s42: época 1 | lote 1000/2015 | perda 1.1028 | ~6.0 min restantes\n"}
+,{"stream_name":"stdout","time":500.971431179,"data":"--- 8 min | GPU 0 est_ema_s42: época 1 | lote 1000/2015 | perda 1.0941 | ~6.2 min restantes || GPU 1 est_llrd_s42: época 1 | lote 1000/2015 | perda 1.1028 | ~6.0 min restantes\n"}
+,{"stream_name":"stdout","time":560.973148885,"data":"--- 9 min | GPU 0 est_ema_s42: época 1 | lote 1200/2015 | perda 1.0879 | ~4.9 min restantes || GPU 1 est_llrd_s42: época 1 | lote 1200/2015 | perda 1.0987 | ~4.8 min restantes\n"}
+,{"stream_name":"stdout","time":620.97676289,"data":"--- 10 min | GPU 0 est_ema_s42: época 1 | lote 1400/2015 | perda 1.0863 | ~3.7 min restantes || GPU 1 est_llrd_s42: época 1 | lote 1400/2015 | perda 1.0957 | ~3.7 min restantes\n"}
+,{"stream_name":"stdout","time":680.976536427,"data":"--- 11 min | GPU 0 est_ema_s42: época 1 | lote 1600/2015 | perda 1.0851 | ~2.5 min restantes || GPU 1 est_llrd_s42: época 1 | lote 1600/2015 | perda 1.0921 | ~2.5 min restantes\n"}
+,{"stream_name":"stdout","time":740.979100208,"data":"--- 12 min | GPU 0 est_ema_s42: época 1 | lote 1600/2015 | perda 1.0851 | ~2.5 min restantes || GPU 1 est_llrd_s42: época 1 | lote 1800/2015 | perda 1.0888 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":800.979810137,"data":"--- 13 min | GPU 0 est_ema_s42: época 1 | lote 1800/2015 | perda 1.0836 | ~1.3 min restantes || GPU 1 est_llrd_s42: época 1 | lote 1800/2015 | perda 1.0888 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":860.981289038,"data":"--- 14 min | GPU 0 est_ema_s42: época 1 | lote 2000/2015 | perda 1.0824 | ~0.1 min restantes || GPU 1 est_llrd_s42: semente=42 | epoca=1 | perda_treino=1.0860 | lotes_nao_finitos=0 | minutos=12.0887 | acuracia=0.4351 | distribuicao_prevista=[1243, 1478, 1255]\n"}
+,{"stream_name":"stdout","time":920.982576774,"data":"--- 15 min | GPU 0 est_ema_s42: semente=42 | epoca=1 | perda_treino=1.0826 | lotes_nao_finitos=0 | minutos=12.2920 | acuracia=0.4474 | distribuicao_prevista=[1135, 1068, 1773] || GPU 1 est_llrd_s42: semente=42 | epoca=1 | perda_treino=1.0860 | lotes_nao_finitos=0 | minutos=12.0887 | acuracia=0.4351 | distribuicao_prevista=[1243, 1478, 1255]\n"}
+,{"stream_name":"stdout","time":980.986238314,"data":"--- 16 min | GPU 0 est_ema_s42: época 2 | lote 200/2015 | perda 1.0257 | ~10.9 min restantes || GPU 1 est_llrd_s42: época 2 | lote 200/2015 | perda 1.0286 | ~10.8 min restantes\n"}
+,{"stream_name":"stdout","time":1040.985749803,"data":"--- 17 min | GPU 0 est_ema_s42: época 2 | lote 400/2015 | perda 1.0362 | ~9.7 min restantes || GPU 1 est_llrd_s42: época 2 | lote 400/2015 | perda 1.0376 | ~9.6 min restantes\n"}
+,{"stream_name":"stdout","time":1100.987754315,"data":"--- 18 min | GPU 0 est_ema_s42: época 2 | lote 600/2015 | perda 1.0376 | ~8.5 min restantes || GPU 1 est_llrd_s42: época 2 | lote 600/2015 | perda 1.0390 | ~8.4 min restantes\n"}
+,{"stream_name":"stdout","time":1160.989144926,"data":"--- 19 min | GPU 0 est_ema_s42: época 2 | lote 800/2015 | perda 1.0428 | ~7.3 min restantes || GPU 1 est_llrd_s42: época 2 | lote 800/2015 | perda 1.0410 | ~7.3 min restantes\n"}
+,{"stream_name":"stdout","time":1220.990983291,"data":"--- 20 min | GPU 0 est_ema_s42: época 2 | lote 800/2015 | perda 1.0428 | ~7.3 min restantes || GPU 1 est_llrd_s42: época 2 | lote 1000/2015 | perda 1.0353 | ~6.0 min restantes\n"}
+,{"stream_name":"stdout","time":1280.995594203,"data":"--- 21 min | GPU 0 est_ema_s42: época 2 | lote 1000/2015 | perda 1.0434 | ~6.1 min restantes || GPU 1 est_llrd_s42: época 2 | lote 1000/2015 | perda 1.0353 | ~6.0 min restantes\n"}
+,{"stream_name":"stdout","time":1340.994433497,"data":"--- 22 min | GPU 0 est_ema_s42: época 2 | lote 1200/2015 | perda 1.0436 | ~5.0 min restantes || GPU 1 est_llrd_s42: época 2 | lote 1200/2015 | perda 1.0352 | ~4.9 min restantes\n"}
+,{"stream_name":"stdout","time":1400.996008017,"data":"--- 23 min | GPU 0 est_ema_s42: época 2 | lote 1400/2015 | perda 1.0416 | ~3.7 min restantes || GPU 1 est_llrd_s42: época 2 | lote 1400/2015 | perda 1.0341 | ~3.7 min restantes\n"}
+,{"stream_name":"stdout","time":1460.997177478,"data":"--- 24 min | GPU 0 est_ema_s42: época 2 | lote 1600/2015 | perda 1.0425 | ~2.5 min restantes || GPU 1 est_llrd_s42: época 2 | lote 1600/2015 | perda 1.0351 | ~2.5 min restantes\n"}
+,{"stream_name":"stdout","time":1520.998488776,"data":"--- 25 min | GPU 0 est_ema_s42: época 2 | lote 1800/2015 | perda 1.0380 | ~1.3 min restantes || GPU 1 est_llrd_s42: época 2 | lote 1800/2015 | perda 1.0313 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":1581.000785197,"data":"--- 26 min | GPU 0 est_ema_s42: época 2 | lote 1800/2015 | perda 1.0380 | ~1.3 min restantes || GPU 1 est_llrd_s42: época 2 | lote 2000/2015 | perda 1.0288 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":1641.001831745,"data":"[GPU 1] terminou: est_llrd_s42 -\u003e ok\n"}
+,{"stream_name":"stdout","time":1641.003167934,"data":"--- 27 min | GPU 0 est_ema_s42: semente=42 | epoca=2 | perda_treino=1.0351 | lotes_nao_finitos=0 | minutos=12.2056 | acuracia=0.4505 | distribuicao_prevista=[1329, 939, 1708]\n"}
+,{"stream_name":"stdout","time":1641.004261891,"data":"[GPU 1] iniciado: est_ema_llrd_3ep_s42 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":1701.006011002,"data":"[GPU 0] terminou: est_ema_s42 -\u003e ok\n"}
+,{"stream_name":"stdout","time":1701.0072416,"data":"--- 28 min | GPU 1 est_ema_llrd_3ep_s42: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":1701.008194277,"data":"[GPU 0] iniciado: est_ema_s43 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":1761.011076389,"data":"--- 29 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 200/2015 | perda 1.1107 | ~10.9 min restantes || GPU 0 est_ema_s43: ========== HOLDOUT 80/20 | semente 43 ==========\n"}
+,{"stream_name":"stdout","time":1821.014595395,"data":"--- 30 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 400/2015 | perda 1.1096 | ~10.0 min restantes || GPU 0 est_ema_s43: época 1 | lote 200/2015 | perda 1.0957 | ~10.3 min restantes\n"}
+,{"stream_name":"stdout","time":1881.014202319,"data":"--- 31 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 400/2015 | perda 1.1096 | ~10.0 min restantes || GPU 0 est_ema_s43: época 1 | lote 400/2015 | perda 1.0921 | ~9.2 min restantes\n"}
+,{"stream_name":"stdout","time":1941.015698638,"data":"--- 32 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 600/2015 | perda 1.1098 | ~9.0 min restantes || GPU 0 est_ema_s43: época 1 | lote 600/2015 | perda 1.0874 | ~8.3 min restantes\n"}
+,{"stream_name":"stdout","time":2001.017424328,"data":"--- 33 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 800/2015 | perda 1.1041 | ~7.6 min restantes || GPU 0 est_ema_s43: época 1 | lote 600/2015 | perda 1.0874 | ~8.3 min restantes\n"}
+,{"stream_name":"stdout","time":2061.019357949,"data":"--- 34 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 1000/2015 | perda 1.1016 | ~6.4 min restantes || GPU 0 est_ema_s43: época 1 | lote 800/2015 | perda 1.0847 | ~7.3 min restantes\n"}
+,{"stream_name":"stdout","time":2121.019484494,"data":"--- 35 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 1200/2015 | perda 1.0952 | ~5.1 min restantes || GPU 0 est_ema_s43: época 1 | lote 1000/2015 | perda 1.0847 | ~6.1 min restantes\n"}
+,{"stream_name":"stdout","time":2181.020690295,"data":"--- 36 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 1200/2015 | perda 1.0952 | ~5.1 min restantes || GPU 0 est_ema_s43: época 1 | lote 1200/2015 | perda 1.0802 | ~4.9 min restantes\n"}
+,{"stream_name":"stdout","time":2241.023137434,"data":"--- 37 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 1400/2015 | perda 1.0912 | ~3.9 min restantes || GPU 0 est_ema_s43: época 1 | lote 1400/2015 | perda 1.0773 | ~3.7 min restantes\n"}
+,{"stream_name":"stdout","time":2301.02490987,"data":"--- 38 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 1600/2015 | perda 1.0871 | ~2.6 min restantes || GPU 0 est_ema_s43: época 1 | lote 1400/2015 | perda 1.0773 | ~3.7 min restantes\n"}
+,{"stream_name":"stdout","time":2361.025955102,"data":"--- 39 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 1800/2015 | perda 1.0840 | ~1.4 min restantes || GPU 0 est_ema_s43: época 1 | lote 1600/2015 | perda 1.0739 | ~2.5 min restantes\n"}
+,{"stream_name":"stdout","time":2421.027878623,"data":"--- 40 min | GPU 1 est_ema_llrd_3ep_s42: época 1 | lote 2000/2015 | perda 1.0817 | ~0.1 min restantes || GPU 0 est_ema_s43: época 1 | lote 1800/2015 | perda 1.0703 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":2481.02794346,"data":"--- 41 min | GPU 1 est_ema_llrd_3ep_s42: semente=42 | epoca=1 | perda_treino=1.0817 | lotes_nao_finitos=0 | minutos=12.6686 | acuracia=0.4492 | distribuicao_prevista=[1136, 937, 1903] || GPU 0 est_ema_s43: época 1 | lote 2000/2015 | perda 1.0675 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":2541.0304766,"data":"--- 42 min | GPU 1 est_ema_llrd_3ep_s42: semente=42 | epoca=1 | perda_treino=1.0817 | lotes_nao_finitos=0 | minutos=12.6686 | acuracia=0.4492 | distribuicao_prevista=[1136, 937, 1903] || GPU 0 est_ema_s43: semente=43 | epoca=1 | perda_treino=1.0678 | lotes_nao_finitos=0 | minutos=12.1375 | acuracia=0.4628 | distribuicao_prevista=[1505, 771, 1700]\n"}
+,{"stream_name":"stdout","time":2601.033263076,"data":"--- 43 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 200/2015 | perda 1.0126 | ~11.3 min restantes || GPU 0 est_ema_s43: época 2 | lote 200/2015 | perda 0.9825 | ~10.8 min restantes\n"}
+,{"stream_name":"stdout","time":2661.034332655,"data":"--- 44 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 400/2015 | perda 1.0204 | ~10.0 min restantes || GPU 0 est_ema_s43: época 2 | lote 400/2015 | perda 0.9950 | ~9.8 min restantes\n"}
+,{"stream_name":"stdout","time":2721.0343318,"data":"--- 45 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 600/2015 | perda 1.0222 | ~8.8 min restantes || GPU 0 est_ema_s43: época 2 | lote 600/2015 | perda 1.0074 | ~8.4 min restantes\n"}
+,{"stream_name":"stdout","time":2781.035873371,"data":"--- 46 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 800/2015 | perda 1.0232 | ~7.5 min restantes || GPU 0 est_ema_s43: época 2 | lote 600/2015 | perda 1.0074 | ~8.4 min restantes\n"}
+,{"stream_name":"stdout","time":2841.03705449,"data":"--- 47 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 1000/2015 | perda 1.0190 | ~6.3 min restantes || GPU 0 est_ema_s43: época 2 | lote 800/2015 | perda 1.0154 | ~7.4 min restantes\n"}
+,{"stream_name":"stdout","time":2901.039323024,"data":"--- 48 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 1000/2015 | perda 1.0190 | ~6.3 min restantes || GPU 0 est_ema_s43: época 2 | lote 1000/2015 | perda 1.0150 | ~6.2 min restantes\n"}
+,{"stream_name":"stdout","time":2961.039803605,"data":"--- 49 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 1200/2015 | perda 1.0202 | ~5.1 min restantes || GPU 0 est_ema_s43: época 2 | lote 1200/2015 | perda 1.0128 | ~5.0 min restantes\n"}
+,{"stream_name":"stdout","time":3021.042117826,"data":"--- 50 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 1400/2015 | perda 1.0188 | ~3.8 min restantes || GPU 0 est_ema_s43: época 2 | lote 1400/2015 | perda 1.0086 | ~3.7 min restantes\n"}
+,{"stream_name":"stdout","time":3081.043635867,"data":"--- 51 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 1600/2015 | perda 1.0208 | ~2.6 min restantes || GPU 0 est_ema_s43: época 2 | lote 1600/2015 | perda 1.0088 | ~2.5 min restantes\n"}
+,{"stream_name":"stdout","time":3141.047258142,"data":"--- 52 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 1600/2015 | perda 1.0208 | ~2.6 min restantes || GPU 0 est_ema_s43: época 2 | lote 1600/2015 | perda 1.0088 | ~2.5 min restantes\n"}
+,{"stream_name":"stdout","time":3201.047028351,"data":"--- 53 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 1800/2015 | perda 1.0181 | ~1.3 min restantes || GPU 0 est_ema_s43: época 2 | lote 1800/2015 | perda 1.0083 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":3261.048547102,"data":"--- 54 min | GPU 1 est_ema_llrd_3ep_s42: época 2 | lote 2000/2015 | perda 1.0161 | ~0.1 min restantes || GPU 0 est_ema_s43: época 2 | lote 2000/2015 | perda 1.0081 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":3321.050722024,"data":"[GPU 0] terminou: est_ema_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":3321.052022592,"data":"--- 55 min | GPU 1 est_ema_llrd_3ep_s42: semente=42 | epoca=2 | perda_treino=1.0163 | lotes_nao_finitos=0 | minutos=12.5757 | acuracia=0.4658 | distribuicao_prevista=[1186, 1137, 1653]\n"}
+,{"stream_name":"stdout","time":3321.053024802,"data":"[GPU 0] iniciado: est_llrd_s43 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":3381.054263637,"data":"--- 56 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 200/2015 | perda 0.9538 | ~11.7 min restantes || GPU 0 est_llrd_s43: ========== HOLDOUT 80/20 | semente 43 ==========\n"}
+,{"stream_name":"stdout","time":3441.055879193,"data":"--- 57 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 400/2015 | perda 0.9540 | ~10.4 min restantes || GPU 0 est_llrd_s43: época 1 | lote 200/2015 | perda 1.0962 | ~9.8 min restantes\n"}
+,{"stream_name":"stdout","time":3501.061119275,"data":"--- 58 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 600/2015 | perda 0.9510 | ~9.2 min restantes || GPU 0 est_llrd_s43: época 1 | lote 400/2015 | perda 1.0933 | ~8.8 min restantes\n"}
+,{"stream_name":"stdout","time":3561.058870415,"data":"--- 59 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 600/2015 | perda 0.9510 | ~9.2 min restantes || GPU 0 est_llrd_s43: época 1 | lote 600/2015 | perda 1.0865 | ~7.9 min restantes\n"}
+,{"stream_name":"stdout","time":3621.061997157,"data":"--- 60 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 800/2015 | perda 0.9525 | ~7.9 min restantes || GPU 0 est_llrd_s43: época 1 | lote 800/2015 | perda 1.0848 | ~6.9 min restantes\n"}
+,{"stream_name":"stdout","time":3681.063242052,"data":"--- 61 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 1000/2015 | perda 0.9512 | ~6.6 min restantes || GPU 0 est_llrd_s43: época 1 | lote 800/2015 | perda 1.0848 | ~6.9 min restantes\n"}
+,{"stream_name":"stdout","time":3741.064205318,"data":"--- 62 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 1200/2015 | perda 0.9492 | ~5.2 min restantes || GPU 0 est_llrd_s43: época 1 | lote 1000/2015 | perda 1.0849 | ~5.8 min restantes\n"}
+,{"stream_name":"stdout","time":3801.067592838,"data":"--- 63 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 1400/2015 | perda 0.9487 | ~3.9 min restantes || GPU 0 est_llrd_s43: época 1 | lote 1200/2015 | perda 1.0808 | ~4.6 min restantes\n"}
+,{"stream_name":"stdout","time":3861.070049172,"data":"--- 64 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 1400/2015 | perda 0.9487 | ~3.9 min restantes || GPU 0 est_llrd_s43: época 1 | lote 1400/2015 | perda 1.0781 | ~3.5 min restantes\n"}
+,{"stream_name":"stdout","time":3921.069235818,"data":"--- 65 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 1600/2015 | perda 0.9500 | ~2.6 min restantes || GPU 0 est_llrd_s43: época 1 | lote 1600/2015 | perda 1.0747 | ~2.4 min restantes\n"}
+,{"stream_name":"stdout","time":3981.07034663,"data":"--- 66 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 1800/2015 | perda 0.9521 | ~1.4 min restantes || GPU 0 est_llrd_s43: época 1 | lote 1800/2015 | perda 1.0711 | ~1.2 min restantes\n"}
+,{"stream_name":"stdout","time":4041.072270783,"data":"--- 67 min | GPU 1 est_ema_llrd_3ep_s42: época 3 | lote 2000/2015 | perda 0.9512 | ~0.1 min restantes || GPU 0 est_llrd_s43: época 1 | lote 2000/2015 | perda 1.0683 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":4101.074256417,"data":"[GPU 1] terminou: est_ema_llrd_3ep_s42 -\u003e ok\n"}
+,{"stream_name":"stdout","time":4101.075601449,"data":"--- 68 min | GPU 0 est_llrd_s43: semente=43 | epoca=1 | perda_treino=1.0685 | lotes_nao_finitos=0 | minutos=11.5941 | acuracia=0.4499 | distribuicao_prevista=[952, 1166, 1858]\n"}
+,{"stream_name":"stdout","time":4101.076730064,"data":"[GPU 1] iniciado: est_ema_llrd_3ep_s43 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":4161.077289385,"data":"--- 69 min | GPU 0 est_llrd_s43: época 2 | lote 200/2015 | perda 0.9921 | ~10.3 min restantes || GPU 1 est_ema_llrd_3ep_s43: ========== HOLDOUT 80/20 | semente 43 ==========\n"}
+,{"stream_name":"stdout","time":4221.079583254,"data":"--- 70 min | GPU 0 est_llrd_s43: época 2 | lote 200/2015 | perda 0.9921 | ~10.3 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 200/2015 | perda 1.0973 | ~10.5 min restantes\n"}
+,{"stream_name":"stdout","time":4281.08032907,"data":"--- 71 min | GPU 0 est_llrd_s43: época 2 | lote 400/2015 | perda 1.0034 | ~9.4 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 400/2015 | perda 1.0944 | ~9.4 min restantes\n"}
+,{"stream_name":"stdout","time":4341.082907709,"data":"--- 72 min | GPU 0 est_llrd_s43: época 2 | lote 600/2015 | perda 1.0082 | ~8.1 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 400/2015 | perda 1.0944 | ~9.4 min restantes\n"}
+,{"stream_name":"stdout","time":4401.085965174,"data":"--- 73 min | GPU 0 est_llrd_s43: época 2 | lote 800/2015 | perda 1.0114 | ~7.1 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 600/2015 | perda 1.0896 | ~8.5 min restantes\n"}
+,{"stream_name":"stdout","time":4461.086196651,"data":"--- 74 min | GPU 0 est_llrd_s43: época 2 | lote 1000/2015 | perda 1.0091 | ~5.9 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 800/2015 | perda 1.0885 | ~7.4 min restantes\n"}
+,{"stream_name":"stdout","time":4521.087468936,"data":"--- 75 min | GPU 0 est_llrd_s43: época 2 | lote 1200/2015 | perda 1.0068 | ~4.8 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 1000/2015 | perda 1.0885 | ~6.2 min restantes\n"}
+,{"stream_name":"stdout","time":4581.090053407,"data":"--- 76 min | GPU 0 est_llrd_s43: época 2 | lote 1400/2015 | perda 1.0020 | ~3.6 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 1200/2015 | perda 1.0845 | ~5.0 min restantes\n"}
+,{"stream_name":"stdout","time":4641.091029315,"data":"--- 77 min | GPU 0 est_llrd_s43: época 2 | lote 1400/2015 | perda 1.0020 | ~3.6 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 1400/2015 | perda 1.0816 | ~3.7 min restantes\n"}
+,{"stream_name":"stdout","time":4701.092420164,"data":"--- 78 min | GPU 0 est_llrd_s43: época 2 | lote 1600/2015 | perda 1.0025 | ~2.4 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 1400/2015 | perda 1.0816 | ~3.7 min restantes\n"}
+,{"stream_name":"stdout","time":4761.093499276,"data":"--- 79 min | GPU 0 est_llrd_s43: época 2 | lote 1800/2015 | perda 1.0015 | ~1.3 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 1600/2015 | perda 1.0778 | ~2.5 min restantes\n"}
+,{"stream_name":"stdout","time":4821.095914569,"data":"--- 80 min | GPU 0 est_llrd_s43: época 2 | lote 2000/2015 | perda 1.0008 | ~0.1 min restantes || GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 1800/2015 | perda 1.0741 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":4881.094235898,"data":"[GPU 0] terminou: est_llrd_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":4881.095099538,"data":"--- 81 min | GPU 1 est_ema_llrd_3ep_s43: época 1 | lote 2000/2015 | perda 1.0710 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":4941.095908041,"data":"--- 82 min | GPU 1 est_ema_llrd_3ep_s43: semente=43 | epoca=1 | perda_treino=1.0712 | lotes_nao_finitos=0 | minutos=12.3937 | acuracia=0.4572 | distribuicao_prevista=[1375, 907, 1694]\n"}
+,{"stream_name":"stdout","time":5001.102821783,"data":"--- 83 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 200/2015 | perda 0.9969 | ~11.3 min restantes\n"}
+,{"stream_name":"stdout","time":5061.101160545,"data":"--- 84 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 200/2015 | perda 0.9969 | ~11.3 min restantes\n"}
+,{"stream_name":"stdout","time":5121.101728822,"data":"--- 85 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 400/2015 | perda 1.0079 | ~10.3 min restantes\n"}
+,{"stream_name":"stdout","time":5181.10078534,"data":"--- 86 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 600/2015 | perda 1.0125 | ~8.8 min restantes\n"}
+,{"stream_name":"stdout","time":5241.10426172,"data":"--- 87 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 800/2015 | perda 1.0164 | ~7.8 min restantes\n"}
+,{"stream_name":"stdout","time":5301.10352146,"data":"--- 88 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 1000/2015 | perda 1.0148 | ~6.5 min restantes\n"}
+,{"stream_name":"stdout","time":5361.104347698,"data":"--- 89 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 1000/2015 | perda 1.0148 | ~6.5 min restantes\n"}
+,{"stream_name":"stdout","time":5421.105920088,"data":"--- 90 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 1200/2015 | perda 1.0124 | ~5.2 min restantes\n"}
+,{"stream_name":"stdout","time":5481.107118129,"data":"--- 91 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 1400/2015 | perda 1.0079 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":5541.108873918,"data":"--- 92 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 1600/2015 | perda 1.0086 | ~2.7 min restantes\n"}
+,{"stream_name":"stdout","time":5601.109826148,"data":"--- 93 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 1600/2015 | perda 1.0086 | ~2.7 min restantes\n"}
+,{"stream_name":"stdout","time":5661.111251043,"data":"--- 94 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 1800/2015 | perda 1.0073 | ~1.4 min restantes\n"}
+,{"stream_name":"stdout","time":5721.111849338,"data":"--- 95 min | GPU 1 est_ema_llrd_3ep_s43: época 2 | lote 2000/2015 | perda 1.0067 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":5781.116815969,"data":"--- 96 min | GPU 1 est_ema_llrd_3ep_s43: semente=43 | epoca=2 | perda_treino=1.0063 | lotes_nao_finitos=0 | minutos=12.8137 | acuracia=0.4655 | distribuicao_prevista=[1273, 1088, 1615]\n"}
+,{"stream_name":"stdout","time":5841.114278023,"data":"--- 97 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 200/2015 | perda 0.9223 | ~11.4 min restantes\n"}
+,{"stream_name":"stdout","time":5901.118998279,"data":"--- 98 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 400/2015 | perda 0.9266 | ~10.2 min restantes\n"}
+,{"stream_name":"stdout","time":5961.117277307,"data":"--- 99 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 600/2015 | perda 0.9292 | ~9.0 min restantes\n"}
+,{"stream_name":"stdout","time":6021.121009821,"data":"--- 100 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 600/2015 | perda 0.9292 | ~9.0 min restantes\n"}
+,{"stream_name":"stdout","time":6081.120464489,"data":"--- 101 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 800/2015 | perda 0.9309 | ~7.6 min restantes\n"}
+,{"stream_name":"stdout","time":6141.120825145,"data":"--- 102 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 1000/2015 | perda 0.9295 | ~6.4 min restantes\n"}
+,{"stream_name":"stdout","time":6201.122099581,"data":"--- 103 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 1200/2015 | perda 0.9274 | ~5.1 min restantes\n"}
+,{"stream_name":"stdout","time":6261.129307619,"data":"--- 104 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 1200/2015 | perda 0.9274 | ~5.1 min restantes\n"}
+,{"stream_name":"stdout","time":6321.124039183,"data":"--- 105 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 1400/2015 | perda 0.9276 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":6381.125703133,"data":"--- 106 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 1600/2015 | perda 0.9289 | ~2.6 min restantes\n"}
+,{"stream_name":"stdout","time":6441.126603375,"data":"--- 107 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 1800/2015 | perda 0.9287 | ~1.4 min restantes\n"}
+,{"stream_name":"stdout","time":6501.130940071,"data":"--- 108 min | GPU 1 est_ema_llrd_3ep_s43: época 3 | lote 2000/2015 | perda 0.9308 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":6561.129287454,"data":"[GPU 1] terminou: est_ema_llrd_3ep_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":6561.130072946,"data":"--- 109 min | \n"}
+,{"stream_name":"stdout","time":6561.157714846,"data":"\n"}
+,{"stream_name":"stdout","time":6561.157752834,"data":"===== Resumo =====\n"}
+,{"stream_name":"stdout","time":6561.157759786,"data":"est_llrd_s42 -\u003e ok\n"}
+,{"stream_name":"stdout","time":6561.1577645,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista  semente_usada divisao\n"}
+,{"stream_name":"stdout","time":6561.157769444,"data":"      42      1       1.08597                  0 12.088702  0.435111    [1243, 1478, 1255]             42 holdout\n"}
+,{"stream_name":"stdout","time":6561.157774433,"data":"      42      2       1.02888                  0 12.091370  0.461771    [1104, 1436, 1436]             42 holdout\n"}
+,{"stream_name":"stdout","time":6561.15777907,"data":"est_ema_s42 -\u003e ok\n"}
+,{"stream_name":"stdout","time":6561.157783195,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista  semente_usada divisao\n"}
+,{"stream_name":"stdout","time":6561.157787777,"data":"      42      1      1.082577                  0 12.291983  0.447435    [1135, 1068, 1773]             42 holdout\n"}
+,{"stream_name":"stdout","time":6561.157791891,"data":"      42      2      1.035119                  0 12.205634  0.450453     [1329, 939, 1708]             42 holdout\n"}
+,{"stream_name":"stdout","time":6561.157796519,"data":"est_ema_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":6561.157800861,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista  semente_usada divisao\n"}
+,{"stream_name":"stdout","time":6561.157805101,"data":"      43      1      1.067762                  0 12.137489  0.462777     [1505, 771, 1700]             43 holdout\n"}
+,{"stream_name":"stdout","time":6561.157809599,"data":"      43      2      1.007806                  0 12.248404  0.466801    [1397, 1060, 1519]             43 holdout\n"}
+,{"stream_name":"stdout","time":6561.157814308,"data":"est_ema_llrd_3ep_s42 -\u003e ok\n"}
+,{"stream_name":"stdout","time":6561.157831495,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista  semente_usada divisao\n"}
+,{"stream_name":"stdout","time":6561.157836333,"data":"      42      1      1.081686                  0 12.668559  0.449195     [1136, 937, 1903]             42 holdout\n"}
+,{"stream_name":"stdout","time":6561.157840758,"data":"      42      2      1.016283                  0 12.575730  0.465795    [1186, 1137, 1653]             42 holdout\n"}
+,{"stream_name":"stdout","time":6561.157856368,"data":"      42      3      0.950003                  0 12.707863  0.465543    [1169, 1215, 1592]             42 holdout\n"}
+,{"stream_name":"stdout","time":6561.157860057,"data":"est_llrd_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":6561.157863068,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista  semente_usada divisao\n"}
+,{"stream_name":"stdout","time":6561.157866737,"data":"      43      1      1.068514                  0 11.594135  0.449950     [952, 1166, 1858]             43 holdout\n"}
+,{"stream_name":"stdout","time":6561.157870642,"data":"      43      2      1.000426                  0 11.744561  0.457495     [1415, 964, 1597]             43 holdout\n"}
+,{"stream_name":"stdout","time":6561.157874685,"data":"est_ema_llrd_3ep_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":6561.157879668,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista  semente_usada divisao\n"}
+,{"stream_name":"stdout","time":6561.15788303,"data":"      43      1      1.071187                  0 12.393685  0.457243     [1375, 907, 1694]             43 holdout\n"}
+,{"stream_name":"stdout","time":6561.157886284,"data":"      43      2      1.006291                  0 12.813741  0.465543    [1273, 1088, 1615]             43 holdout\n"}
+,{"stream_name":"stdout","time":6561.157889723,"data":"      43      3      0.930852                  0 12.792664  0.463028    [1271, 1196, 1509]             43 holdout\n"}
+,{"stream_name":"stderr","time":6564.207684699,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6564.207707042,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6564.374599594,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6564.374627076,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6565.157730723,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":6565.24425839,"data":"[NbConvertApp] Writing 62339 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":6567.702160298,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6568.280533753,"data":"[NbConvertApp] Writing 448353 bytes to __results__.html\n"}
+]

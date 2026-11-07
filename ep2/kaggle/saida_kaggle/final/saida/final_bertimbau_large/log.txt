@@ -1,0 +1,101 @@
+Experimento final_bertimbau_large: neuralmind/bert-large-portuguese-cased (encoder) | modos ['final'] | saída /kaggle/working/saida/final_bertimbau_large
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Tokens por texto: mediana 182, p90 512, 10.9% truncados
+
+========== FINAL (100% do treino) | semente 42 ==========
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 9822.20it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+classifier.bias                            | MISSING    | 
+classifier.weight                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/kaggle/working/ep2_treino.py:305: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/2512 | perda 1.1224 | ~12.9 min restantes
+  época 1 | lote 400/2512 | perda 1.1106 | ~12.3 min restantes
+  época 1 | lote 600/2512 | perda 1.1082 | ~11.4 min restantes
+  época 1 | lote 800/2512 | perda 1.1066 | ~10.2 min restantes
+  época 1 | lote 1000/2512 | perda 1.1056 | ~9.0 min restantes
+  época 1 | lote 1200/2512 | perda 1.1074 | ~7.8 min restantes
+  época 1 | lote 1400/2512 | perda 1.1079 | ~6.6 min restantes
+  época 1 | lote 1600/2512 | perda 1.1090 | ~5.4 min restantes
+  época 1 | lote 1800/2512 | perda 1.1094 | ~4.2 min restantes
+  época 1 | lote 2000/2512 | perda 1.1090 | ~3.0 min restantes
+  época 1 | lote 2200/2512 | perda 1.1099 | ~1.9 min restantes
+  época 1 | lote 2400/2512 | perda 1.1098 | ~0.7 min restantes
+  semente=42 | epoca=1 | perda_treino=1.1101 | lotes_nao_finitos=0 | minutos=14.9809
+  época 2 | lote 200/2512 | perda 1.1064 | ~13.4 min restantes
+  época 2 | lote 400/2512 | perda 1.1067 | ~13.0 min restantes
+  época 2 | lote 600/2512 | perda 1.1086 | ~11.5 min restantes
+  época 2 | lote 800/2512 | perda 1.1077 | ~10.3 min restantes
+  época 2 | lote 1000/2512 | perda 1.1087 | ~9.1 min restantes
+  época 2 | lote 1200/2512 | perda 1.1082 | ~7.9 min restantes
+  época 2 | lote 1400/2512 | perda 1.1084 | ~6.6 min restantes
+  época 2 | lote 1600/2512 | perda 1.1082 | ~5.5 min restantes
+  época 2 | lote 1800/2512 | perda 1.1078 | ~4.3 min restantes
+  época 2 | lote 2000/2512 | perda 1.1076 | ~3.1 min restantes
+  época 2 | lote 2200/2512 | perda 1.1074 | ~1.9 min restantes
+  época 2 | lote 2400/2512 | perda 1.1068 | ~0.7 min restantes
+  semente=42 | epoca=2 | perda_treino=1.1069 | lotes_nao_finitos=0 | minutos=14.9845
+  COLAPSO: 100% das predições numa só classe (semente 42); retreinando
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 12841.99it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+classifier.bias                            | MISSING    | 
+classifier.weight                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2512 | perda 1.1150 | ~15.2 min restantes
+  época 1 | lote 400/2512 | perda 1.1045 | ~13.7 min restantes
+  época 1 | lote 600/2512 | perda 1.0982 | ~12.3 min restantes
+  época 1 | lote 800/2512 | perda 1.0928 | ~11.0 min restantes
+  época 1 | lote 1000/2512 | perda 1.0878 | ~9.7 min restantes
+  época 1 | lote 1200/2512 | perda 1.0822 | ~8.3 min restantes
+  época 1 | lote 1400/2512 | perda 1.0815 | ~7.0 min restantes
+  época 1 | lote 1600/2512 | perda 1.0791 | ~5.8 min restantes
+  época 1 | lote 1800/2512 | perda 1.0751 | ~4.5 min restantes
+  época 1 | lote 2000/2512 | perda 1.0713 | ~3.2 min restantes
+  época 1 | lote 2200/2512 | perda 1.0690 | ~2.0 min restantes
+  época 1 | lote 2400/2512 | perda 1.0668 | ~0.7 min restantes
+  semente=1042 | epoca=1 | perda_treino=1.0657 | lotes_nao_finitos=0 | minutos=15.6552
+  época 2 | lote 200/2512 | perda 1.0006 | ~14.0 min restantes
+  época 2 | lote 400/2512 | perda 0.9950 | ~13.0 min restantes
+  época 2 | lote 600/2512 | perda 0.9974 | ~11.8 min restantes
+  época 2 | lote 800/2512 | perda 0.9933 | ~10.6 min restantes
+  época 2 | lote 1000/2512 | perda 0.9912 | ~9.3 min restantes
+  época 2 | lote 1200/2512 | perda 0.9898 | ~8.1 min restantes
+  época 2 | lote 1400/2512 | perda 0.9875 | ~6.9 min restantes
+  época 2 | lote 1600/2512 | perda 0.9874 | ~5.7 min restantes
+  época 2 | lote 1800/2512 | perda 0.9849 | ~4.4 min restantes
+  época 2 | lote 2000/2512 | perda 0.9832 | ~3.2 min restantes
+  época 2 | lote 2200/2512 | perda 0.9825 | ~1.9 min restantes
+  época 2 | lote 2400/2512 | perda 0.9819 | ~0.7 min restantes
+  semente=1042 | epoca=2 | perda_treino=0.9816 | lotes_nao_finitos=0 | minutos=15.6436
+test1: 900 textos | distribuição prevista {'c5': 363, 'c234': 279, 'c1': 258}
+test2: 897 textos | distribuição prevista {'c5': 359, 'c1': 278, 'c234': 260}
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'final_test1_semente42.csv', 'final_test2_semente42.csv', 'historico.csv', 'log.txt']

@@ -1,0 +1,13 @@
+{
+  "saida": "/kaggle/working/saida",
+  "modos": [
+    "holdout"
+  ],
+  "experimento": "qwen3_1.7b",
+  "modelo": "Qwen/Qwen3-1.7B",
+  "tipo": "llm_lora",
+  "lr": 0.0001,
+  "lote": 4,
+  "acumulacao": 4,
+  "gradient_checkpointing": true
+}

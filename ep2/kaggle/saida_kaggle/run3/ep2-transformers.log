@@ -1,0 +1,204 @@
+[{"stream_name":"stderr","time":6.735234924,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.735295299,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":7.643167519,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.643190496,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.643195566,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.643199161,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.244256356,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.244297082,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.244300678,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.244303248,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.511432722,"data":"torchao antigo removido (incompatível com o peft)\n"}
+,{"stream_name":"stdout","time":10.511461784,"data":"dependências ok \n"}
+,{"stream_name":"stdout","time":10.529184948,"data":"Writing ep2_treino.py\n"}
+,{"stream_name":"stdout","time":18.774269024,"data":"   train.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/train.xlsx\n"}
+,{"stream_name":"stdout","time":18.774296404,"data":"   test1.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test1.xlsx\n"}
+,{"stream_name":"stdout","time":18.774301299,"data":"   test2.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test2.xlsx\n"}
+,{"stream_name":"stdout","time":18.774305357,"data":"   divisao_80_20.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/divisao_80_20.csv\n"}
+,{"stream_name":"stdout","time":18.774308921,"data":"   folds_5.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/folds_5.csv\n"}
+,{"stream_name":"stdout","time":18.779500596,"data":"2 GPU(s): ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":18.779562163,"data":"[GPU 0] iniciado: qwen3_1.7b (Qwen/Qwen3-1.7B)\n"}
+,{"stream_name":"stdout","time":18.780777479,"data":"[GPU 1] iniciado: bertimbau_large_s43 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":78.78377706,"data":"--- 1 min | GPU 0 qwen3_1.7b: ========== HOLDOUT 80/20 | semente 42 ========== || GPU 1 bertimbau_large_s43: ========== HOLDOUT 80/20 | semente 43 ==========\n"}
+,{"stream_name":"stdout","time":138.785505872,"data":"--- 2 min | GPU 0 qwen3_1.7b: ========== HOLDOUT 80/20 | semente 42 ========== || GPU 1 bertimbau_large_s43: ========== HOLDOUT 80/20 | semente 43 ==========\n"}
+,{"stream_name":"stdout","time":198.787702048,"data":"--- 3 min | GPU 0 qwen3_1.7b: ========== HOLDOUT 80/20 | semente 42 ========== || GPU 1 bertimbau_large_s43: época 1 | lote 200/2015 | perda 1.0958 | ~10.4 min restantes\n"}
+,{"stream_name":"stdout","time":258.78987989,"data":"--- 4 min | GPU 0 qwen3_1.7b: ========== HOLDOUT 80/20 | semente 42 ========== || GPU 1 bertimbau_large_s43: época 1 | lote 400/2015 | perda 1.0921 | ~9.6 min restantes\n"}
+,{"stream_name":"stdout","time":318.79034093,"data":"--- 5 min | GPU 0 qwen3_1.7b: época 1 | lote 200/4029 | perda 1.4445 | ~62.0 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 400/2015 | perda 1.0921 | ~9.6 min restantes\n"}
+,{"stream_name":"stdout","time":378.793137754,"data":"--- 6 min | GPU 0 qwen3_1.7b: época 1 | lote 200/4029 | perda 1.4445 | ~62.0 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 600/2015 | perda 1.0871 | ~8.7 min restantes\n"}
+,{"stream_name":"stdout","time":438.794285285,"data":"--- 7 min | GPU 0 qwen3_1.7b: época 1 | lote 200/4029 | perda 1.4445 | ~62.0 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 800/2015 | perda 1.0846 | ~7.6 min restantes\n"}
+,{"stream_name":"stdout","time":498.794722649,"data":"--- 8 min | GPU 0 qwen3_1.7b: época 1 | lote 200/4029 | perda 1.4445 | ~62.0 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 1000/2015 | perda 1.0842 | ~6.3 min restantes\n"}
+,{"stream_name":"stdout","time":558.796216155,"data":"--- 9 min | GPU 0 qwen3_1.7b: época 1 | lote 400/4029 | perda 1.3089 | ~60.2 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 1200/2015 | perda 1.0787 | ~5.0 min restantes\n"}
+,{"stream_name":"stdout","time":618.797483774,"data":"--- 10 min | GPU 0 qwen3_1.7b: época 1 | lote 400/4029 | perda 1.3089 | ~60.2 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 1200/2015 | perda 1.0787 | ~5.0 min restantes\n"}
+,{"stream_name":"stdout","time":678.799504139,"data":"--- 11 min | GPU 0 qwen3_1.7b: época 1 | lote 400/4029 | perda 1.3089 | ~60.2 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 1400/2015 | perda 1.0762 | ~3.8 min restantes\n"}
+,{"stream_name":"stdout","time":738.800345943,"data":"--- 12 min | GPU 0 qwen3_1.7b: época 1 | lote 600/4029 | perda 1.2599 | ~57.0 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 1600/2015 | perda 1.0724 | ~2.6 min restantes\n"}
+,{"stream_name":"stdout","time":798.801643821,"data":"--- 13 min | GPU 0 qwen3_1.7b: época 1 | lote 600/4029 | perda 1.2599 | ~57.0 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 1800/2015 | perda 1.0688 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":858.803241825,"data":"--- 14 min | GPU 0 qwen3_1.7b: época 1 | lote 600/4029 | perda 1.2599 | ~57.0 min restantes || GPU 1 bertimbau_large_s43: época 1 | lote 2000/2015 | perda 1.0659 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":918.804670859,"data":"--- 15 min | GPU 0 qwen3_1.7b: época 1 | lote 800/4029 | perda 1.2282 | ~54.5 min restantes || GPU 1 bertimbau_large_s43: semente=43 | epoca=1 | perda_treino=1.0660 | lotes_nao_finitos=0 | minutos=12.4998 | acuracia=0.4439 | distribuicao_prevista=[726, 1294, 1956]\n"}
+,{"stream_name":"stdout","time":978.808830328,"data":"--- 16 min | GPU 0 qwen3_1.7b: época 1 | lote 800/4029 | perda 1.2282 | ~54.5 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 200/2015 | perda 0.9769 | ~11.1 min restantes\n"}
+,{"stream_name":"stdout","time":1038.80888789,"data":"--- 17 min | GPU 0 qwen3_1.7b: época 1 | lote 800/4029 | perda 1.2282 | ~54.5 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 200/2015 | perda 0.9769 | ~11.1 min restantes\n"}
+,{"stream_name":"stdout","time":1098.80934479,"data":"--- 18 min | GPU 0 qwen3_1.7b: época 1 | lote 800/4029 | perda 1.2282 | ~54.5 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 400/2015 | perda 0.9895 | ~10.1 min restantes\n"}
+,{"stream_name":"stdout","time":1158.812489262,"data":"--- 19 min | GPU 0 qwen3_1.7b: época 1 | lote 1000/4029 | perda 1.2084 | ~51.3 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 600/2015 | perda 0.9930 | ~8.6 min restantes\n"}
+,{"stream_name":"stdout","time":1218.812553424,"data":"--- 20 min | GPU 0 qwen3_1.7b: época 1 | lote 1000/4029 | perda 1.2084 | ~51.3 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 800/2015 | perda 0.9969 | ~7.6 min restantes\n"}
+,{"stream_name":"stdout","time":1278.815165026,"data":"--- 21 min | GPU 0 qwen3_1.7b: época 1 | lote 1000/4029 | perda 1.2084 | ~51.3 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 1000/2015 | perda 1.0012 | ~6.3 min restantes\n"}
+,{"stream_name":"stdout","time":1338.817009487,"data":"--- 22 min | GPU 0 qwen3_1.7b: época 1 | lote 1200/4029 | perda 1.1956 | ~47.2 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 1000/2015 | perda 1.0012 | ~6.3 min restantes\n"}
+,{"stream_name":"stdout","time":1398.818391831,"data":"--- 23 min | GPU 0 qwen3_1.7b: época 1 | lote 1200/4029 | perda 1.1956 | ~47.2 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 1200/2015 | perda 0.9967 | ~5.1 min restantes\n"}
+,{"stream_name":"stdout","time":1458.818151145,"data":"--- 24 min | GPU 0 qwen3_1.7b: época 1 | lote 1200/4029 | perda 1.1956 | ~47.2 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 1400/2015 | perda 0.9910 | ~3.8 min restantes\n"}
+,{"stream_name":"stdout","time":1518.820026719,"data":"--- 25 min | GPU 0 qwen3_1.7b: época 1 | lote 1200/4029 | perda 1.1956 | ~47.2 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 1600/2015 | perda 0.9913 | ~2.6 min restantes\n"}
+,{"stream_name":"stdout","time":1578.821250614,"data":"--- 26 min | GPU 0 qwen3_1.7b: época 1 | lote 1400/4029 | perda 1.1804 | ~44.3 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 1800/2015 | perda 0.9899 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":1638.822545398,"data":"--- 27 min | GPU 0 qwen3_1.7b: época 1 | lote 1400/4029 | perda 1.1804 | ~44.3 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 1800/2015 | perda 0.9899 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":1698.824053355,"data":"--- 28 min | GPU 0 qwen3_1.7b: época 1 | lote 1400/4029 | perda 1.1804 | ~44.3 min restantes || GPU 1 bertimbau_large_s43: época 2 | lote 2000/2015 | perda 0.9885 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":1758.825741123,"data":"[GPU 1] terminou: bertimbau_large_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":1758.82743457,"data":"--- 29 min | GPU 0 qwen3_1.7b: época 1 | lote 1600/4029 | perda 1.1714 | ~40.8 min restantes\n"}
+,{"stream_name":"stdout","time":1758.828405325,"data":"[GPU 1] iniciado: bertimbau_large_suave_s43 (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":1818.829454136,"data":"--- 30 min | GPU 0 qwen3_1.7b: época 1 | lote 1600/4029 | perda 1.1714 | ~40.8 min restantes || GPU 1 bertimbau_large_suave_s43: ========== HOLDOUT 80/20 | semente 43 ==========\n"}
+,{"stream_name":"stdout","time":1878.832562456,"data":"--- 31 min | GPU 0 qwen3_1.7b: época 1 | lote 1600/4029 | perda 1.1714 | ~40.8 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 200/2015 | perda 1.0947 | ~10.9 min restantes\n"}
+,{"stream_name":"stdout","time":1938.832700791,"data":"--- 32 min | GPU 0 qwen3_1.7b: época 1 | lote 1800/4029 | perda 1.1630 | ~37.5 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 400/2015 | perda 1.0900 | ~9.7 min restantes\n"}
+,{"stream_name":"stdout","time":1998.833704757,"data":"--- 33 min | GPU 0 qwen3_1.7b: época 1 | lote 1800/4029 | perda 1.1630 | ~37.5 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 400/2015 | perda 1.0900 | ~9.7 min restantes\n"}
+,{"stream_name":"stdout","time":2058.834693993,"data":"--- 34 min | GPU 0 qwen3_1.7b: época 1 | lote 1800/4029 | perda 1.1630 | ~37.5 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 600/2015 | perda 1.0836 | ~8.8 min restantes\n"}
+,{"stream_name":"stdout","time":2118.83893004,"data":"--- 35 min | GPU 0 qwen3_1.7b: época 1 | lote 1800/4029 | perda 1.1630 | ~37.5 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 800/2015 | perda 1.0820 | ~7.6 min restantes\n"}
+,{"stream_name":"stdout","time":2178.839175365,"data":"--- 36 min | GPU 0 qwen3_1.7b: época 1 | lote 2000/4029 | perda 1.1568 | ~34.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 1000/2015 | perda 1.0816 | ~6.3 min restantes\n"}
+,{"stream_name":"stdout","time":2238.839693249,"data":"--- 37 min | GPU 0 qwen3_1.7b: época 1 | lote 2000/4029 | perda 1.1568 | ~34.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 1200/2015 | perda 1.0772 | ~5.0 min restantes\n"}
+,{"stream_name":"stdout","time":2298.841135139,"data":"--- 38 min | GPU 0 qwen3_1.7b: época 1 | lote 2000/4029 | perda 1.1568 | ~34.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 1200/2015 | perda 1.0772 | ~5.0 min restantes\n"}
+,{"stream_name":"stdout","time":2358.842553177,"data":"--- 39 min | GPU 0 qwen3_1.7b: época 1 | lote 2000/4029 | perda 1.1568 | ~34.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 1400/2015 | perda 1.0740 | ~3.8 min restantes\n"}
+,{"stream_name":"stdout","time":2418.843802752,"data":"--- 40 min | GPU 0 qwen3_1.7b: época 1 | lote 2200/4029 | perda 1.1502 | ~31.3 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 1600/2015 | perda 1.0701 | ~2.6 min restantes\n"}
+,{"stream_name":"stdout","time":2478.845197661,"data":"--- 41 min | GPU 0 qwen3_1.7b: época 1 | lote 2200/4029 | perda 1.1502 | ~31.3 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 1800/2015 | perda 1.0661 | ~1.3 min restantes\n"}
+,{"stream_name":"stdout","time":2538.846671617,"data":"--- 42 min | GPU 0 qwen3_1.7b: época 1 | lote 2200/4029 | perda 1.1502 | ~31.3 min restantes || GPU 1 bertimbau_large_suave_s43: época 1 | lote 2000/2015 | perda 1.0710 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":2598.84999592,"data":"--- 43 min | GPU 0 qwen3_1.7b: época 1 | lote 2400/4029 | perda 1.1453 | ~27.9 min restantes || GPU 1 bertimbau_large_suave_s43: semente=43 | epoca=1 | perda_treino=1.0713 | lotes_nao_finitos=0 | minutos=12.4443 | acuracia=0.3443 | distribuicao_prevista=[0, 0, 3976]\n"}
+,{"stream_name":"stdout","time":2658.849980473,"data":"--- 44 min | GPU 0 qwen3_1.7b: época 1 | lote 2400/4029 | perda 1.1453 | ~27.9 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 200/2015 | perda 1.1116 | ~10.1 min restantes\n"}
+,{"stream_name":"stdout","time":2718.852064913,"data":"--- 45 min | GPU 0 qwen3_1.7b: época 1 | lote 2400/4029 | perda 1.1453 | ~27.9 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 400/2015 | perda 1.1100 | ~9.2 min restantes\n"}
+,{"stream_name":"stdout","time":2778.853153928,"data":"--- 46 min | GPU 0 qwen3_1.7b: época 1 | lote 2600/4029 | perda 1.1387 | ~24.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 600/2015 | perda 1.1110 | ~7.9 min restantes\n"}
+,{"stream_name":"stdout","time":2838.854493266,"data":"--- 47 min | GPU 0 qwen3_1.7b: época 1 | lote 2600/4029 | perda 1.1387 | ~24.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 600/2015 | perda 1.1110 | ~7.9 min restantes\n"}
+,{"stream_name":"stdout","time":2898.855329319,"data":"--- 48 min | GPU 0 qwen3_1.7b: época 1 | lote 2600/4029 | perda 1.1387 | ~24.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 800/2015 | perda 1.1095 | ~7.0 min restantes\n"}
+,{"stream_name":"stdout","time":2958.856804011,"data":"--- 49 min | GPU 0 qwen3_1.7b: época 1 | lote 2600/4029 | perda 1.1387 | ~24.4 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 1000/2015 | perda 1.1090 | ~5.8 min restantes\n"}
+,{"stream_name":"stdout","time":3018.858937788,"data":"--- 50 min | GPU 0 qwen3_1.7b: época 1 | lote 2800/4029 | perda 1.1334 | ~21.1 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 1200/2015 | perda 1.1090 | ~4.7 min restantes\n"}
+,{"stream_name":"stdout","time":3078.861657881,"data":"--- 51 min | GPU 0 qwen3_1.7b: época 1 | lote 2800/4029 | perda 1.1334 | ~21.1 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 1400/2015 | perda 1.1091 | ~3.5 min restantes\n"}
+,{"stream_name":"stdout","time":3138.861871581,"data":"--- 52 min | GPU 0 qwen3_1.7b: época 1 | lote 2800/4029 | perda 1.1334 | ~21.1 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 1600/2015 | perda 1.1086 | ~2.4 min restantes\n"}
+,{"stream_name":"stdout","time":3198.8640555,"data":"--- 53 min | GPU 0 qwen3_1.7b: época 1 | lote 2800/4029 | perda 1.1334 | ~21.1 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 1800/2015 | perda 1.1084 | ~1.2 min restantes\n"}
+,{"stream_name":"stdout","time":3258.864059787,"data":"--- 54 min | GPU 0 qwen3_1.7b: época 1 | lote 3000/4029 | perda 1.1292 | ~17.7 min restantes || GPU 1 bertimbau_large_suave_s43: época 2 | lote 2000/2015 | perda 1.1086 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":3318.865576049,"data":"[GPU 1] terminou: bertimbau_large_suave_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":3318.866273669,"data":"--- 55 min | GPU 0 qwen3_1.7b: época 1 | lote 3000/4029 | perda 1.1292 | ~17.7 min restantes\n"}
+,{"stream_name":"stdout","time":3318.86710944,"data":"[GPU 1] iniciado: xlmr_large_suave (FacebookAI/xlm-roberta-large)\n"}
+,{"stream_name":"stdout","time":3378.870927085,"data":"--- 56 min | GPU 0 qwen3_1.7b: época 1 | lote 3000/4029 | perda 1.1292 | ~17.7 min restantes || GPU 1 xlmr_large_suave: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":3438.872433809,"data":"--- 57 min | GPU 0 qwen3_1.7b: época 1 | lote 3200/4029 | perda 1.1257 | ~14.3 min restantes || GPU 1 xlmr_large_suave: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":3498.87491325,"data":"--- 58 min | GPU 0 qwen3_1.7b: época 1 | lote 3200/4029 | perda 1.1257 | ~14.3 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 200/2015 | perda 1.1138 | ~12.4 min restantes\n"}
+,{"stream_name":"stdout","time":3558.874842386,"data":"--- 59 min | GPU 0 qwen3_1.7b: época 1 | lote 3200/4029 | perda 1.1257 | ~14.3 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 400/2015 | perda 1.1091 | ~11.3 min restantes\n"}
+,{"stream_name":"stdout","time":3618.87520577,"data":"--- 60 min | GPU 0 qwen3_1.7b: época 1 | lote 3200/4029 | perda 1.1257 | ~14.3 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 400/2015 | perda 1.1091 | ~11.3 min restantes\n"}
+,{"stream_name":"stdout","time":3678.876347756,"data":"--- 61 min | GPU 0 qwen3_1.7b: época 1 | lote 3400/4029 | perda 1.1225 | ~10.9 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 600/2015 | perda 1.1045 | ~10.1 min restantes\n"}
+,{"stream_name":"stdout","time":3738.87765432,"data":"--- 62 min | GPU 0 qwen3_1.7b: época 1 | lote 3400/4029 | perda 1.1225 | ~10.9 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 800/2015 | perda 1.1021 | ~8.6 min restantes\n"}
+,{"stream_name":"stdout","time":3798.87925441,"data":"--- 63 min | GPU 0 qwen3_1.7b: época 1 | lote 3400/4029 | perda 1.1225 | ~10.9 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1000/2015 | perda 1.0989 | ~7.2 min restantes\n"}
+,{"stream_name":"stdout","time":3858.882042642,"data":"--- 64 min | GPU 0 qwen3_1.7b: época 1 | lote 3600/4029 | perda 1.1189 | ~7.4 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1000/2015 | perda 1.0989 | ~7.2 min restantes\n"}
+,{"stream_name":"stdout","time":3918.882592314,"data":"--- 65 min | GPU 0 qwen3_1.7b: época 1 | lote 3600/4029 | perda 1.1189 | ~7.4 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1200/2015 | perda 1.0959 | ~5.8 min restantes\n"}
+,{"stream_name":"stdout","time":3978.883397314,"data":"--- 66 min | GPU 0 qwen3_1.7b: época 1 | lote 3600/4029 | perda 1.1189 | ~7.4 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1400/2015 | perda 1.0919 | ~4.4 min restantes\n"}
+,{"stream_name":"stdout","time":4038.884855681,"data":"--- 67 min | GPU 0 qwen3_1.7b: época 1 | lote 3800/4029 | perda 1.1158 | ~3.9 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1400/2015 | perda 1.0919 | ~4.4 min restantes\n"}
+,{"stream_name":"stdout","time":4098.888163792,"data":"--- 68 min | GPU 0 qwen3_1.7b: época 1 | lote 3800/4029 | perda 1.1158 | ~3.9 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1600/2015 | perda 1.0889 | ~3.0 min restantes\n"}
+,{"stream_name":"stdout","time":4158.889284325,"data":"--- 69 min | GPU 0 qwen3_1.7b: época 1 | lote 3800/4029 | perda 1.1158 | ~3.9 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1800/2015 | perda 1.0875 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":4218.892253514,"data":"--- 70 min | GPU 0 qwen3_1.7b: época 1 | lote 3800/4029 | perda 1.1158 | ~3.9 min restantes || GPU 1 xlmr_large_suave: época 1 | lote 1800/2015 | perda 1.0875 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":4278.891392021,"data":"--- 71 min | GPU 0 qwen3_1.7b: época 1 | lote 4000/4029 | perda 1.1126 | ~0.5 min restantes || GPU 1 xlmr_large_suave: semente=42 | epoca=1 | perda_treino=1.0856 | lotes_nao_finitos=0 | minutos=14.4054 | acuracia=0.4336 | distribuicao_prevista=[1641, 918, 1417]\n"}
+,{"stream_name":"stdout","time":4338.89253646,"data":"--- 72 min | GPU 0 qwen3_1.7b: época 1 | lote 4000/4029 | perda 1.1126 | ~0.5 min restantes || GPU 1 xlmr_large_suave: semente=42 | epoca=1 | perda_treino=1.0856 | lotes_nao_finitos=0 | minutos=14.4054 | acuracia=0.4336 | distribuicao_prevista=[1641, 918, 1417]\n"}
+,{"stream_name":"stdout","time":4398.894697033,"data":"--- 73 min | GPU 0 qwen3_1.7b: época 1 | lote 4000/4029 | perda 1.1126 | ~0.5 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 200/2015 | perda 1.0399 | ~12.9 min restantes\n"}
+,{"stream_name":"stdout","time":4458.893106657,"data":"--- 74 min | GPU 0 qwen3_1.7b: época 1 | lote 4000/4029 | perda 1.1126 | ~0.5 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 400/2015 | perda 1.0437 | ~11.4 min restantes\n"}
+,{"stream_name":"stdout","time":4518.896492207,"data":"--- 75 min | GPU 0 qwen3_1.7b: época 1 | lote 4000/4029 | perda 1.1126 | ~0.5 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 400/2015 | perda 1.0437 | ~11.4 min restantes\n"}
+,{"stream_name":"stdout","time":4578.898067674,"data":"--- 76 min | GPU 0 qwen3_1.7b: semente=42 | epoca=1 | perda_treino=1.1121 | lotes_nao_finitos=0 | minutos=69.4737 | acuracia=0.4356 | distribuicao_prevista=[1912, 288, 1776] || GPU 1 xlmr_large_suave: época 2 | lote 600/2015 | perda 1.0420 | ~10.1 min restantes\n"}
+,{"stream_name":"stdout","time":4638.9019891,"data":"--- 77 min | GPU 0 qwen3_1.7b: semente=42 | epoca=1 | perda_treino=1.1121 | lotes_nao_finitos=0 | minutos=69.4737 | acuracia=0.4356 | distribuicao_prevista=[1912, 288, 1776] || GPU 1 xlmr_large_suave: época 2 | lote 800/2015 | perda 1.0415 | ~8.7 min restantes\n"}
+,{"stream_name":"stdout","time":4698.900982387,"data":"--- 78 min | GPU 0 qwen3_1.7b: semente=42 | epoca=1 | perda_treino=1.1121 | lotes_nao_finitos=0 | minutos=69.4737 | acuracia=0.4356 | distribuicao_prevista=[1912, 288, 1776] || GPU 1 xlmr_large_suave: época 2 | lote 800/2015 | perda 1.0415 | ~8.7 min restantes\n"}
+,{"stream_name":"stdout","time":4758.90424921,"data":"--- 79 min | GPU 0 qwen3_1.7b: semente=42 | epoca=1 | perda_treino=1.1121 | lotes_nao_finitos=0 | minutos=69.4737 | acuracia=0.4356 | distribuicao_prevista=[1912, 288, 1776] || GPU 1 xlmr_large_suave: época 2 | lote 1000/2015 | perda 1.0433 | ~7.2 min restantes\n"}
+,{"stream_name":"stdout","time":4818.903828885,"data":"--- 80 min | GPU 0 qwen3_1.7b: época 2 | lote 200/4029 | perda 1.0199 | ~67.5 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 1200/2015 | perda 1.0430 | ~5.9 min restantes\n"}
+,{"stream_name":"stdout","time":4878.905562316,"data":"--- 81 min | GPU 0 qwen3_1.7b: época 2 | lote 200/4029 | perda 1.0199 | ~67.5 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 1400/2015 | perda 1.0405 | ~4.4 min restantes\n"}
+,{"stream_name":"stdout","time":4938.906709454,"data":"--- 82 min | GPU 0 qwen3_1.7b: época 2 | lote 200/4029 | perda 1.0199 | ~67.5 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 1400/2015 | perda 1.0405 | ~4.4 min restantes\n"}
+,{"stream_name":"stdout","time":4998.907215774,"data":"--- 83 min | GPU 0 qwen3_1.7b: época 2 | lote 400/4029 | perda 1.0216 | ~65.8 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 1600/2015 | perda 1.0387 | ~3.0 min restantes\n"}
+,{"stream_name":"stdout","time":5058.909438937,"data":"--- 84 min | GPU 0 qwen3_1.7b: época 2 | lote 400/4029 | perda 1.0216 | ~65.8 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 1800/2015 | perda 1.0358 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":5118.909803243,"data":"--- 85 min | GPU 0 qwen3_1.7b: época 2 | lote 400/4029 | perda 1.0216 | ~65.8 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 1800/2015 | perda 1.0358 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":5178.912007905,"data":"--- 86 min | GPU 0 qwen3_1.7b: época 2 | lote 400/4029 | perda 1.0216 | ~65.8 min restantes || GPU 1 xlmr_large_suave: época 2 | lote 2000/2015 | perda 1.0343 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":5238.910701794,"data":"[GPU 1] terminou: xlmr_large_suave -\u003e ok\n"}
+,{"stream_name":"stdout","time":5238.911474156,"data":"--- 87 min | GPU 0 qwen3_1.7b: época 2 | lote 600/4029 | perda 1.0174 | ~62.8 min restantes\n"}
+,{"stream_name":"stdout","time":5298.915357293,"data":"--- 88 min | GPU 0 qwen3_1.7b: época 2 | lote 600/4029 | perda 1.0174 | ~62.8 min restantes\n"}
+,{"stream_name":"stdout","time":5358.913643793,"data":"--- 89 min | GPU 0 qwen3_1.7b: época 2 | lote 600/4029 | perda 1.0174 | ~62.8 min restantes\n"}
+,{"stream_name":"stdout","time":5418.917073242,"data":"--- 90 min | GPU 0 qwen3_1.7b: época 2 | lote 800/4029 | perda 1.0233 | ~56.8 min restantes\n"}
+,{"stream_name":"stdout","time":5478.917931022,"data":"--- 91 min | GPU 0 qwen3_1.7b: época 2 | lote 800/4029 | perda 1.0233 | ~56.8 min restantes\n"}
+,{"stream_name":"stdout","time":5538.916487451,"data":"--- 92 min | GPU 0 qwen3_1.7b: época 2 | lote 800/4029 | perda 1.0233 | ~56.8 min restantes\n"}
+,{"stream_name":"stdout","time":5598.920693338,"data":"--- 93 min | GPU 0 qwen3_1.7b: época 2 | lote 800/4029 | perda 1.0233 | ~56.8 min restantes\n"}
+,{"stream_name":"stdout","time":5658.919416163,"data":"--- 94 min | GPU 0 qwen3_1.7b: época 2 | lote 1000/4029 | perda 1.0242 | ~52.9 min restantes\n"}
+,{"stream_name":"stdout","time":5718.923637482,"data":"--- 95 min | GPU 0 qwen3_1.7b: época 2 | lote 1000/4029 | perda 1.0242 | ~52.9 min restantes\n"}
+,{"stream_name":"stdout","time":5778.921768988,"data":"--- 96 min | GPU 0 qwen3_1.7b: época 2 | lote 1000/4029 | perda 1.0242 | ~52.9 min restantes\n"}
+,{"stream_name":"stdout","time":5838.922832276,"data":"--- 97 min | GPU 0 qwen3_1.7b: época 2 | lote 1200/4029 | perda 1.0251 | ~49.0 min restantes\n"}
+,{"stream_name":"stdout","time":5898.924334706,"data":"--- 98 min | GPU 0 qwen3_1.7b: época 2 | lote 1200/4029 | perda 1.0251 | ~49.0 min restantes\n"}
+,{"stream_name":"stdout","time":5958.925504369,"data":"--- 99 min | GPU 0 qwen3_1.7b: época 2 | lote 1200/4029 | perda 1.0251 | ~49.0 min restantes\n"}
+,{"stream_name":"stdout","time":6018.929867219,"data":"--- 100 min | GPU 0 qwen3_1.7b: época 2 | lote 1200/4029 | perda 1.0251 | ~49.0 min restantes\n"}
+,{"stream_name":"stdout","time":6078.931467747,"data":"--- 101 min | GPU 0 qwen3_1.7b: época 2 | lote 1400/4029 | perda 1.0251 | ~45.9 min restantes\n"}
+,{"stream_name":"stdout","time":6138.929728189,"data":"--- 102 min | GPU 0 qwen3_1.7b: época 2 | lote 1400/4029 | perda 1.0251 | ~45.9 min restantes\n"}
+,{"stream_name":"stdout","time":6198.934981749,"data":"--- 103 min | GPU 0 qwen3_1.7b: época 2 | lote 1400/4029 | perda 1.0251 | ~45.9 min restantes\n"}
+,{"stream_name":"stdout","time":6258.932336714,"data":"--- 104 min | GPU 0 qwen3_1.7b: época 2 | lote 1600/4029 | perda 1.0254 | ~42.0 min restantes\n"}
+,{"stream_name":"stdout","time":6318.933500091,"data":"--- 105 min | GPU 0 qwen3_1.7b: época 2 | lote 1600/4029 | perda 1.0254 | ~42.0 min restantes\n"}
+,{"stream_name":"stdout","time":6378.934610733,"data":"--- 106 min | GPU 0 qwen3_1.7b: época 2 | lote 1600/4029 | perda 1.0254 | ~42.0 min restantes\n"}
+,{"stream_name":"stdout","time":6438.935936123,"data":"--- 107 min | GPU 0 qwen3_1.7b: época 2 | lote 1800/4029 | perda 1.0238 | ~38.6 min restantes\n"}
+,{"stream_name":"stdout","time":6498.937169363,"data":"--- 108 min | GPU 0 qwen3_1.7b: época 2 | lote 1800/4029 | perda 1.0238 | ~38.6 min restantes\n"}
+,{"stream_name":"stdout","time":6558.944408905,"data":"--- 109 min | GPU 0 qwen3_1.7b: época 2 | lote 1800/4029 | perda 1.0238 | ~38.6 min restantes\n"}
+,{"stream_name":"stdout","time":6618.939594258,"data":"--- 110 min | GPU 0 qwen3_1.7b: época 2 | lote 1800/4029 | perda 1.0238 | ~38.6 min restantes\n"}
+,{"stream_name":"stdout","time":6678.941039355,"data":"--- 111 min | GPU 0 qwen3_1.7b: época 2 | lote 2000/4029 | perda 1.0234 | ~35.0 min restantes\n"}
+,{"stream_name":"stdout","time":6738.942117912,"data":"--- 112 min | GPU 0 qwen3_1.7b: época 2 | lote 2000/4029 | perda 1.0234 | ~35.0 min restantes\n"}
+,{"stream_name":"stdout","time":6798.949753435,"data":"--- 113 min | GPU 0 qwen3_1.7b: época 2 | lote 2000/4029 | perda 1.0234 | ~35.0 min restantes\n"}
+,{"stream_name":"stdout","time":6858.950551204,"data":"--- 114 min | GPU 0 qwen3_1.7b: época 2 | lote 2200/4029 | perda 1.0215 | ~31.3 min restantes\n"}
+,{"stream_name":"stdout","time":6918.949173768,"data":"--- 115 min | GPU 0 qwen3_1.7b: época 2 | lote 2200/4029 | perda 1.0215 | ~31.3 min restantes\n"}
+,{"stream_name":"stdout","time":6978.950845219,"data":"--- 116 min | GPU 0 qwen3_1.7b: época 2 | lote 2200/4029 | perda 1.0215 | ~31.3 min restantes\n"}
+,{"stream_name":"stdout","time":7038.953814889,"data":"--- 117 min | GPU 0 qwen3_1.7b: época 2 | lote 2400/4029 | perda 1.0163 | ~27.8 min restantes\n"}
+,{"stream_name":"stdout","time":7098.950452615,"data":"--- 118 min | GPU 0 qwen3_1.7b: época 2 | lote 2400/4029 | perda 1.0163 | ~27.8 min restantes\n"}
+,{"stream_name":"stdout","time":7158.951236506,"data":"--- 119 min | GPU 0 qwen3_1.7b: época 2 | lote 2400/4029 | perda 1.0163 | ~27.8 min restantes\n"}
+,{"stream_name":"stdout","time":7218.952167822,"data":"--- 120 min | GPU 0 qwen3_1.7b: época 2 | lote 2400/4029 | perda 1.0163 | ~27.8 min restantes\n"}
+,{"stream_name":"stdout","time":7278.959424365,"data":"--- 121 min | GPU 0 qwen3_1.7b: época 2 | lote 2600/4029 | perda 1.0150 | ~24.4 min restantes\n"}
+,{"stream_name":"stdout","time":7338.954775438,"data":"--- 122 min | GPU 0 qwen3_1.7b: época 2 | lote 2600/4029 | perda 1.0150 | ~24.4 min restantes\n"}
+,{"stream_name":"stdout","time":7398.955833116,"data":"--- 123 min | GPU 0 qwen3_1.7b: época 2 | lote 2600/4029 | perda 1.0150 | ~24.4 min restantes\n"}
+,{"stream_name":"stdout","time":7458.957102396,"data":"--- 124 min | GPU 0 qwen3_1.7b: época 2 | lote 2800/4029 | perda 1.0142 | ~21.1 min restantes\n"}
+,{"stream_name":"stdout","time":7518.961868058,"data":"--- 125 min | GPU 0 qwen3_1.7b: época 2 | lote 2800/4029 | perda 1.0142 | ~21.1 min restantes\n"}
+,{"stream_name":"stdout","time":7578.959280854,"data":"--- 126 min | GPU 0 qwen3_1.7b: época 2 | lote 2800/4029 | perda 1.0142 | ~21.1 min restantes\n"}
+,{"stream_name":"stdout","time":7638.960285765,"data":"--- 127 min | GPU 0 qwen3_1.7b: época 2 | lote 2800/4029 | perda 1.0142 | ~21.1 min restantes\n"}
+,{"stream_name":"stdout","time":7698.961594034,"data":"--- 128 min | GPU 0 qwen3_1.7b: época 2 | lote 3000/4029 | perda 1.0123 | ~17.6 min restantes\n"}
+,{"stream_name":"stdout","time":7758.966791296,"data":"--- 129 min | GPU 0 qwen3_1.7b: época 2 | lote 3000/4029 | perda 1.0123 | ~17.6 min restantes\n"}
+,{"stream_name":"stdout","time":7818.964065415,"data":"--- 130 min | GPU 0 qwen3_1.7b: época 2 | lote 3000/4029 | perda 1.0123 | ~17.6 min restantes\n"}
+,{"stream_name":"stdout","time":7878.965202982,"data":"--- 131 min | GPU 0 qwen3_1.7b: época 2 | lote 3200/4029 | perda 1.0108 | ~14.2 min restantes\n"}
+,{"stream_name":"stdout","time":7938.970143948,"data":"--- 132 min | GPU 0 qwen3_1.7b: época 2 | lote 3200/4029 | perda 1.0108 | ~14.2 min restantes\n"}
+,{"stream_name":"stdout","time":7998.967667237,"data":"--- 133 min | GPU 0 qwen3_1.7b: época 2 | lote 3200/4029 | perda 1.0108 | ~14.2 min restantes\n"}
+,{"stream_name":"stdout","time":8058.971433447,"data":"--- 134 min | GPU 0 qwen3_1.7b: época 2 | lote 3400/4029 | perda 1.0092 | ~10.8 min restantes\n"}
+,{"stream_name":"stdout","time":8118.975115152,"data":"--- 135 min | GPU 0 qwen3_1.7b: época 2 | lote 3400/4029 | perda 1.0092 | ~10.8 min restantes\n"}
+,{"stream_name":"stdout","time":8178.970963066,"data":"--- 136 min | GPU 0 qwen3_1.7b: época 2 | lote 3400/4029 | perda 1.0092 | ~10.8 min restantes\n"}
+,{"stream_name":"stdout","time":8238.972142704,"data":"--- 137 min | GPU 0 qwen3_1.7b: época 2 | lote 3400/4029 | perda 1.0092 | ~10.8 min restantes\n"}
+,{"stream_name":"stdout","time":8298.976983466,"data":"--- 138 min | GPU 0 qwen3_1.7b: época 2 | lote 3600/4029 | perda 1.0076 | ~7.4 min restantes\n"}
+,{"stream_name":"stdout","time":8358.978184526,"data":"--- 139 min | GPU 0 qwen3_1.7b: época 2 | lote 3600/4029 | perda 1.0076 | ~7.4 min restantes\n"}
+,{"stream_name":"stdout","time":8418.979156744,"data":"--- 140 min | GPU 0 qwen3_1.7b: época 2 | lote 3600/4029 | perda 1.0076 | ~7.4 min restantes\n"}
+,{"stream_name":"stdout","time":8478.976479251,"data":"--- 141 min | GPU 0 qwen3_1.7b: época 2 | lote 3800/4029 | perda 1.0068 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":8538.977685096,"data":"--- 142 min | GPU 0 qwen3_1.7b: época 2 | lote 3800/4029 | perda 1.0068 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":8598.98445442,"data":"--- 143 min | GPU 0 qwen3_1.7b: época 2 | lote 3800/4029 | perda 1.0068 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":8658.984398797,"data":"--- 144 min | GPU 0 qwen3_1.7b: época 2 | lote 3800/4029 | perda 1.0068 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":8718.981688295,"data":"--- 145 min | GPU 0 qwen3_1.7b: época 2 | lote 4000/4029 | perda 1.0052 | ~0.5 min restantes\n"}
+,{"stream_name":"stdout","time":8778.989279545,"data":"--- 146 min | GPU 0 qwen3_1.7b: época 2 | lote 4000/4029 | perda 1.0052 | ~0.5 min restantes\n"}
+,{"stream_name":"stdout","time":8838.984719645,"data":"--- 147 min | GPU 0 qwen3_1.7b: época 2 | lote 4000/4029 | perda 1.0052 | ~0.5 min restantes\n"}
+,{"stream_name":"stdout","time":8898.985714009,"data":"--- 148 min | GPU 0 qwen3_1.7b: época 2 | lote 4000/4029 | perda 1.0052 | ~0.5 min restantes\n"}
+,{"stream_name":"stdout","time":8958.987000693,"data":"--- 149 min | GPU 0 qwen3_1.7b: época 2 | lote 4000/4029 | perda 1.0052 | ~0.5 min restantes\n"}
+,{"stream_name":"stdout","time":9018.988640987,"data":"[GPU 0] terminou: qwen3_1.7b -\u003e ok\n"}
+,{"stream_name":"stdout","time":9018.989427002,"data":"--- 150 min | \n"}
+,{"stream_name":"stdout","time":9019.00793933,"data":"\n"}
+,{"stream_name":"stdout","time":9019.00795921,"data":"===== Resumo =====\n"}
+,{"stream_name":"stdout","time":9019.007982037,"data":"bertimbau_large_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":9019.007986556,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista divisao\n"}
+,{"stream_name":"stdout","time":9019.007990088,"data":"      43      1      1.065959                  0 12.499753  0.443913     [726, 1294, 1956] holdout\n"}
+,{"stream_name":"stdout","time":9019.007993667,"data":"      43      2      0.988199                  0 12.560329  0.465292    [1429, 1030, 1517] holdout\n"}
+,{"stream_name":"stdout","time":9019.008000774,"data":"bertimbau_large_suave_s43 -\u003e ok\n"}
+,{"stream_name":"stdout","time":9019.008004171,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista divisao\n"}
+,{"stream_name":"stdout","time":9019.008006462,"data":"      43      1      1.071344                  0 12.444339  0.344316          [0, 0, 3976] holdout\n"}
+,{"stream_name":"stdout","time":9019.008008718,"data":"      43      2      1.108598                  0 11.470659  0.344316          [0, 0, 3976] holdout\n"}
+,{"stream_name":"stdout","time":9019.008010982,"data":"xlmr_large_suave -\u003e ok\n"}
+,{"stream_name":"stdout","time":9019.008013184,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista divisao\n"}
+,{"stream_name":"stdout","time":9019.008015444,"data":"      42      1      1.085567                  0 14.405398  0.433602     [1641, 918, 1417] holdout\n"}
+,{"stream_name":"stdout","time":9019.00801768,"data":"      42      2      1.034416                  0 14.428420  0.460010    [1433, 1009, 1534] holdout\n"}
+,{"stream_name":"stdout","time":9019.008019923,"data":"qwen3_1.7b -\u003e ok\n"}
+,{"stream_name":"stdout","time":9019.008022147,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista divisao\n"}
+,{"stream_name":"stdout","time":9019.008024388,"data":"      42      1      1.112100                  0 69.473705  0.435614     [1912, 288, 1776] holdout\n"}
+,{"stream_name":"stdout","time":9019.008026646,"data":"      42      2      1.004939                  0 69.145655  0.460765     [1490, 995, 1491] holdout\n"}
+,{"stream_name":"stderr","time":9021.900874195,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":9021.900896081,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":9022.077083684,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":9022.077105428,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":9022.841778357,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":9022.932015762,"data":"[NbConvertApp] Writing 60771 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":9025.336943696,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":9025.901688018,"data":"[NbConvertApp] Writing 431797 bytes to __results__.html\n"}
+]

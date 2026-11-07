@@ -1,0 +1,60 @@
+Experimento norberto_large_1024: Itau-Unibanco/NorBERTo-large (encoder) | modos ['holdout'] | saída /kaggle/working/saida/norberto_large_1024
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Tokens por texto: mediana 180, p90 530, 1.9% truncados
+
+========== HOLDOUT 80/20 | semente 42 ==========
+Loading weights:   0%|          | 0/172 [00:00<?, ?it/s]Loading weights: 100%|██████████| 172/172 [00:00<00:00, 2549.22it/s]
+[transformers] [1mModernBertForSequenceClassification LOAD REPORT[0m from: Itau-Unibanco/NorBERTo-large
+Key               | Status     | 
+------------------+------------+-
+decoder.bias      | UNEXPECTED | 
+classifier.bias   | MISSING    | 
+classifier.weight | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/4029 | perda 1.1528 | ~17.9 min restantes
+  época 1 | lote 400/4029 | perda 1.1265 | ~16.9 min restantes
+  época 1 | lote 600/4029 | perda 1.1218 | ~15.8 min restantes
+  época 1 | lote 800/4029 | perda 1.1159 | ~15.1 min restantes
+  época 1 | lote 1000/4029 | perda 1.1075 | ~14.2 min restantes
+  época 1 | lote 1200/4029 | perda 1.1042 | ~13.0 min restantes
+  época 1 | lote 1400/4029 | perda 1.0980 | ~12.2 min restantes
+  época 1 | lote 1600/4029 | perda 1.0967 | ~11.2 min restantes
+  época 1 | lote 1800/4029 | perda 1.0936 | ~10.3 min restantes
+  época 1 | lote 2000/4029 | perda 1.0928 | ~9.5 min restantes
+  época 1 | lote 2200/4029 | perda 1.0908 | ~8.6 min restantes
+  época 1 | lote 2400/4029 | perda 1.0876 | ~7.7 min restantes
+  época 1 | lote 2600/4029 | perda 1.0862 | ~6.8 min restantes
+  época 1 | lote 2800/4029 | perda 1.0832 | ~5.8 min restantes
+  época 1 | lote 3000/4029 | perda 1.0812 | ~4.9 min restantes
+  época 1 | lote 3200/4029 | perda 1.0794 | ~4.0 min restantes
+  época 1 | lote 3400/4029 | perda 1.0784 | ~3.0 min restantes
+  época 1 | lote 3600/4029 | perda 1.0765 | ~2.0 min restantes
+  época 1 | lote 3800/4029 | perda 1.0736 | ~1.1 min restantes
+  época 1 | lote 4000/4029 | perda 1.0727 | ~0.1 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0722 | lotes_nao_finitos=0 | minutos=19.1586 | acuracia=0.4391 | distribuicao_prevista=[1711, 1072, 1193]
+  época 2 | lote 200/4029 | perda 0.9881 | ~18.0 min restantes
+  época 2 | lote 400/4029 | perda 0.9807 | ~17.8 min restantes
+  época 2 | lote 600/4029 | perda 0.9792 | ~17.2 min restantes
+  época 2 | lote 800/4029 | perda 0.9799 | ~15.6 min restantes
+  época 2 | lote 1000/4029 | perda 0.9813 | ~14.5 min restantes
+  época 2 | lote 1200/4029 | perda 0.9814 | ~13.5 min restantes
+  época 2 | lote 1400/4029 | perda 0.9822 | ~12.7 min restantes
+  época 2 | lote 1600/4029 | perda 0.9851 | ~11.6 min restantes
+  época 2 | lote 1800/4029 | perda 0.9844 | ~10.7 min restantes
+  época 2 | lote 2000/4029 | perda 0.9838 | ~9.7 min restantes
+  época 2 | lote 2200/4029 | perda 0.9822 | ~8.7 min restantes
+  época 2 | lote 2400/4029 | perda 0.9784 | ~7.7 min restantes
+  época 2 | lote 2600/4029 | perda 0.9792 | ~6.8 min restantes
+  época 2 | lote 2800/4029 | perda 0.9800 | ~5.9 min restantes
+  época 2 | lote 3000/4029 | perda 0.9801 | ~4.9 min restantes
+  época 2 | lote 3200/4029 | perda 0.9783 | ~3.9 min restantes
+  época 2 | lote 3400/4029 | perda 0.9762 | ~3.0 min restantes
+  época 2 | lote 3600/4029 | perda 0.9735 | ~2.0 min restantes
+  época 2 | lote 3800/4029 | perda 0.9728 | ~1.1 min restantes
+  época 2 | lote 4000/4029 | perda 0.9716 | ~0.1 min restantes
+  semente=42 | epoca=2 | perda_treino=0.9714 | lotes_nao_finitos=0 | minutos=19.1407 | acuracia=0.4630 | distribuicao_prevista=[1257, 1122, 1597]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'historico.csv', 'holdout_semente42_epoca1.csv', 'holdout_semente42_epoca2.csv', 'log.txt']

@@ -1,0 +1,16 @@
+{
+  "saida": "/kaggle/working/saida",
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "experimento": "qwen3_4b",
+  "modos": [
+    "holdout"
+  ],
+  "modelo": "Qwen/Qwen3-4B",
+  "tipo": "llm_lora",
+  "lr": 0.0001,
+  "lote": 4,
+  "acumulacao": 4,
+  "max_len": 384,
+  "gradient_checkpointing": true,
+  "max_tentativas": 1
+}

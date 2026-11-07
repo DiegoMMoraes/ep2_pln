@@ -1,0 +1,15 @@
+{
+  "id": "diegommoraes/ep2-final",
+  "title": "ep2-final",
+  "code_file": "ep2_transformers.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "diegommoraes/ep2-pln"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

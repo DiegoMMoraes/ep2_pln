@@ -1,0 +1,23 @@
+{
+  "MODOS": [
+    "holdout"
+  ],
+  "MODELO": "neuralmind/bert-large-portuguese-cased",
+  "MAX_LEN": 512,
+  "TOKENS_INICIO": 128,
+  "EPOCAS": 2,
+  "LR": 1.5e-05,
+  "LOTE": 8,
+  "ACUMULACAO": 2,
+  "WARMUP": 0.1,
+  "SEMENTE": 42,
+  "GRADIENT_CHECKPOINTING": false,
+  "SALVAR_MODELO_FINAL": false,
+  "PASTA_DADOS": "/kaggle/input/datasets/diegommoraes/ep2-pln",
+  "CLASSES": [
+    "c1",
+    "c234",
+    "c5"
+  ],
+  "SAIDA": "/kaggle/working/saida"
+}

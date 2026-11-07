@@ -1,0 +1,43 @@
+Avaliação: 3976 textos (fold 1 agrupado)
+
+--- Modelos de base ---
+bertimbau_large_suave              acc 0.4728
+bertimbau_large                    acc 0.4653
+bertimbau_large_s43                acc 0.4653
+xlmr_large                         acc 0.4628
+xlmr_large_suave                   acc 0.4600
+mmbert_base                        acc 0.4620
+qwen3_1.7b                         acc 0.4608
+bertimbau                          acc 0.4590
+logreg_C0.25_w12c25                acc 0.4620
+nbsvm_C0.25_w12_semacento          acc 0.4600
+
+--- Concordância entre as predições (fração de textos com o mesmo rótulo) ---
+                           bertimbau_large_suave  bertimbau_large  bertimbau_large_s43  xlmr_large  xlmr_large_suave  mmbert_base  qwen3_1.7b  bertimbau  logreg_C0.25_w12c25  nbsvm_C0.25_w12_semacento
+bertimbau_large_suave                       1.00             0.82                 0.79        0.73              0.72         0.72        0.70       0.75                 0.69                       0.60
+bertimbau_large                             0.82             1.00                 0.78        0.74              0.73         0.72        0.70       0.77                 0.67                       0.59
+bertimbau_large_s43                         0.79             0.78                 1.00        0.74              0.74         0.73        0.72       0.76                 0.69                       0.59
+xlmr_large                                  0.73             0.74                 0.74        1.00              0.84         0.75        0.74       0.76                 0.67                       0.57
+xlmr_large_suave                            0.72             0.73                 0.74        0.84              1.00         0.75        0.72       0.77                 0.65                       0.56
+mmbert_base                                 0.72             0.72                 0.73        0.75              0.75         1.00        0.72       0.74                 0.68                       0.59
+qwen3_1.7b                                  0.70             0.70                 0.72        0.74              0.72         0.72        1.00       0.71                 0.66                       0.59
+bertimbau                                   0.75             0.77                 0.76        0.76              0.77         0.74        0.71       1.00                 0.68                       0.57
+logreg_C0.25_w12c25                         0.69             0.67                 0.69        0.67              0.65         0.68        0.66       0.68                 1.00                       0.71
+nbsvm_C0.25_w12_semacento                   0.60             0.59                 0.59        0.57              0.56         0.59        0.59       0.57                 0.71                       1.00
+
+Oráculo (algum modelo acerta): 0.7661 | todos acertam: 0.1728
+
+--- Combinações (acc média nas partições da CV do meta-modelo) ---
+EP1: ensemble entregue (sem treino aqui)                acc 0.4711 (±0.0163)
+Média simples das probabilidades                        acc 0.4826 (±0.0145)
+Média simples sem BERT                                  acc 0.4776 (±0.0144)
+Stacking LogReg C=0.01 [todos]                          acc 0.4774 (±0.0137)
+Stacking LogReg C=0.1 [todos]                           acc 0.4711 (±0.0152)
+Stacking LogReg C=1 [todos]                             acc 0.4687 (±0.0137)
+Stacking HistGradientBoosting [todos]                   acc 0.4609 (±0.0184)
+Stacking LogReg C=0.01 [sem BERT]                       acc 0.4707 (±0.0119)
+Stacking LogReg C=0.1 [sem BERT]                        acc 0.4703 (±0.0133)
+Stacking LogReg C=1 [sem BERT]                          acc 0.4693 (±0.0137)
+Stacking HistGradientBoosting [sem BERT]                acc 0.4538 (±0.0156)
+
+Resultados -> resultados/stacking_holdout_run3.csv

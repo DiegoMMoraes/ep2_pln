@@ -1,0 +1,44 @@
+Experimento mmbert_base: jhu-clsp/mmBERT-base (encoder) | modos ['holdout'] | saída /kaggle/working/saida/mmbert_base
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokens por texto: mediana 191, p90 512, 12.1% truncados
+
+========== HOLDOUT 80/20 | semente 42 ==========
+Loading weights:   0%|          | 0/136 [00:00<?, ?it/s]Loading weights: 100%|██████████| 136/136 [00:00<00:00, 10741.06it/s]
+[transformers] [1mModernBertForSequenceClassification LOAD REPORT[0m from: jhu-clsp/mmBERT-base
+Key               | Status     | 
+------------------+------------+-
+decoder.weight    | UNEXPECTED | 
+decoder.bias      | UNEXPECTED | 
+classifier.weight | MISSING    | 
+classifier.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/kaggle/working/ep2_treino.py:272: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/2015 | perda 1.4991 | ~6.8 min restantes
+  época 1 | lote 400/2015 | perda 1.3325 | ~6.1 min restantes
+  época 1 | lote 600/2015 | perda 1.2615 | ~5.5 min restantes
+  época 1 | lote 800/2015 | perda 1.2265 | ~4.6 min restantes
+  época 1 | lote 1000/2015 | perda 1.2015 | ~3.9 min restantes
+  época 1 | lote 1200/2015 | perda 1.1811 | ~3.1 min restantes
+  época 1 | lote 1400/2015 | perda 1.1653 | ~2.4 min restantes
+  época 1 | lote 1600/2015 | perda 1.1531 | ~1.6 min restantes
+  época 1 | lote 1800/2015 | perda 1.1441 | ~0.8 min restantes
+  época 1 | lote 2000/2015 | perda 1.1367 | ~0.1 min restantes
+  semente=42 | epoca=1 | perda_treino=1.1363 | lotes_nao_finitos=0 | minutos=7.8036 | acuracia=0.4457 | distribuicao_prevista=[680, 2058, 1238]
+  época 2 | lote 200/2015 | perda 1.0344 | ~7.0 min restantes
+  época 2 | lote 400/2015 | perda 1.0193 | ~6.2 min restantes
+  época 2 | lote 600/2015 | perda 1.0214 | ~5.5 min restantes
+  época 2 | lote 800/2015 | perda 1.0180 | ~4.7 min restantes
+  época 2 | lote 1000/2015 | perda 1.0155 | ~3.9 min restantes
+  época 2 | lote 1200/2015 | perda 1.0132 | ~3.2 min restantes
+  época 2 | lote 1400/2015 | perda 1.0088 | ~2.4 min restantes
+  época 2 | lote 1600/2015 | perda 1.0053 | ~1.6 min restantes
+  época 2 | lote 1800/2015 | perda 1.0011 | ~0.8 min restantes
+  época 2 | lote 2000/2015 | perda 0.9970 | ~0.1 min restantes
+  semente=42 | epoca=2 | perda_treino=0.9974 | lotes_nao_finitos=0 | minutos=7.8649 | acuracia=0.4620 | distribuicao_prevista=[1465, 978, 1533]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'historico.csv', 'holdout_semente42_epoca1.csv', 'holdout_semente42_epoca2.csv', 'log.txt']

@@ -1,0 +1,270 @@
+[{"stream_name":"stderr","time":5.851190729,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.851233469,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.678170726,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.678201849,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.678207141,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.678220089,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.268401865,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.268433565,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.268439128,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.268442947,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.08436868,"data":"torchao antigo removido (incompatível com o peft)\n"}
+,{"stream_name":"stdout","time":13.084403118,"data":"dependências ok ['bitsandbytes']\n"}
+,{"stream_name":"stdout","time":13.104899467,"data":"Writing ep2_treino.py\n"}
+,{"stream_name":"stdout","time":19.520022858,"data":"   train.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/train.xlsx\n"}
+,{"stream_name":"stdout","time":19.520053885,"data":"   test1.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test1.xlsx\n"}
+,{"stream_name":"stdout","time":19.520059397,"data":"   test2.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test2.xlsx\n"}
+,{"stream_name":"stdout","time":19.520062918,"data":"   divisao_80_20.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/divisao_80_20.csv\n"}
+,{"stream_name":"stdout","time":19.520066701,"data":"   folds_5.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/folds_5.csv\n"}
+,{"stream_name":"stdout","time":19.524817258,"data":"2 GPU(s): ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":19.524837552,"data":"[GPU 0] iniciado: qwen3_8b (Qwen/Qwen3-8B)\n"}
+,{"stream_name":"stdout","time":79.527923163,"data":"--- 1 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":139.52989626,"data":"--- 2 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":199.530455376,"data":"--- 3 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":259.532276625,"data":"--- 4 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":319.533592942,"data":"--- 5 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":379.535384827,"data":"--- 6 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":439.536394598,"data":"--- 7 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":499.5376621,"data":"--- 8 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":559.53952858,"data":"--- 9 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":619.542162247,"data":"--- 10 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":679.543095326,"data":"--- 11 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":739.543486401,"data":"--- 12 min | GPU 0 qwen3_8b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":799.547342455,"data":"--- 13 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":859.548307362,"data":"--- 14 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":919.548159038,"data":"--- 15 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":979.550459306,"data":"--- 16 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1039.551425898,"data":"--- 17 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1099.552815003,"data":"--- 18 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1159.55652676,"data":"--- 19 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1219.555593193,"data":"--- 20 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1279.557045349,"data":"--- 21 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1339.561459392,"data":"--- 22 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1399.561587417,"data":"--- 23 min | GPU 0 qwen3_8b: época 1 | lote 200/4029 | perda 1.3295 | ~197.0 min restantes\n"}
+,{"stream_name":"stdout","time":1459.561652102,"data":"--- 24 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1519.563303977,"data":"--- 25 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1579.564732555,"data":"--- 26 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1639.56622988,"data":"--- 27 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1699.570202759,"data":"--- 28 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1759.571643913,"data":"--- 29 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1819.571726301,"data":"--- 30 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1879.574172229,"data":"--- 31 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1939.572623268,"data":"--- 32 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":1999.575698281,"data":"--- 33 min | GPU 0 qwen3_8b: época 1 | lote 400/4029 | perda 1.2641 | ~189.4 min restantes\n"}
+,{"stream_name":"stdout","time":2059.578555791,"data":"--- 34 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2119.576789528,"data":"--- 35 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2179.578731025,"data":"--- 36 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2239.579425397,"data":"--- 37 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2299.580967655,"data":"--- 38 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2359.582788485,"data":"--- 39 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2419.584124792,"data":"--- 40 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2479.585435187,"data":"--- 41 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2539.586872957,"data":"--- 42 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2599.591148087,"data":"--- 43 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2659.592839053,"data":"--- 44 min | GPU 0 qwen3_8b: época 1 | lote 600/4029 | perda 1.2418 | ~178.6 min restantes\n"}
+,{"stream_name":"stdout","time":2719.590617387,"data":"--- 45 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":2779.591805381,"data":"--- 46 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":2839.593577808,"data":"--- 47 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":2899.594355534,"data":"--- 48 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":2959.596069934,"data":"--- 49 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":3019.597238192,"data":"--- 50 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":3079.602166604,"data":"--- 51 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":3139.60061115,"data":"--- 52 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":3199.60191491,"data":"--- 53 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":3259.603707794,"data":"--- 54 min | GPU 0 qwen3_8b: época 1 | lote 800/4029 | perda 1.2130 | ~168.7 min restantes\n"}
+,{"stream_name":"stdout","time":3319.608499071,"data":"--- 55 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3379.606640036,"data":"--- 56 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3439.61085041,"data":"--- 57 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3499.609768198,"data":"--- 58 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3559.614887375,"data":"--- 59 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3619.612821285,"data":"--- 60 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3679.613879006,"data":"--- 61 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3739.615511133,"data":"--- 62 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3799.616503221,"data":"--- 63 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3859.618112299,"data":"--- 64 min | GPU 0 qwen3_8b: época 1 | lote 1000/4029 | perda 1.1933 | ~158.6 min restantes\n"}
+,{"stream_name":"stdout","time":3919.620198572,"data":"--- 65 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":3979.62084579,"data":"--- 66 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4039.622658576,"data":"--- 67 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4099.625962364,"data":"--- 68 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4159.625424425,"data":"--- 69 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4219.630454283,"data":"--- 70 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4279.628002893,"data":"--- 71 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4339.634798042,"data":"--- 72 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4399.635815365,"data":"--- 73 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4459.632242528,"data":"--- 74 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4519.633935042,"data":"--- 75 min | GPU 0 qwen3_8b: época 1 | lote 1200/4029 | perda 1.1781 | ~147.2 min restantes\n"}
+,{"stream_name":"stdout","time":4579.635315242,"data":"--- 76 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":4639.637376225,"data":"--- 77 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":4699.638212919,"data":"--- 78 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":4759.639791949,"data":"--- 79 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":4819.646043453,"data":"--- 80 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":4879.642922332,"data":"--- 81 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":4939.644287202,"data":"--- 82 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":4999.650972454,"data":"--- 83 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":5059.647139847,"data":"--- 84 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":5119.653439507,"data":"--- 85 min | GPU 0 qwen3_8b: época 1 | lote 1400/4029 | perda 1.1669 | ~137.6 min restantes\n"}
+,{"stream_name":"stdout","time":5179.650304198,"data":"--- 86 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5239.655226124,"data":"--- 87 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5299.652628458,"data":"--- 88 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5359.656580188,"data":"--- 89 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5419.660280333,"data":"--- 90 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5479.658396408,"data":"--- 91 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5539.659763615,"data":"--- 92 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5599.661331203,"data":"--- 93 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5659.669166888,"data":"--- 94 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5719.664524911,"data":"--- 95 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5779.670713983,"data":"--- 96 min | GPU 0 qwen3_8b: época 1 | lote 1600/4029 | perda 1.1630 | ~126.8 min restantes\n"}
+,{"stream_name":"stdout","time":5839.667477851,"data":"--- 97 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":5899.668949182,"data":"--- 98 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":5959.670090424,"data":"--- 99 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6019.67163311,"data":"--- 100 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6079.676248707,"data":"--- 101 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6139.679807262,"data":"--- 102 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6199.681384159,"data":"--- 103 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6259.680820169,"data":"--- 104 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6319.67851049,"data":"--- 105 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6379.68694122,"data":"--- 106 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6439.681793007,"data":"--- 107 min | GPU 0 qwen3_8b: época 1 | lote 1800/4029 | perda 1.1552 | ~116.8 min restantes\n"}
+,{"stream_name":"stdout","time":6499.683204257,"data":"--- 108 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6559.688971761,"data":"--- 109 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6619.68972352,"data":"--- 110 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6679.687238526,"data":"--- 111 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6739.695498629,"data":"--- 112 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6799.689726642,"data":"--- 113 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6859.691010024,"data":"--- 114 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6919.692438445,"data":"--- 115 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":6979.694137846,"data":"--- 116 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":7039.701597714,"data":"--- 117 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":7099.696367003,"data":"--- 118 min | GPU 0 qwen3_8b: época 1 | lote 2000/4029 | perda 1.1478 | ~106.5 min restantes\n"}
+,{"stream_name":"stdout","time":7159.698038151,"data":"--- 119 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7219.699166303,"data":"--- 120 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7279.700141185,"data":"--- 121 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7339.702270967,"data":"--- 122 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7399.7036038,"data":"--- 123 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7459.70438557,"data":"--- 124 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7519.709664331,"data":"--- 125 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7579.707363124,"data":"--- 126 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7639.713962334,"data":"--- 127 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7699.71606852,"data":"--- 128 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7759.71206487,"data":"--- 129 min | GPU 0 qwen3_8b: época 1 | lote 2200/4029 | perda 1.1435 | ~96.4 min restantes\n"}
+,{"stream_name":"stdout","time":7819.713536178,"data":"--- 130 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":7879.715010432,"data":"--- 131 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":7939.718920181,"data":"--- 132 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":7999.718639914,"data":"--- 133 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":8059.725752516,"data":"--- 134 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":8119.725498745,"data":"--- 135 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":8179.72331379,"data":"--- 136 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":8239.724666404,"data":"--- 137 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":8299.725749952,"data":"--- 138 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":8359.732447877,"data":"--- 139 min | GPU 0 qwen3_8b: época 1 | lote 2400/4029 | perda 1.1393 | ~86.0 min restantes\n"}
+,{"stream_name":"stdout","time":8419.728608078,"data":"--- 140 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8479.738488982,"data":"--- 141 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8539.731364937,"data":"--- 142 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8599.732971296,"data":"--- 143 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8659.739951244,"data":"--- 144 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8719.739706963,"data":"--- 145 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8779.745435981,"data":"--- 146 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8839.738496572,"data":"--- 147 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8899.739982106,"data":"--- 148 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":8959.741881208,"data":"--- 149 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":9019.74361072,"data":"--- 150 min | GPU 0 qwen3_8b: época 1 | lote 2600/4029 | perda 1.1332 | ~75.4 min restantes\n"}
+,{"stream_name":"stdout","time":9079.749232284,"data":"--- 151 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9139.747097358,"data":"--- 152 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9199.748738849,"data":"--- 153 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9259.750010341,"data":"--- 154 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9319.755559103,"data":"--- 155 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9379.752620903,"data":"--- 156 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9439.754092412,"data":"--- 157 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9499.760917768,"data":"--- 158 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9559.762890182,"data":"--- 159 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9619.764803364,"data":"--- 160 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9679.759432772,"data":"--- 161 min | GPU 0 qwen3_8b: época 1 | lote 2800/4029 | perda 1.1273 | ~65.1 min restantes\n"}
+,{"stream_name":"stdout","time":9739.760779965,"data":"--- 162 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":9799.76267623,"data":"--- 163 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":9859.763806401,"data":"--- 164 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":9919.765632259,"data":"--- 165 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":9979.771972143,"data":"--- 166 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":10039.76953413,"data":"--- 167 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":10099.770691132,"data":"--- 168 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":10159.77224564,"data":"--- 169 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":10219.773316323,"data":"--- 170 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":10279.775017773,"data":"--- 171 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":10339.776712249,"data":"--- 172 min | GPU 0 qwen3_8b: época 1 | lote 3000/4029 | perda 1.1241 | ~54.6 min restantes\n"}
+,{"stream_name":"stdout","time":10399.778383685,"data":"--- 173 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10459.788239852,"data":"--- 174 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10519.789345091,"data":"--- 175 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10579.792426576,"data":"--- 176 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10639.785080895,"data":"--- 177 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10699.78596567,"data":"--- 178 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10759.787520973,"data":"--- 179 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10819.798023791,"data":"--- 180 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10879.799206178,"data":"--- 181 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10939.798616017,"data":"--- 182 min | GPU 0 qwen3_8b: época 1 | lote 3200/4029 | perda 1.1201 | ~43.9 min restantes\n"}
+,{"stream_name":"stdout","time":10999.792768611,"data":"--- 183 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11059.794153053,"data":"--- 184 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11119.795035465,"data":"--- 185 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11179.796400713,"data":"--- 186 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11239.798308462,"data":"--- 187 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11299.799049682,"data":"--- 188 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11359.800460338,"data":"--- 189 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11419.802350081,"data":"--- 190 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11479.803685895,"data":"--- 191 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11539.805244928,"data":"--- 192 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11599.81055242,"data":"--- 193 min | GPU 0 qwen3_8b: época 1 | lote 3400/4029 | perda 1.1164 | ~33.4 min restantes\n"}
+,{"stream_name":"stdout","time":11659.807709652,"data":"--- 194 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":11719.815250333,"data":"--- 195 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":11779.810475378,"data":"--- 196 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":11839.812212707,"data":"--- 197 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":11899.813103829,"data":"--- 198 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":11959.814805747,"data":"--- 199 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":12019.82477882,"data":"--- 200 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":12079.818036909,"data":"--- 201 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":12139.819288513,"data":"--- 202 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":12199.820432823,"data":"--- 203 min | GPU 0 qwen3_8b: época 1 | lote 3600/4029 | perda 1.1125 | ~22.7 min restantes\n"}
+,{"stream_name":"stdout","time":12259.821586052,"data":"--- 204 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12319.82359567,"data":"--- 205 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12379.825231728,"data":"--- 206 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12439.833490222,"data":"--- 207 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12499.827740163,"data":"--- 208 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12559.829654126,"data":"--- 209 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12619.831620106,"data":"--- 210 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12679.836204876,"data":"--- 211 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12739.833658254,"data":"--- 212 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12799.835424842,"data":"--- 213 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12859.836846481,"data":"--- 214 min | GPU 0 qwen3_8b: época 1 | lote 3800/4029 | perda 1.1092 | ~12.1 min restantes\n"}
+,{"stream_name":"stdout","time":12919.845382419,"data":"--- 215 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":12979.839658688,"data":"--- 216 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13039.84628507,"data":"--- 217 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13099.843093284,"data":"--- 218 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13159.844685175,"data":"--- 219 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13219.846311118,"data":"--- 220 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13279.847880493,"data":"--- 221 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13339.849746919,"data":"--- 222 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13399.85063439,"data":"--- 223 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13459.85251125,"data":"--- 224 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13519.853683831,"data":"--- 225 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13579.854980649,"data":"--- 226 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13639.856666846,"data":"--- 227 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13699.858291389,"data":"--- 228 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13759.859581655,"data":"--- 229 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13819.861001401,"data":"--- 230 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13879.861791474,"data":"--- 231 min | GPU 0 qwen3_8b: época 1 | lote 4000/4029 | perda 1.1057 | ~1.5 min restantes\n"}
+,{"stream_name":"stdout","time":13939.863233976,"data":"--- 232 min | GPU 0 qwen3_8b: semente=42 | epoca=1 | perda_treino=1.1049 | lotes_nao_finitos=0 | minutos=213.8770 | acuracia=0.4467 | distribuicao_prevista=[1396, 715, 1865]\n"}
+,{"stream_name":"stdout","time":13999.864646323,"data":"--- 233 min | GPU 0 qwen3_8b: semente=42 | epoca=1 | perda_treino=1.1049 | lotes_nao_finitos=0 | minutos=213.8770 | acuracia=0.4467 | distribuicao_prevista=[1396, 715, 1865]\n"}
+,{"stream_name":"stdout","time":14059.866764451,"data":"--- 234 min | GPU 0 qwen3_8b: semente=42 | epoca=1 | perda_treino=1.1049 | lotes_nao_finitos=0 | minutos=213.8770 | acuracia=0.4467 | distribuicao_prevista=[1396, 715, 1865]\n"}
+,{"stream_name":"stdout","time":14119.873415541,"data":"[GPU 0] terminou: qwen3_8b -\u003e ok\n"}
+,{"stream_name":"stdout","time":14119.874549948,"data":"--- 235 min | \n"}
+,{"stream_name":"stdout","time":14119.881728459,"data":"\n"}
+,{"stream_name":"stdout","time":14119.881747429,"data":"===== Resumo =====\n"}
+,{"stream_name":"stdout","time":14119.881753278,"data":"qwen3_8b -\u003e ok\n"}
+,{"stream_name":"stdout","time":14119.881758296,"data":" semente  epoca  perda_treino  lotes_nao_finitos    minutos  acuracia distribuicao_prevista  semente_usada divisao\n"}
+,{"stream_name":"stdout","time":14119.881765128,"data":"      42      1      1.104861                  0 213.876995   0.44668     [1396, 715, 1865]             42 holdout\n"}
+,{"stream_name":"stderr","time":14123.157804953,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":14123.157838899,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":14123.330921314,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":14123.330955937,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14124.100736585,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":14124.203056947,"data":"[NbConvertApp] Writing 63965 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":14126.791136141,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":14127.443592632,"data":"[NbConvertApp] Writing 447426 bytes to __results__.html\n"}
+]

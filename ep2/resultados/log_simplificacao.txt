@@ -1,0 +1,48 @@
+Ensemble do EP1 nesta divisão: 0.4711
+
+ k  melhor_acc_aparente  ganho_honesto_sobre_EP1  dp_ganho_honesto  custo_kaggle_min  so_EP1_acerta  so_novo_acerta
+ 1               0.4728                  -0.0062            0.0103                30            354             361
+ 2               0.4766                  -0.0053            0.0073                65            303             325
+ 3               0.4786                  -0.0020            0.0059                35            216             246
+ 4               0.4831                   0.0024            0.0065               240            259             307
+ 5               0.4854                   0.0060            0.0060                95            195             252
+ 6               0.4874                   0.0100            0.0064               160            215             280
+ 7               0.4854                   0.0088            0.0062               180            206             263
+ 8               0.4857                   0.0104            0.0066               160            160             218
+ 9               0.4849                   0.0110            0.0059               320            168             223
+10               0.4826                   0.0115            0.0061               355            175             221
+
+Melhor subconjunto de cada tamanho:
+  k= 1: bertimbau_large_suave
+  k= 2: bertimbau_large + xlmr_large_suave
+  k= 3: xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento
+  k= 4: bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento
+  k= 5: bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento
+  k= 6: bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento
+  k= 7: bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento
+  k= 8: bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento
+  k= 9: bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento
+  k=10: bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento
+
+Frequência de cada componente nos melhores subconjuntos escolhidos nas 50 metades (k = 3 a 6):
+bertimbau_large_s43          0.70
+nbsvm_C0.25_w12_semacento    0.64
+xlmr_large_suave             0.64
+bertimbau_large_suave        0.56
+bertimbau                    0.48
+xlmr_large                   0.48
+bertimbau_large              0.36
+qwen3_1.7b                   0.30
+logreg_C0.25_w12c25          0.20
+mmbert_base                  0.15
+
+-> resultados/simplificacao_ensemble.csv, resultados/simplificacao_todos_subconjuntos.csv
+
+=== Simplificações estruturadas (EP1 = 0.4711) ===
+A: BERTimbau-L + XLM-R + NB-SVM (3)                     acc 0.4728 (+0.0018) | McNemar p=0.800
+B: BERTimbau-L + XLM-R + NB-SVM + LogReg (4)            acc 0.4786 (+0.0075) | McNemar p=0.199
+C: 2×BERTimbau-L + XLM-R + NB-SVM (4)                   acc 0.4801 (+0.0091) | McNemar p=0.130
+D: 2×BERTimbau-L + 2×XLM-R + NB-SVM (5)                 acc 0.4842 (+0.0131) | McNemar p=0.021
+E: 3×BERTimbau-L + 2×XLM-R + NB-SVM (6)                 acc 0.4874 (+0.0163) | McNemar p=0.004
+F: E + LogReg + BERTimbau base (8, sem Qwen/mmBERT)     acc 0.4857 (+0.0146) | McNemar p=0.003
+G: todos os 10                                          acc 0.4826 (+0.0116) | McNemar p=0.024

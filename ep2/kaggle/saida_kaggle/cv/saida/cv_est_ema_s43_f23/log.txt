@@ -1,0 +1,90 @@
+Experimento cv_est_ema_s43_f23: neuralmind/bert-large-portuguese-cased (encoder) | modos ['cv'] | saída /kaggle/working/saida/cv_est_ema_s43_f23
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Tokens por texto: mediana 182, p90 512, 10.9% truncados
+
+========== CV fold 2 | semente 43 ==========
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 11971.04it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2004 | perda 1.1048 | ~11.0 min restantes
+  época 1 | lote 400/2004 | perda 1.0985 | ~10.0 min restantes
+  época 1 | lote 600/2004 | perda 1.0909 | ~8.8 min restantes
+  época 1 | lote 800/2004 | perda 1.0840 | ~7.5 min restantes
+  época 1 | lote 1000/2004 | perda 1.0779 | ~6.3 min restantes
+  época 1 | lote 1200/2004 | perda 1.0732 | ~5.0 min restantes
+  época 1 | lote 1400/2004 | perda 1.0709 | ~3.7 min restantes
+  época 1 | lote 1600/2004 | perda 1.0684 | ~2.5 min restantes
+  época 1 | lote 1800/2004 | perda 1.0665 | ~1.3 min restantes
+  época 1 | lote 2000/2004 | perda 1.0644 | ~0.0 min restantes
+  semente=43 | epoca=1 | perda_treino=1.0646 | lotes_nao_finitos=0 | minutos=12.4339 | acuracia=0.4481 | distribuicao_prevista=[1372, 1020, 1670]
+  época 2 | lote 200/2004 | perda 0.9945 | ~11.0 min restantes
+  época 2 | lote 400/2004 | perda 0.9971 | ~9.8 min restantes
+  época 2 | lote 600/2004 | perda 0.9935 | ~8.6 min restantes
+  época 2 | lote 800/2004 | perda 0.9880 | ~7.4 min restantes
+  época 2 | lote 1000/2004 | perda 0.9878 | ~6.2 min restantes
+  época 2 | lote 1200/2004 | perda 0.9844 | ~5.0 min restantes
+  época 2 | lote 1400/2004 | perda 0.9833 | ~3.8 min restantes
+  época 2 | lote 1600/2004 | perda 0.9841 | ~2.5 min restantes
+  época 2 | lote 1800/2004 | perda 0.9842 | ~1.3 min restantes
+  época 2 | lote 2000/2004 | perda 0.9826 | ~0.0 min restantes
+  semente=43 | epoca=2 | perda_treino=0.9823 | lotes_nao_finitos=0 | minutos=12.4715 | acuracia=0.4567 | distribuicao_prevista=[1295, 1249, 1518]
+
+========== CV fold 3 | semente 43 ==========
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 12085.55it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2029 | perda 1.1059 | ~11.5 min restantes
+  época 1 | lote 400/2029 | perda 1.1018 | ~9.9 min restantes
+  época 1 | lote 600/2029 | perda 1.0974 | ~8.9 min restantes
+  época 1 | lote 800/2029 | perda 1.0902 | ~7.7 min restantes
+  época 1 | lote 1000/2029 | perda 1.0859 | ~6.4 min restantes
+  época 1 | lote 1200/2029 | perda 1.0812 | ~5.2 min restantes
+  época 1 | lote 1400/2029 | perda 1.0776 | ~3.9 min restantes
+  época 1 | lote 1600/2029 | perda 1.0742 | ~2.7 min restantes
+  época 1 | lote 1800/2029 | perda 1.0716 | ~1.4 min restantes
+  época 1 | lote 2000/2029 | perda 1.0687 | ~0.2 min restantes
+  semente=43 | epoca=1 | perda_treino=1.0678 | lotes_nao_finitos=0 | minutos=12.6183 | acuracia=0.4617 | distribuicao_prevista=[1105, 1172, 1587]
+  época 2 | lote 200/2029 | perda 1.0039 | ~10.9 min restantes
+  época 2 | lote 400/2029 | perda 0.9978 | ~10.0 min restantes
+  época 2 | lote 600/2029 | perda 0.9977 | ~8.9 min restantes
+  época 2 | lote 800/2029 | perda 0.9995 | ~7.7 min restantes
+  época 2 | lote 1000/2029 | perda 0.9957 | ~6.5 min restantes
+  época 2 | lote 1200/2029 | perda 0.9934 | ~5.2 min restantes
+  época 2 | lote 1400/2029 | perda 0.9911 | ~3.9 min restantes
+  época 2 | lote 1600/2029 | perda 0.9892 | ~2.7 min restantes
+  época 2 | lote 1800/2029 | perda 0.9897 | ~1.4 min restantes
+  época 2 | lote 2000/2029 | perda 0.9900 | ~0.2 min restantes
+  semente=43 | epoca=2 | perda_treino=0.9895 | lotes_nao_finitos=0 | minutos=12.6012 | acuracia=0.4643 | distribuicao_prevista=[1114, 1291, 1459]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'cv_fold2_semente43_epoca1.csv', 'cv_fold2_semente43_epoca2.csv', 'cv_fold3_semente43_epoca1.csv', 'cv_fold3_semente43_epoca2.csv', 'historico.csv', 'log.txt']

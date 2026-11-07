@@ -1,0 +1,25 @@
+Gabarito: test1-rotulado-para-teste-estatistico.xlsx (900 instâncias) {'c1': 300, 'c234': 300, 'c5': 300}
+Baseline classe majoritária: acurácia 0.3333
+
+=== EP1 (test1-rotulado-ep1.xlsx) ===
+Acurácia: 0.4967
+F1-macro: 0.4937
+Kappa:    0.2450
+
+Distribuição prevista: {'c1': 270, 'c234': 276, 'c5': 354}
+
+              precision    recall  f1-score   support
+
+          c1     0.5222    0.4700    0.4947       300
+        c234     0.4420    0.4067    0.4236       300
+          c5     0.5198    0.6133    0.5627       300
+
+    accuracy                         0.4967       900
+   macro avg     0.4947    0.4967    0.4937       900
+weighted avg     0.4947    0.4967    0.4937       900
+
+Matriz de confusão:
+           prev c1  prev c234  prev c5
+real c1        141         89       70
+real c234       78        122      100
+real c5         51         65      184

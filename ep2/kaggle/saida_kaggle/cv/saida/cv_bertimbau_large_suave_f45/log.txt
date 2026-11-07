@@ -1,0 +1,92 @@
+Experimento cv_bertimbau_large_suave_f45: neuralmind/bert-large-portuguese-cased (encoder) | modos ['cv'] | saída /kaggle/working/saida/cv_bertimbau_large_suave_f45
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Tokens por texto: mediana 182, p90 512, 10.9% truncados
+
+========== CV fold 4 | semente 42 ==========
+  rótulos suaves: 1403 linhas com rótulos divergentes
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 10258.10it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/kaggle/working/ep2_treino.py:305: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/1992 | perda 1.1219 | ~9.7 min restantes
+  época 1 | lote 400/1992 | perda 1.1093 | ~8.9 min restantes
+  época 1 | lote 600/1992 | perda 1.1041 | ~7.8 min restantes
+  época 1 | lote 800/1992 | perda 1.0938 | ~6.5 min restantes
+  época 1 | lote 1000/1992 | perda 1.0855 | ~5.4 min restantes
+  época 1 | lote 1200/1992 | perda 1.0798 | ~4.3 min restantes
+  época 1 | lote 1400/1992 | perda 1.0763 | ~3.3 min restantes
+  época 1 | lote 1600/1992 | perda 1.0736 | ~2.1 min restantes
+  época 1 | lote 1800/1992 | perda 1.0716 | ~1.1 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0695 | lotes_nao_finitos=0 | minutos=11.0116 | acuracia=0.4478 | distribuicao_prevista=[1395, 1745, 1018]
+  época 2 | lote 200/1992 | perda 1.0003 | ~9.3 min restantes
+  época 2 | lote 400/1992 | perda 0.9877 | ~8.7 min restantes
+  época 2 | lote 600/1992 | perda 0.9869 | ~7.6 min restantes
+  época 2 | lote 800/1992 | perda 0.9876 | ~6.5 min restantes
+  época 2 | lote 1000/1992 | perda 0.9890 | ~5.5 min restantes
+  época 2 | lote 1200/1992 | perda 0.9911 | ~4.4 min restantes
+  época 2 | lote 1400/1992 | perda 0.9913 | ~3.3 min restantes
+  época 2 | lote 1600/1992 | perda 0.9894 | ~2.2 min restantes
+  época 2 | lote 1800/1992 | perda 0.9884 | ~1.1 min restantes
+  semente=42 | epoca=2 | perda_treino=0.9874 | lotes_nao_finitos=0 | minutos=11.1050 | acuracia=0.4584 | distribuicao_prevista=[1350, 1253, 1555]
+
+========== CV fold 5 | semente 42 ==========
+  rótulos suaves: 1532 linhas com rótulos divergentes
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 11107.92it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2008 | perda 1.1147 | ~10.7 min restantes
+  época 1 | lote 400/2008 | perda 1.1076 | ~9.0 min restantes
+  época 1 | lote 600/2008 | perda 1.1007 | ~7.9 min restantes
+  época 1 | lote 800/2008 | perda 1.0932 | ~6.7 min restantes
+  época 1 | lote 1000/2008 | perda 1.0890 | ~5.6 min restantes
+  época 1 | lote 1200/2008 | perda 1.0843 | ~4.4 min restantes
+  época 1 | lote 1400/2008 | perda 1.0793 | ~3.4 min restantes
+  época 1 | lote 1600/2008 | perda 1.0741 | ~2.3 min restantes
+  época 1 | lote 1800/2008 | perda 1.0715 | ~1.2 min restantes
+  época 1 | lote 2000/2008 | perda 1.0699 | ~0.0 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0701 | lotes_nao_finitos=0 | minutos=11.1387 | acuracia=0.4501 | distribuicao_prevista=[1840, 1241, 951]
+  época 2 | lote 200/2008 | perda 1.0092 | ~10.1 min restantes
+  época 2 | lote 400/2008 | perda 0.9936 | ~8.9 min restantes
+  época 2 | lote 600/2008 | perda 0.9887 | ~7.7 min restantes
+  época 2 | lote 800/2008 | perda 0.9896 | ~6.5 min restantes
+  época 2 | lote 1000/2008 | perda 0.9865 | ~5.5 min restantes
+  época 2 | lote 1200/2008 | perda 0.9855 | ~4.4 min restantes
+  época 2 | lote 1400/2008 | perda 0.9850 | ~3.3 min restantes
+  época 2 | lote 1600/2008 | perda 0.9848 | ~2.3 min restantes
+  época 2 | lote 1800/2008 | perda 0.9831 | ~1.2 min restantes
+  época 2 | lote 2000/2008 | perda 0.9842 | ~0.0 min restantes
+  semente=42 | epoca=2 | perda_treino=0.9840 | lotes_nao_finitos=0 | minutos=11.1648 | acuracia=0.4655 | distribuicao_prevista=[1230, 1372, 1430]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'cv_fold4_semente42_epoca1.csv', 'cv_fold4_semente42_epoca2.csv', 'cv_fold5_semente42_epoca1.csv', 'cv_fold5_semente42_epoca2.csv', 'historico.csv', 'log.txt']

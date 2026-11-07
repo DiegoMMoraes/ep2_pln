@@ -1,0 +1,120 @@
+[{"stream_name":"stderr","time":5.973916544,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.9739593840000005,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.816275732,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.816302596,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.816306055,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.816308677,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.405309391,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.405336428,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.40534138,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.405345578,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.472017608,"data":"dependências ok \n"}
+,{"stream_name":"stdout","time":8.489740371,"data":"Writing ep2_treino.py\n"}
+,{"stream_name":"stdout","time":15.86260536,"data":"   train.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/train.xlsx\n"}
+,{"stream_name":"stdout","time":15.862636892,"data":"   test1.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test1.xlsx\n"}
+,{"stream_name":"stdout","time":15.862642475,"data":"   test2.xlsx -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/test2.xlsx\n"}
+,{"stream_name":"stdout","time":15.862646562,"data":"   divisao_80_20.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle/divisao_80_20.csv\n"}
+,{"stream_name":"stdout","time":15.862650655,"data":"   folds_5.csv -\u003e /kaggle/input/datasets/diegommoraes/ep2-pln/folds_5.csv\n"}
+,{"stream_name":"stdout","time":15.867796761,"data":"2 GPU(s): ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":15.867817171,"data":"[GPU 0] iniciado: xlmr_large (FacebookAI/xlm-roberta-large)\n"}
+,{"stream_name":"stdout","time":15.869064381,"data":"[GPU 1] iniciado: qwen3_1.7b (Qwen/Qwen3-1.7B)\n"}
+,{"stream_name":"stdout","time":75.872285119,"data":"--- 1 min | GPU 0 xlmr_large: ========== HOLDOUT 80/20 | semente 42 ========== || GPU 1 qwen3_1.7b: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":135.876333826,"data":"[GPU 1] terminou: qwen3_1.7b -\u003e ERRO (código 1); veja qwen3_1.7b/log.txt\n"}
+,{"stream_name":"stdout","time":135.87636658,"data":"    |   File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 177, in __init__\n"}
+,{"stream_name":"stdout","time":135.876373377,"data":"    |     self.base_model = cls(model, {adapter_name: peft_config}, adapter_name)\n"}
+,{"stream_name":"stdout","time":135.876378703,"data":"    |                       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":135.876383633,"data":"    |   File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 344, in __init__\n"}
+,{"stream_name":"stdout","time":135.876401765,"data":"    |     self.inject_adapter(self.model, adapter_name, low_cpu_mem_usage=low_cpu_mem_usage, state_dict=state_dict)\n"}
+,{"stream_name":"stdout","time":135.876406319,"data":"    |     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":135.876410346,"data":"    |   File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 978, in inject_adapter\n"}
+,{"stream_name":"stdout","time":135.876414789,"data":"    |     self._create_and_replace(\n"}
+,{"stream_name":"stdout","time":135.876418957,"data":"    |     ~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stdout","time":135.876423506,"data":"    |         peft_config, adapter_name, target, target_name, parent, current_key=key\n"}
+,{"stream_name":"stdout","time":135.876428314,"data":"    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":135.876432054,"data":"    |     )\n"}
+,{"stream_name":"stdout","time":135.876436085,"data":"    |     ^\n"}
+,{"stream_name":"stdout","time":135.876440823,"data":"    |   File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 389, in _create_and_replace\n"}
+,{"stream_name":"stdout","time":135.876454535,"data":"    |     new_module = self._create_new_module(lora_config, adapter_name, target, device_map=device_map, **kwargs)\n"}
+,{"stream_name":"stdout","time":135.876459241,"data":"    |   File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 552, in _create_new_module\n"}
+,{"stream_name":"stdout","time":135.876463599,"data":"    |     new_module = dispatcher(target, adapter_name, config=lora_config, **kwargs)\n"}
+,{"stream_name":"stdout","time":135.876467841,"data":"    |   File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/torchao.py\", line 160, in dispatch_torchao\n"}
+,{"stream_name":"stdout","time":135.876471986,"data":"    |     if not is_torchao_available():\n"}
+,{"stream_name":"stdout","time":135.876475793,"data":"    |            ~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stdout","time":135.876479397,"data":"    |   File \"/usr/local/lib/python3.13/dist-packages/peft/import_utils.py\", line 162, in is_torchao_available\n"}
+,{"stream_name":"stdout","time":135.876483595,"data":"    |     raise ImportError(\n"}
+,{"stream_name":"stdout","time":135.876487527,"data":"    |     ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stdout","time":135.876491671,"data":"    |     )\n"}
+,{"stream_name":"stdout","time":135.876495421,"data":"    | ImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported\n"}
+,{"stream_name":"stdout","time":135.876499589,"data":"\n"}
+,{"stream_name":"stdout","time":135.876504822,"data":"--- 2 min | GPU 0 xlmr_large: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":135.877502011,"data":"[GPU 1] iniciado: mmbert_base (jhu-clsp/mmBERT-base)\n"}
+,{"stream_name":"stdout","time":195.879621369,"data":"--- 3 min | GPU 0 xlmr_large: época 1 | lote 200/2015 | perda 1.1140 | ~11.8 min restantes || GPU 1 mmbert_base: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":255.880590156,"data":"--- 4 min | GPU 0 xlmr_large: época 1 | lote 400/2015 | perda 1.1088 | ~10.7 min restantes || GPU 1 mmbert_base: época 1 | lote 200/2015 | perda 1.4991 | ~6.8 min restantes\n"}
+,{"stream_name":"stdout","time":315.882375214,"data":"--- 5 min | GPU 0 xlmr_large: época 1 | lote 400/2015 | perda 1.1088 | ~10.7 min restantes || GPU 1 mmbert_base: época 1 | lote 600/2015 | perda 1.2615 | ~5.5 min restantes\n"}
+,{"stream_name":"stdout","time":375.883894195,"data":"--- 6 min | GPU 0 xlmr_large: época 1 | lote 600/2015 | perda 1.1066 | ~9.5 min restantes || GPU 1 mmbert_base: época 1 | lote 800/2015 | perda 1.2265 | ~4.6 min restantes\n"}
+,{"stream_name":"stdout","time":435.885089643,"data":"--- 7 min | GPU 0 xlmr_large: época 1 | lote 800/2015 | perda 1.1037 | ~8.0 min restantes || GPU 1 mmbert_base: época 1 | lote 1000/2015 | perda 1.2015 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":495.885931751,"data":"--- 8 min | GPU 0 xlmr_large: época 1 | lote 1000/2015 | perda 1.1002 | ~6.7 min restantes || GPU 1 mmbert_base: época 1 | lote 1200/2015 | perda 1.1811 | ~3.1 min restantes\n"}
+,{"stream_name":"stdout","time":555.887703379,"data":"--- 9 min | GPU 0 xlmr_large: época 1 | lote 1000/2015 | perda 1.1002 | ~6.7 min restantes || GPU 1 mmbert_base: época 1 | lote 1600/2015 | perda 1.1531 | ~1.6 min restantes\n"}
+,{"stream_name":"stdout","time":615.888948638,"data":"--- 10 min | GPU 0 xlmr_large: época 1 | lote 1200/2015 | perda 1.0971 | ~5.4 min restantes || GPU 1 mmbert_base: época 1 | lote 1800/2015 | perda 1.1441 | ~0.8 min restantes\n"}
+,{"stream_name":"stdout","time":675.891904979,"data":"--- 11 min | GPU 0 xlmr_large: época 1 | lote 1400/2015 | perda 1.0943 | ~4.1 min restantes || GPU 1 mmbert_base: semente=42 | epoca=1 | perda_treino=1.1363 | lotes_nao_finitos=0 | minutos=7.8036 | acuracia=0.4457 | distribuicao_prevista=[680, 2058, 1238]\n"}
+,{"stream_name":"stdout","time":735.892103637,"data":"--- 12 min | GPU 0 xlmr_large: época 1 | lote 1400/2015 | perda 1.0943 | ~4.1 min restantes || GPU 1 mmbert_base: época 2 | lote 200/2015 | perda 1.0344 | ~7.0 min restantes\n"}
+,{"stream_name":"stdout","time":795.895248845,"data":"--- 13 min | GPU 0 xlmr_large: época 1 | lote 1600/2015 | perda 1.0898 | ~2.8 min restantes || GPU 1 mmbert_base: época 2 | lote 400/2015 | perda 1.0193 | ~6.2 min restantes\n"}
+,{"stream_name":"stdout","time":855.894960338,"data":"--- 14 min | GPU 0 xlmr_large: época 1 | lote 1800/2015 | perda 1.0882 | ~1.4 min restantes || GPU 1 mmbert_base: época 2 | lote 800/2015 | perda 1.0180 | ~4.7 min restantes\n"}
+,{"stream_name":"stdout","time":915.897268006,"data":"--- 15 min | GPU 0 xlmr_large: época 1 | lote 2000/2015 | perda 1.0863 | ~0.1 min restantes || GPU 1 mmbert_base: época 2 | lote 1000/2015 | perda 1.0155 | ~3.9 min restantes\n"}
+,{"stream_name":"stdout","time":975.897780949,"data":"--- 16 min | GPU 0 xlmr_large: semente=42 | epoca=1 | perda_treino=1.0860 | lotes_nao_finitos=0 | minutos=13.4949 | acuracia=0.4256 | distribuicao_prevista=[2087, 510, 1379] || GPU 1 mmbert_base: época 2 | lote 1200/2015 | perda 1.0132 | ~3.2 min restantes\n"}
+,{"stream_name":"stdout","time":1035.899239284,"data":"--- 17 min | GPU 0 xlmr_large: época 2 | lote 200/2015 | perda 1.0302 | ~12.1 min restantes || GPU 1 mmbert_base: época 2 | lote 1400/2015 | perda 1.0088 | ~2.4 min restantes\n"}
+,{"stream_name":"stdout","time":1095.900457809,"data":"--- 18 min | GPU 0 xlmr_large: época 2 | lote 200/2015 | perda 1.0302 | ~12.1 min restantes || GPU 1 mmbert_base: época 2 | lote 1800/2015 | perda 1.0011 | ~0.8 min restantes\n"}
+,{"stream_name":"stdout","time":1155.901942713,"data":"--- 19 min | GPU 0 xlmr_large: época 2 | lote 400/2015 | perda 1.0368 | ~10.7 min restantes || GPU 1 mmbert_base: época 2 | lote 2000/2015 | perda 0.9970 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":1215.903415445,"data":"[GPU 1] terminou: mmbert_base -\u003e ok\n"}
+,{"stream_name":"stdout","time":1215.903843302,"data":"--- 20 min | GPU 0 xlmr_large: época 2 | lote 600/2015 | perda 1.0376 | ~9.4 min restantes\n"}
+,{"stream_name":"stdout","time":1215.904779242,"data":"[GPU 1] iniciado: bertimbau_large_suave (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":1275.907617375,"data":"--- 21 min | GPU 0 xlmr_large: época 2 | lote 800/2015 | perda 1.0373 | ~8.1 min restantes || GPU 1 bertimbau_large_suave: ========== HOLDOUT 80/20 | semente 42 ==========\n"}
+,{"stream_name":"stdout","time":1335.909168209,"data":"--- 22 min | GPU 0 xlmr_large: época 2 | lote 800/2015 | perda 1.0373 | ~8.1 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 200/2015 | perda 1.1183 | ~9.9 min restantes\n"}
+,{"stream_name":"stdout","time":1395.910525535,"data":"--- 23 min | GPU 0 xlmr_large: época 2 | lote 1000/2015 | perda 1.0406 | ~6.8 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 400/2015 | perda 1.1072 | ~8.7 min restantes\n"}
+,{"stream_name":"stdout","time":1455.911519622,"data":"--- 24 min | GPU 0 xlmr_large: época 2 | lote 1200/2015 | perda 1.0411 | ~5.5 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 600/2015 | perda 1.1049 | ~7.8 min restantes\n"}
+,{"stream_name":"stdout","time":1515.914115847,"data":"--- 25 min | GPU 0 xlmr_large: época 2 | lote 1400/2015 | perda 1.0383 | ~4.1 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 800/2015 | perda 1.0966 | ~6.5 min restantes\n"}
+,{"stream_name":"stdout","time":1575.914699476,"data":"--- 26 min | GPU 0 xlmr_large: época 2 | lote 1400/2015 | perda 1.0383 | ~4.1 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 800/2015 | perda 1.0966 | ~6.5 min restantes\n"}
+,{"stream_name":"stdout","time":1635.917222018,"data":"--- 27 min | GPU 0 xlmr_large: época 2 | lote 1600/2015 | perda 1.0363 | ~2.8 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 1000/2015 | perda 1.0924 | ~5.5 min restantes\n"}
+,{"stream_name":"stdout","time":1695.917354934,"data":"--- 28 min | GPU 0 xlmr_large: época 2 | lote 1800/2015 | perda 1.0329 | ~1.4 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 1200/2015 | perda 1.0852 | ~4.4 min restantes\n"}
+,{"stream_name":"stdout","time":1755.919514473,"data":"--- 29 min | GPU 0 xlmr_large: época 2 | lote 2000/2015 | perda 1.0315 | ~0.1 min restantes || GPU 1 bertimbau_large_suave: época 1 | lote 1400/2015 | perda 1.0815 | ~3.3 min restantes\n"}
+,{"stream_name":"stdout","time":1815.920050541,"data":"[GPU 0] terminou: xlmr_large -\u003e ok\n"}
+,{"stream_name":"stdout","time":1815.920998367,"data":"--- 30 min | GPU 1 bertimbau_large_suave: época 1 | lote 1600/2015 | perda 1.0763 | ~2.3 min restantes\n"}
+,{"stream_name":"stdout","time":1875.921404694,"data":"--- 31 min | GPU 1 bertimbau_large_suave: época 1 | lote 1800/2015 | perda 1.0727 | ~1.2 min restantes\n"}
+,{"stream_name":"stdout","time":1935.923690624,"data":"--- 32 min | GPU 1 bertimbau_large_suave: época 1 | lote 2000/2015 | perda 1.0707 | ~0.1 min restantes\n"}
+,{"stream_name":"stdout","time":1995.923888482,"data":"--- 33 min | GPU 1 bertimbau_large_suave: semente=42 | epoca=1 | perda_treino=1.0706 | lotes_nao_finitos=0 | minutos=10.9831 | acuracia=0.4522 | distribuicao_prevista=[1539, 1372, 1065]\n"}
+,{"stream_name":"stdout","time":2055.92562633,"data":"--- 34 min | GPU 1 bertimbau_large_suave: época 2 | lote 200/2015 | perda 0.9854 | ~9.8 min restantes\n"}
+,{"stream_name":"stdout","time":2115.927002169,"data":"--- 35 min | GPU 1 bertimbau_large_suave: época 2 | lote 400/2015 | perda 0.9936 | ~8.7 min restantes\n"}
+,{"stream_name":"stdout","time":2175.927037728,"data":"--- 36 min | GPU 1 bertimbau_large_suave: época 2 | lote 600/2015 | perda 0.9923 | ~7.7 min restantes\n"}
+,{"stream_name":"stdout","time":2235.929973756,"data":"--- 37 min | GPU 1 bertimbau_large_suave: época 2 | lote 800/2015 | perda 0.9912 | ~6.6 min restantes\n"}
+,{"stream_name":"stdout","time":2295.930300586,"data":"--- 38 min | GPU 1 bertimbau_large_suave: época 2 | lote 1000/2015 | perda 0.9870 | ~5.5 min restantes\n"}
+,{"stream_name":"stdout","time":2355.932920047,"data":"--- 39 min | GPU 1 bertimbau_large_suave: época 2 | lote 1200/2015 | perda 0.9885 | ~4.5 min restantes\n"}
+,{"stream_name":"stdout","time":2415.93401795,"data":"--- 40 min | GPU 1 bertimbau_large_suave: época 2 | lote 1400/2015 | perda 0.9872 | ~3.3 min restantes\n"}
+,{"stream_name":"stdout","time":2475.93580457,"data":"--- 41 min | GPU 1 bertimbau_large_suave: época 2 | lote 1400/2015 | perda 0.9872 | ~3.3 min restantes\n"}
+,{"stream_name":"stdout","time":2535.935172992,"data":"--- 42 min | GPU 1 bertimbau_large_suave: época 2 | lote 1600/2015 | perda 0.9892 | ~2.3 min restantes\n"}
+,{"stream_name":"stdout","time":2595.939327409,"data":"--- 43 min | GPU 1 bertimbau_large_suave: época 2 | lote 1800/2015 | perda 0.9859 | ~1.2 min restantes\n"}
+,{"stream_name":"stdout","time":2655.938668364,"data":"[GPU 1] terminou: bertimbau_large_suave -\u003e ok\n"}
+,{"stream_name":"stdout","time":2655.939544308,"data":"--- 44 min | \n"}
+,{"stream_name":"stdout","time":2655.958543244,"data":"\n"}
+,{"stream_name":"stdout","time":2655.958561829,"data":"===== Resumo =====\n"}
+,{"stream_name":"stdout","time":2655.958568007,"data":"qwen3_1.7b -\u003e ERRO (código 1); veja qwen3_1.7b/log.txt\n"}
+,{"stream_name":"stdout","time":2655.958574896,"data":"mmbert_base -\u003e ok\n"}
+,{"stream_name":"stdout","time":2655.958580447,"data":" semente  epoca  perda_treino  lotes_nao_finitos  minutos  acuracia distribuicao_prevista divisao\n"}
+,{"stream_name":"stdout","time":2655.958585734,"data":"      42      1      1.136251                  0 7.803567  0.445674     [680, 2058, 1238] holdout\n"}
+,{"stream_name":"stdout","time":2655.958591152,"data":"      42      2      0.997417                  0 7.864927  0.462022     [1465, 978, 1533] holdout\n"}
+,{"stream_name":"stdout","time":2655.958596041,"data":"xlmr_large -\u003e ok\n"}
+,{"stream_name":"stdout","time":2655.95860067,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista divisao\n"}
+,{"stream_name":"stdout","time":2655.958605423,"data":"      42      1      1.085998                  0 13.494903  0.425553     [2087, 510, 1379] holdout\n"}
+,{"stream_name":"stdout","time":2655.958610149,"data":"      42      2      1.031597                  0 13.492057  0.462777     [1358, 932, 1686] holdout\n"}
+,{"stream_name":"stdout","time":2655.958614805,"data":"bertimbau_large_suave -\u003e ok\n"}
+,{"stream_name":"stdout","time":2655.958619465,"data":" semente  epoca  perda_treino  lotes_nao_finitos   minutos  acuracia distribuicao_prevista divisao\n"}
+,{"stream_name":"stdout","time":2655.958624289,"data":"      42      1      1.070620                  0 10.983077  0.452213    [1539, 1372, 1065] holdout\n"}
+,{"stream_name":"stdout","time":2655.958629645,"data":"      42      2      0.984623                  0 10.992082  0.472837    [1240, 1224, 1512] holdout\n"}
+,{"stream_name":"stderr","time":2659.144319498,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2659.14434349,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2659.305610669,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2659.305636522,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2660.057335034,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2660.1393325,"data":"[NbConvertApp] Writing 45291 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2662.687948969,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2663.290368342,"data":"[NbConvertApp] Writing 415295 bytes to __results__.html\n"}
+]

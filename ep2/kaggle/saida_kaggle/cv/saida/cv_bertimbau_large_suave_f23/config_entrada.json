@@ -1,0 +1,18 @@
+{
+  "saida": "/kaggle/working/saida",
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "modos": [
+    "cv"
+  ],
+  "experimento": "cv_bertimbau_large_suave_f23",
+  "folds_cv": [
+    2,
+    3
+  ],
+  "modelo": "neuralmind/bert-large-portuguese-cased",
+  "lr": 1.5e-05,
+  "rotulos_suaves": true,
+  "sementes": [
+    42
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "saida": "/kaggle/working/saida",
+  "modos": [
+    "holdout"
+  ],
+  "experimento": "mmbert_base",
+  "modelo": "jhu-clsp/mmBERT-base",
+  "lr": 3e-05
+}

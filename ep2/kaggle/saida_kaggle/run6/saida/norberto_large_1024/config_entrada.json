@@ -1,0 +1,14 @@
+{
+  "saida": "/kaggle/working/saida",
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "modos": [
+    "holdout"
+  ],
+  "experimento": "norberto_large_1024",
+  "modelo": "Itau-Unibanco/NorBERTo-large",
+  "lr": 2e-05,
+  "max_len": 1024,
+  "tokens_inicio": 256,
+  "lote": 4,
+  "acumulacao": 4
+}

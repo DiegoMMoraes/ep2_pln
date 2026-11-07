@@ -1,0 +1,3 @@
+semente,epoca,perda_treino,lotes_nao_finitos,minutos,acuracia,distribuicao_prevista,divisao
+43,1,1.0713437722871084,0,12.444338631629943,0.3443158953722334,"[0, 0, 3976]",holdout
+43,2,1.1085982237205316,0,11.470658985773722,0.3443158953722334,"[0, 0, 3976]",holdout

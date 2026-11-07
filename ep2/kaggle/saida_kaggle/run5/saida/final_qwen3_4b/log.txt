@@ -1,0 +1,75 @@
+Experimento final_qwen3_4b: Qwen/Qwen3-4B (llm_lora) | modos ['final'] | saída /kaggle/working/saida/final_qwen3_4b
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokens por texto: mediana 215, p90 384, 25.9% truncados
+
+========== FINAL (100% do treino) | semente 42 ==========
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:02<00:05,  2.91s/it]Fetching 3 files:  67%|██████▋   | 2/3 [00:43<00:24, 24.94s/it]Fetching 3 files: 100%|██████████| 3/3 [00:43<00:00, 14.42s/it]
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:02<17:55,  2.71s/it]Loading weights:  33%|███▎      | 130/398 [00:02<00:04, 64.91it/s]Loading weights:  52%|█████▏    | 205/398 [00:04<00:03, 55.19it/s]Loading weights:  62%|██████▏   | 248/398 [00:05<00:02, 50.94it/s]Loading weights:  69%|██████▉   | 276/398 [00:05<00:02, 54.14it/s]Loading weights:  75%|███████▍  | 297/398 [00:06<00:01, 53.20it/s]Loading weights:  79%|███████▊  | 313/398 [00:06<00:01, 50.03it/s]Loading weights:  82%|████████▏ | 325/398 [00:06<00:01, 48.84it/s]Loading weights:  84%|████████▍ | 335/398 [00:07<00:01, 47.43it/s]Loading weights:  86%|████████▋ | 344/398 [00:07<00:01, 46.91it/s]Loading weights:  89%|████████▉ | 355/398 [00:07<00:00, 50.64it/s]Loading weights:  91%|█████████ | 362/398 [00:07<00:00, 52.38it/s]Loading weights:  93%|█████████▎| 369/398 [00:07<00:00, 46.91it/s]Loading weights:  95%|█████████▍| 377/398 [00:08<00:00, 41.21it/s]Loading weights:  97%|█████████▋| 388/398 [00:08<00:00, 36.11it/s]Loading weights: 100%|██████████| 398/398 [00:08<00:00, 46.40it/s]
+[transformers] [1mQwen3ForSequenceClassification LOAD REPORT[0m from: Qwen/Qwen3-4B
+Key          | Status  | 
+-------------+---------+-
+score.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+trainable params: 33,037,824 || all params: 4,055,513,600 || trainable%: 0.8146
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/kaggle/working/ep2_treino.py:305: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/5023 | perda 1.5821 | ~150.0 min restantes
+  época 1 | lote 400/5023 | perda 1.4319 | ~154.1 min restantes
+  época 1 | lote 600/5023 | perda 1.3400 | ~150.6 min restantes
+  época 1 | lote 800/5023 | perda 1.3097 | ~144.3 min restantes
+  época 1 | lote 1000/5023 | perda 1.2712 | ~140.5 min restantes
+  época 1 | lote 1200/5023 | perda 1.2427 | ~134.7 min restantes
+  época 1 | lote 1400/5023 | perda 1.2215 | ~126.8 min restantes
+  época 1 | lote 1600/5023 | perda 1.2051 | ~120.2 min restantes
+  época 1 | lote 1800/5023 | perda 1.1968 | ~112.1 min restantes
+  época 1 | lote 2000/5023 | perda 1.1876 | ~104.7 min restantes
+  época 1 | lote 2200/5023 | perda 1.1785 | ~98.3 min restantes
+  época 1 | lote 2400/5023 | perda 1.1687 | ~91.2 min restantes
+  época 1 | lote 2600/5023 | perda 1.1617 | ~83.9 min restantes
+  época 1 | lote 2800/5023 | perda 1.1565 | ~76.9 min restantes
+  época 1 | lote 3000/5023 | perda 1.1509 | ~70.3 min restantes
+  época 1 | lote 3200/5023 | perda 1.1440 | ~63.4 min restantes
+  época 1 | lote 3400/5023 | perda 1.1393 | ~56.5 min restantes
+  época 1 | lote 3600/5023 | perda 1.1361 | ~49.3 min restantes
+  época 1 | lote 3800/5023 | perda 1.1323 | ~42.5 min restantes
+  época 1 | lote 4000/5023 | perda 1.1288 | ~35.3 min restantes
+  época 1 | lote 4200/5023 | perda 1.1274 | ~28.5 min restantes
+  época 1 | lote 4400/5023 | perda 1.1245 | ~21.6 min restantes
+  época 1 | lote 4600/5023 | perda 1.1210 | ~14.7 min restantes
+  época 1 | lote 4800/5023 | perda 1.1179 | ~7.7 min restantes
+  época 1 | lote 5000/5023 | perda 1.1157 | ~0.8 min restantes
+  semente=42 | epoca=1 | perda_treino=1.1152 | lotes_nao_finitos=0 | minutos=173.9468
+  época 2 | lote 200/5023 | perda 1.0052 | ~168.8 min restantes
+  época 2 | lote 400/5023 | perda 1.0005 | ~161.0 min restantes
+  época 2 | lote 600/5023 | perda 0.9913 | ~152.5 min restantes
+  época 2 | lote 800/5023 | perda 0.9934 | ~143.0 min restantes
+  época 2 | lote 1000/5023 | perda 0.9958 | ~136.3 min restantes
+  época 2 | lote 1200/5023 | perda 1.0006 | ~130.0 min restantes
+  época 2 | lote 1400/5023 | perda 0.9976 | ~124.1 min restantes
+  época 2 | lote 1600/5023 | perda 0.9955 | ~117.6 min restantes
+  época 2 | lote 1800/5023 | perda 0.9956 | ~111.2 min restantes
+  época 2 | lote 2000/5023 | perda 0.9939 | ~104.8 min restantes
+  época 2 | lote 2200/5023 | perda 0.9960 | ~97.9 min restantes
+  época 2 | lote 2400/5023 | perda 0.9960 | ~90.5 min restantes
+  época 2 | lote 2600/5023 | perda 0.9948 | ~83.5 min restantes
+  época 2 | lote 2800/5023 | perda 0.9935 | ~76.5 min restantes
+  época 2 | lote 3000/5023 | perda 0.9948 | ~69.7 min restantes
+  época 2 | lote 3200/5023 | perda 0.9957 | ~63.1 min restantes
+  época 2 | lote 3400/5023 | perda 0.9947 | ~56.1 min restantes
+  época 2 | lote 3600/5023 | perda 0.9937 | ~49.2 min restantes
+  época 2 | lote 3800/5023 | perda 0.9917 | ~42.2 min restantes
+  época 2 | lote 4000/5023 | perda 0.9900 | ~35.4 min restantes
+  época 2 | lote 4200/5023 | perda 0.9878 | ~28.5 min restantes
+  época 2 | lote 4400/5023 | perda 0.9875 | ~21.6 min restantes
+  época 2 | lote 4600/5023 | perda 0.9867 | ~14.6 min restantes
+  época 2 | lote 4800/5023 | perda 0.9860 | ~7.7 min restantes
+  época 2 | lote 5000/5023 | perda 0.9862 | ~0.8 min restantes
+  semente=42 | epoca=2 | perda_treino=0.9859 | lotes_nao_finitos=0 | minutos=174.1372
+test1: 900 textos | distribuição prevista {'c5': 360, 'c234': 284, 'c1': 256}
+test2: 897 textos | distribuição prevista {'c5': 398, 'c1': 265, 'c234': 234}
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'final_test1_semente42.csv', 'final_test2_semente42.csv', 'historico.csv', 'log.txt']

@@ -1,0 +1,1024 @@
+componentes,k,acc
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,6,0.4874
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4867
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4859
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4857
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4857
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4854
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,7,0.4854
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4852
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4852
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4849
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,8,0.4849
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4849
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4847
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,8,0.4847
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,6,0.4847
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4844
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4844
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4844
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,9,0.4844
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4844
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4844
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4844
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4844
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4844
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,5,0.4842
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4839
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4839
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4839
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4839
+bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4837
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4837
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4837
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,8,0.4837
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4834
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4834
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4834
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4834
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + nbsvm_C0.25_w12_semacento,5,0.4834
+bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4834
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4831
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4831
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4831
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4831
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4831
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4831
+bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4831
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4831
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4829
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4829
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,6,0.4829
+bertimbau_large_suave + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4829
+bertimbau_large_suave + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4829
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4829
+bertimbau_large_s43 + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4829
+xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4826
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4826
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4826
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,10,0.4826
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4826
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4826
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4826
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4826
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4826
+xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4824
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4824
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4824
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + nbsvm_C0.25_w12_semacento,4,0.4824
+bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4824
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4824
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4821
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4821
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4821
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4821
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4821
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4821
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4821
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4821
+xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4821
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,7,0.4821
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4821
+bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,5,0.4821
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4821
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4821
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4821
+bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4819
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,8,0.4819
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4819
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4819
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4819
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4819
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4819
+bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4819
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4819
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4816
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau,5,0.4816
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4816
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,6,0.4816
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4816
+xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4816
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4816
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,5,0.4816
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4816
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4816
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,5,0.4816
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4814
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4814
+bertimbau_large_suave + bertimbau_large_s43 + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4814
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4814
+bertimbau_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4814
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4814
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4814
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4814
+bertimbau_large_s43 + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4814
+xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4814
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,8,0.4814
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4811
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4811
+bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4811
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4811
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4811
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4811
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4811
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4811
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4811
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + nbsvm_C0.25_w12_semacento,5,0.4811
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4811
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4811
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4811
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4811
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,6,0.4811
+bertimbau_large + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4809
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4809
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4809
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4809
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,4,0.4809
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4809
+xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4809
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,6,0.4809
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4809
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4809
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4809
+bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4809
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4809
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4809
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4809
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4806
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4806
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4806
+bertimbau_large_suave + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4806
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4806
+bertimbau_large_suave + xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4806
+bertimbau_large + xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4806
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4806
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4804
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4804
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4804
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,8,0.4804
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,7,0.4804
+bertimbau_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4804
+bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25,4,0.4804
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4804
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4804
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,6,0.4804
+bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4801
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4801
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4801
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,5,0.4801
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,5,0.4801
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,5,0.4801
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4801
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4801
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4801
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4801
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave,4,0.4801
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4801
+bertimbau_large + bertimbau_large_s43 + xlmr_large + nbsvm_C0.25_w12_semacento,4,0.4801
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4801
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4801
+bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4801
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4801
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4801
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4799
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4799
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4799
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4799
+bertimbau_large_suave + bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4799
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4799
+bertimbau_large_suave + bertimbau_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4799
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4799
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4799
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,7,0.4799
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4799
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,6,0.4799
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4799
+bertimbau_large + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4799
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4799
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4799
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + bertimbau,4,0.4796
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4796
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau,5,0.4796
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,6,0.4796
+xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4796
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4796
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4796
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,7,0.4796
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4796
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4796
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,8,0.4796
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,8,0.4796
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,8,0.4796
+bertimbau_large + xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4796
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,5,0.4796
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4796
+bertimbau_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4796
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4796
+bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,4,0.4796
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4796
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4796
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4796
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4796
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4796
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,8,0.4794
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4794
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4794
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4794
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,7,0.4794
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4794
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau,6,0.4794
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau,5,0.4794
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,5,0.4794
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4794
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4794
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4794
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4794
+bertimbau_large + bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4794
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4794
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4794
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,9,0.4794
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4794
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4794
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4794
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4791
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + bertimbau,4,0.4791
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4791
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4791
+xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4791
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + nbsvm_C0.25_w12_semacento,4,0.4791
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4791
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4791
+bertimbau_large_suave + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4791
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4791
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4791
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,6,0.4791
+xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4791
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4791
+bertimbau_large + bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4791
+xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4791
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4791
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,5,0.4791
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,4,0.4791
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b,5,0.4789
+bertimbau_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4789
+xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4789
+bertimbau_large_suave + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,4,0.4789
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4789
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4789
+xlmr_large + xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4789
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4789
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4789
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4789
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4789
+bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4789
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4789
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4789
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4789
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4789
+xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,4,0.4789
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4789
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4789
+bertimbau_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4789
+bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4789
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4786
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4786
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4786
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4786
+bertimbau_large_suave + bertimbau_large + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4786
+bertimbau_large_suave + bertimbau_large + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4786
+bertimbau_large + xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4786
+bertimbau_large_suave + xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4786
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4786
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base,5,0.4786
+bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4786
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4786
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,6,0.4786
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4786
+xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,3,0.4786
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4786
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,6,0.4786
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,6,0.4786
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4786
+xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4786
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4786
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau,5,0.4786
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4786
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,7,0.4786
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4786
+bertimbau_large_s43 + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4786
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4784
+bertimbau_large_suave + bertimbau + logreg_C0.25_w12c25,3,0.4784
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,5,0.4784
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4784
+bertimbau_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4784
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4784
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4784
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,6,0.4784
+bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau,4,0.4784
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4784
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,5,0.4784
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4784
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau,5,0.4784
+bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4784
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4784
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4784
+xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4784
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,7,0.4784
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau,5,0.4784
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4784
+bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25,4,0.4784
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base,6,0.4784
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,7,0.4784
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4784
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4781
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4781
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4781
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,5,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4781
+bertimbau_large_suave + xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4781
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4781
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4781
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4781
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,6,0.4781
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave,5,0.4781
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,7,0.4781
+bertimbau_large_suave + bertimbau_large + xlmr_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4781
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4781
+xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4781
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4781
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,5,0.4781
+bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,9,0.4781
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4781
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,7,0.4779
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4779
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4779
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,6,0.4779
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4779
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4779
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base,4,0.4779
+bertimbau_large + xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4779
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4779
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4779
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4779
+bertimbau_large + bertimbau + nbsvm_C0.25_w12_semacento,3,0.4779
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4779
+bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4779
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,7,0.4779
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4779
+bertimbau_large_suave + xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4779
+bertimbau_large_suave + xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4779
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4779
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4779
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b,5,0.4779
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,5,0.4779
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b,5,0.4776
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,7,0.4776
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4776
+bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4776
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4776
+xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4776
+bertimbau_large_suave + bertimbau_large + xlmr_large + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4776
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4776
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4776
+bertimbau_large + xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4776
+bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau,4,0.4776
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4776
+bertimbau_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,4,0.4776
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,6,0.4776
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4776
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b,6,0.4776
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4776
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4776
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + nbsvm_C0.25_w12_semacento,4,0.4776
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4776
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4776
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4776
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4776
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,7,0.4776
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave,4,0.4776
+bertimbau_large_s43 + xlmr_large + nbsvm_C0.25_w12_semacento,3,0.4774
+bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4774
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4774
+bertimbau_large_suave + bertimbau_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4774
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,6,0.4774
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25,5,0.4774
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4774
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4774
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4774
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4774
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,5,0.4774
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4774
+xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4774
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,5,0.4774
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4774
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4774
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4774
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4774
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4774
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4774
+bertimbau_large_suave + xlmr_large + bertimbau + logreg_C0.25_w12c25,4,0.4774
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4774
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b,4,0.4774
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,7,0.4774
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b + bertimbau,4,0.4774
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4774
+bertimbau_large_suave + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4774
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4774
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,8,0.4774
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4774
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4774
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,6,0.4774
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,8,0.4771
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large,4,0.4771
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4771
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4771
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4771
+xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4771
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave,3,0.4771
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25,4,0.4771
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4771
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4771
+bertimbau_large + bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25,4,0.4771
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4771
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4771
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base,4,0.4771
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,7,0.4771
+bertimbau_large + mmbert_base + nbsvm_C0.25_w12_semacento,3,0.4771
+xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4771
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4771
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b,4,0.4771
+bertimbau_large_suave + xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4771
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4771
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25,5,0.4771
+bertimbau_large_suave + bertimbau_large + xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4771
+xlmr_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,3,0.4771
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4771
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4771
+bertimbau_large + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4771
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4769
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4769
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,7,0.4769
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4769
+bertimbau_large_suave + bertimbau_large_s43 + bertimbau,3,0.4769
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4769
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4769
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4769
+bertimbau_large + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4769
+bertimbau_large + xlmr_large + bertimbau,3,0.4769
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b,5,0.4769
+bertimbau_large + bertimbau_large_s43 + xlmr_large,3,0.4769
+bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau,4,0.4769
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4769
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,8,0.4769
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4769
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4769
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau,5,0.4769
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4769
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,5,0.4769
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau,5,0.4769
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4766
+bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4766
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,4,0.4766
+bertimbau_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4766
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4766
+bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau,4,0.4766
+bertimbau_large + xlmr_large_suave,2,0.4766
+bertimbau_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4766
+bertimbau_large_suave + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4766
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4766
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4766
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,5,0.4766
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + nbsvm_C0.25_w12_semacento,4,0.4766
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,5,0.4766
+xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4766
+bertimbau_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4766
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4766
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4766
+bertimbau_large + xlmr_large_suave + bertimbau,3,0.4766
+bertimbau_large_s43 + bertimbau + nbsvm_C0.25_w12_semacento,3,0.4766
+bertimbau_large_s43 + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4766
+xlmr_large + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4766
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25,6,0.4766
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4766
+bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4766
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4766
+xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4766
+xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4766
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,7,0.4766
+bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4766
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25,5,0.4766
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4764
+bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4764
+xlmr_large + bertimbau,2,0.4764
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,6,0.4764
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4764
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,8,0.4764
+bertimbau_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4764
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4764
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4764
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,8,0.4764
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4764
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4764
+xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4764
+bertimbau_large_s43 + xlmr_large_suave + logreg_C0.25_w12c25,3,0.4764
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + bertimbau,4,0.4764
+bertimbau_large + xlmr_large + xlmr_large_suave,3,0.4764
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4764
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,7,0.4764
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4764
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4764
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau,6,0.4764
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25,5,0.4761
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,6,0.4761
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,5,0.4761
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4761
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,8,0.4761
+xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4761
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,4,0.4761
+bertimbau_large + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4761
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4761
+bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau,4,0.4761
+xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4761
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,6,0.4761
+bertimbau_large_suave + bertimbau_large + xlmr_large + nbsvm_C0.25_w12_semacento,4,0.4761
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,5,0.4761
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b,5,0.4761
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25,4,0.4761
+bertimbau_large_suave + xlmr_large + bertimbau,3,0.4759
+bertimbau_large + xlmr_large_suave + logreg_C0.25_w12c25,3,0.4759
+xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,4,0.4759
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,6,0.4759
+xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4759
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,8,0.4759
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau,5,0.4759
+bertimbau_large + bertimbau_large_s43 + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4759
+bertimbau_large + xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4759
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,5,0.4759
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau,5,0.4759
+bertimbau_large_s43 + xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4759
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4759
+bertimbau_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4759
+bertimbau_large_suave + bertimbau_large_s43,2,0.4759
+bertimbau_large_suave + bertimbau_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4759
+xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4759
+xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4759
+bertimbau_large_suave + xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4759
+bertimbau_large_suave + bertimbau_large + xlmr_large,3,0.4756
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43,3,0.4756
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,7,0.4756
+bertimbau_large + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4756
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4756
+bertimbau_large_s43 + qwen3_1.7b + nbsvm_C0.25_w12_semacento,3,0.4756
+xlmr_large_suave + qwen3_1.7b + bertimbau,3,0.4756
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave,4,0.4756
+bertimbau_large + bertimbau_large_s43 + xlmr_large + bertimbau + logreg_C0.25_w12c25,5,0.4756
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4756
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4756
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4756
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,5,0.4756
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4756
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,6,0.4756
+mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4756
+xlmr_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4756
+xlmr_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4756
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau,5,0.4756
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b,5,0.4756
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base,5,0.4756
+bertimbau_large + xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,4,0.4756
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b,5,0.4756
+bertimbau_large_suave + bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25,4,0.4756
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave,4,0.4756
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4756
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,5,0.4756
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,6,0.4756
+xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4756
+bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4756
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave,3,0.4754
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4754
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,5,0.4754
+xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,4,0.4754
+bertimbau_large + xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,4,0.4754
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4754
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4754
+xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,3,0.4754
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4754
+bertimbau_large + xlmr_large + qwen3_1.7b,3,0.4754
+bertimbau_large_suave + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,5,0.4754
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b,4,0.4754
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,7,0.4754
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + bertimbau,4,0.4754
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4754
+xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4754
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4754
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25,4,0.4754
+bertimbau_large + bertimbau_large_s43 + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4754
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + bertimbau,4,0.4754
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4754
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b,4,0.4754
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4754
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4754
+bertimbau_large_suave + xlmr_large_suave + bertimbau,3,0.4751
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau,5,0.4751
+xlmr_large + xlmr_large_suave + bertimbau,3,0.4751
+bertimbau_large_suave + xlmr_large + xlmr_large_suave,3,0.4751
+bertimbau_large + xlmr_large + logreg_C0.25_w12c25,3,0.4751
+bertimbau_large_s43 + xlmr_large + mmbert_base,3,0.4751
+mmbert_base + bertimbau + nbsvm_C0.25_w12_semacento,3,0.4751
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,7,0.4751
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,7,0.4751
+bertimbau_large + xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4751
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4751
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4751
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4751
+bertimbau_large_suave + xlmr_large + qwen3_1.7b + bertimbau,4,0.4751
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,6,0.4751
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,6,0.4751
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + logreg_C0.25_w12c25,5,0.4751
+mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,4,0.4751
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,6,0.4751
+mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4751
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau,6,0.4751
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b,5,0.4751
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4748
+bertimbau_large_suave + xlmr_large_suave + nbsvm_C0.25_w12_semacento,3,0.4748
+bertimbau_large_s43 + xlmr_large_suave + nbsvm_C0.25_w12_semacento,3,0.4748
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau,6,0.4748
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4748
+xlmr_large + xlmr_large_suave + bertimbau + logreg_C0.25_w12c25,4,0.4748
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,6,0.4748
+bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,6,0.4748
+xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,3,0.4748
+bertimbau_large_suave + xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4748
+xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4748
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4748
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,6,0.4748
+bertimbau_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4748
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + mmbert_base,4,0.4748
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base,4,0.4748
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,5,0.4748
+bertimbau_large + xlmr_large + bertimbau + logreg_C0.25_w12c25,4,0.4748
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4748
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4748
+qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,3,0.4746
+bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4746
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau,5,0.4746
+bertimbau_large_s43 + mmbert_base + nbsvm_C0.25_w12_semacento,3,0.4746
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave,3,0.4746
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b,3,0.4746
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4746
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau,5,0.4746
+bertimbau_large + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4746
+xlmr_large + xlmr_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,4,0.4746
+bertimbau_large_s43 + xlmr_large + bertimbau,3,0.4746
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau,4,0.4746
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base,4,0.4746
+bertimbau_large_suave + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4746
+bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b,4,0.4746
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,4,0.4746
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,5,0.4746
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4746
+bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau,4,0.4746
+bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25,4,0.4743
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,5,0.4743
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + qwen3_1.7b,4,0.4743
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4743
+bertimbau_large_suave + bertimbau_large + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4743
+bertimbau_large_suave + bertimbau_large_s43 + logreg_C0.25_w12c25,3,0.4743
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau + nbsvm_C0.25_w12_semacento,6,0.4743
+bertimbau_large + bertimbau + logreg_C0.25_w12c25,3,0.4743
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b,5,0.4743
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,7,0.4743
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + bertimbau,4,0.4743
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4743
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4743
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4743
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base,4,0.4743
+bertimbau_large_suave + xlmr_large_suave + logreg_C0.25_w12c25,3,0.4741
+bertimbau_large_s43 + logreg_C0.25_w12c25,2,0.4741
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4741
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4741
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b,4,0.4741
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + logreg_C0.25_w12c25,4,0.4741
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + bertimbau,5,0.4741
+bertimbau_large_suave + bertimbau_large + xlmr_large + logreg_C0.25_w12c25,4,0.4741
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4741
+bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25,4,0.4741
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25,5,0.4741
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4741
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4741
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,5,0.4741
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau,6,0.4741
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25,5,0.4741
+bertimbau_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,4,0.4741
+bertimbau_large + mmbert_base + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4741
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,7,0.4741
+bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25,3,0.4741
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b,5,0.4741
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4741
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4741
+bertimbau_large_suave + xlmr_large_suave + mmbert_base,3,0.4738
+bertimbau_large_suave + bertimbau_large + xlmr_large + bertimbau + logreg_C0.25_w12c25,5,0.4738
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b,6,0.4738
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4738
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25,6,0.4738
+bertimbau_large + bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4738
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large,3,0.4738
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4738
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,5,0.4738
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,5,0.4738
+bertimbau_large_suave + xlmr_large + mmbert_base + bertimbau,4,0.4738
+bertimbau_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4738
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau,5,0.4738
+bertimbau_large_suave + xlmr_large + logreg_C0.25_w12c25,3,0.4738
+bertimbau + logreg_C0.25_w12c25,2,0.4738
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4738
+bertimbau_large_suave + xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4738
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,7,0.4738
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,4,0.4738
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b + bertimbau,4,0.4738
+bertimbau_large + xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4738
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau,5,0.4738
+bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4738
+xlmr_large + mmbert_base + nbsvm_C0.25_w12_semacento,3,0.4736
+bertimbau_large + bertimbau_large_s43 + bertimbau + logreg_C0.25_w12c25,4,0.4736
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave,3,0.4736
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4736
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base,5,0.4736
+bertimbau_large + bertimbau_large_s43 + logreg_C0.25_w12c25,3,0.4736
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,7,0.4736
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4736
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + bertimbau,4,0.4736
+bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4736
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + qwen3_1.7b,4,0.4736
+bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau,4,0.4736
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4736
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4736
+bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b,3,0.4736
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4736
+bertimbau_large + xlmr_large + mmbert_base + bertimbau,4,0.4736
+bertimbau_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4736
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,5,0.4736
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau,4,0.4736
+xlmr_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,4,0.4736
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,6,0.4736
+bertimbau_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,4,0.4733
+bertimbau_large_s43 + xlmr_large + logreg_C0.25_w12c25,3,0.4733
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4733
+bertimbau + nbsvm_C0.25_w12_semacento,2,0.4733
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4733
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4733
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4733
+bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,6,0.4733
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4733
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base,5,0.4733
+bertimbau_large + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4733
+bertimbau_large_suave + xlmr_large + qwen3_1.7b,3,0.4731
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b,4,0.4731
+bertimbau_large + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4731
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4731
+bertimbau_large_suave + xlmr_large_suave,2,0.4731
+bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau,4,0.4731
+xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,4,0.4731
+bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25,3,0.4731
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,5,0.4731
+bertimbau_large + xlmr_large_suave + qwen3_1.7b,3,0.4731
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4731
+bertimbau_large_suave + bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base,5,0.4731
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau,5,0.4731
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b,4,0.4731
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large_suave + qwen3_1.7b + bertimbau,5,0.4731
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,7,0.4731
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4731
+bertimbau_large_suave + bertimbau_large + xlmr_large + mmbert_base + bertimbau,5,0.4728
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + bertimbau,6,0.4728
+bertimbau_large + xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4728
+bertimbau_large + qwen3_1.7b + bertimbau,3,0.4728
+bertimbau_large_suave,1,0.4728
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + qwen3_1.7b,4,0.4728
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b + bertimbau,4,0.4728
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4728
+bertimbau_large_suave + bertimbau_large + xlmr_large + bertimbau,4,0.4728
+xlmr_large + mmbert_base + bertimbau,3,0.4728
+bertimbau_large_suave + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4728
+qwen3_1.7b + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4728
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau,5,0.4728
+bertimbau_large + xlmr_large + nbsvm_C0.25_w12_semacento,3,0.4728
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4728
+bertimbau_large_suave + bertimbau_large + logreg_C0.25_w12c25,3,0.4728
+bertimbau_large_suave + xlmr_large + mmbert_base + logreg_C0.25_w12c25,4,0.4728
+xlmr_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,3,0.4728
+bertimbau_large_suave + bertimbau_large_s43 + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4726
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base,4,0.4726
+bertimbau_large_suave + xlmr_large,2,0.4726
+mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,4,0.4726
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,5,0.4726
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,5,0.4726
+bertimbau_large + xlmr_large + mmbert_base,3,0.4726
+bertimbau_large_suave + xlmr_large + nbsvm_C0.25_w12_semacento,3,0.4726
+bertimbau_large + bertimbau_large_s43 + bertimbau,3,0.4726
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b,4,0.4726
+bertimbau_large_s43 + bertimbau,2,0.4726
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base,3,0.4726
+bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,4,0.4726
+bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b,4,0.4726
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,7,0.4726
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + bertimbau,4,0.4726
+xlmr_large_suave + mmbert_base + bertimbau,3,0.4726
+bertimbau_large_s43 + xlmr_large_suave + bertimbau,3,0.4723
+bertimbau_large + xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,5,0.4723
+bertimbau_large_s43 + mmbert_base + bertimbau,3,0.4723
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau,6,0.4723
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,8,0.4723
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b,4,0.4723
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,4,0.4723
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,7,0.4723
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4723
+bertimbau_large + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4723
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4723
+bertimbau_large_s43 + xlmr_large,2,0.4723
+bertimbau_large_suave + bertimbau_large,2,0.4723
+bertimbau_large_suave + bertimbau_large + xlmr_large_suave + logreg_C0.25_w12c25,4,0.4721
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b,6,0.4721
+bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4721
+bertimbau_large + xlmr_large_suave + mmbert_base,3,0.4721
+bertimbau_large_s43 + xlmr_large + xlmr_large_suave + mmbert_base,4,0.4721
+xlmr_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,3,0.4721
+xlmr_large + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,4,0.4721
+bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b,4,0.4721
+bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base,4,0.4721
+bertimbau_large + bertimbau_large_s43 + mmbert_base + logreg_C0.25_w12c25,4,0.4721
+mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,3,0.4721
+xlmr_large + bertimbau + logreg_C0.25_w12c25,3,0.4721
+bertimbau_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4721
+bertimbau_large_suave + bertimbau_large_s43 + nbsvm_C0.25_w12_semacento,3,0.4721
+bertimbau_large_suave + xlmr_large_suave + qwen3_1.7b,3,0.4721
+bertimbau_large + xlmr_large_suave + nbsvm_C0.25_w12_semacento,3,0.4718
+bertimbau_large_suave + bertimbau_large_s43 + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,6,0.4718
+bertimbau_large_suave + logreg_C0.25_w12c25,2,0.4718
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4718
+bertimbau_large_suave + bertimbau_large + mmbert_base + logreg_C0.25_w12c25,4,0.4718
+xlmr_large + qwen3_1.7b + bertimbau,3,0.4718
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4718
+bertimbau_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4718
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + xlmr_large_suave + mmbert_base + qwen3_1.7b + bertimbau,7,0.4718
+bertimbau_large_suave + qwen3_1.7b + bertimbau,3,0.4716
+xlmr_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4716
+bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4716
+bertimbau_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4716
+qwen3_1.7b + nbsvm_C0.25_w12_semacento,2,0.4716
+bertimbau_large_suave + bertimbau,2,0.4716
+bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25,3,0.4716
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4716
+bertimbau_large_s43 + xlmr_large + qwen3_1.7b,3,0.4716
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4716
+bertimbau_large_suave + mmbert_base + nbsvm_C0.25_w12_semacento,3,0.4716
+bertimbau_large_suave + mmbert_base + qwen3_1.7b + bertimbau,4,0.4713
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base,4,0.4713
+xlmr_large + xlmr_large_suave + mmbert_base + bertimbau,4,0.4713
+bertimbau_large_suave + xlmr_large + mmbert_base + qwen3_1.7b,4,0.4713
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + bertimbau,4,0.4713
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4713
+xlmr_large + xlmr_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4713
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b,3,0.4713
+xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4713
+bertimbau_large_suave + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4713
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau,4,0.4713
+xlmr_large + xlmr_large_suave,2,0.4713
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + bertimbau + logreg_C0.25_w12c25,6,0.4713
+xlmr_large_suave + logreg_C0.25_w12c25,2,0.4713
+bertimbau_large_suave + bertimbau_large + nbsvm_C0.25_w12_semacento,3,0.4713
+bertimbau_large + bertimbau_large_s43 + xlmr_large + mmbert_base + logreg_C0.25_w12c25,5,0.4713
+bertimbau_large + logreg_C0.25_w12c25,2,0.4711
+mmbert_base + qwen3_1.7b + bertimbau,3,0.4711
+bertimbau_large_suave + mmbert_base,2,0.4711
+bertimbau_large_suave + mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4711
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau,4,0.4711
+xlmr_large_suave + bertimbau,2,0.4711
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b + bertimbau,5,0.4711
+bertimbau_large_s43 + nbsvm_C0.25_w12_semacento,2,0.4711
+bertimbau_large_suave + qwen3_1.7b,2,0.4708
+bertimbau_large_suave + mmbert_base + bertimbau,3,0.4708
+bertimbau_large_suave + mmbert_base + logreg_C0.25_w12c25,3,0.4708
+bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4708
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4708
+bertimbau_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4708
+mmbert_base + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4708
+bertimbau_large + xlmr_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4708
+bertimbau_large_suave + bertimbau_large_s43 + qwen3_1.7b + bertimbau,4,0.4708
+bertimbau_large_suave + bertimbau_large + bertimbau + logreg_C0.25_w12c25,4,0.4708
+bertimbau_large_suave + xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4708
+bertimbau_large_s43 + xlmr_large_suave,2,0.4706
+qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,3,0.4706
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,6,0.4706
+bertimbau_large_suave + xlmr_large + mmbert_base,3,0.4706
+bertimbau_large + qwen3_1.7b + nbsvm_C0.25_w12_semacento,3,0.4706
+bertimbau_large_suave + bertimbau + nbsvm_C0.25_w12_semacento,3,0.4706
+bertimbau_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,4,0.4706
+bertimbau_large + qwen3_1.7b,2,0.4703
+xlmr_large + xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4703
+bertimbau_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,5,0.4703
+bertimbau_large + bertimbau_large_s43 + nbsvm_C0.25_w12_semacento,3,0.4703
+bertimbau_large + mmbert_base + bertimbau,3,0.4703
+mmbert_base + bertimbau + logreg_C0.25_w12c25,3,0.4701
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,4,0.4701
+bertimbau_large_suave + bertimbau_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,5,0.4701
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4701
+bertimbau_large_suave + bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4701
+bertimbau_large + xlmr_large + mmbert_base + logreg_C0.25_w12c25,4,0.4701
+qwen3_1.7b + logreg_C0.25_w12c25,2,0.4701
+bertimbau_large + mmbert_base,2,0.4701
+bertimbau_large_suave + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,4,0.4698
+bertimbau_large_suave + mmbert_base + qwen3_1.7b + nbsvm_C0.25_w12_semacento,4,0.4698
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b,5,0.4698
+bertimbau_large + bertimbau_large_s43 + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4698
+xlmr_large + mmbert_base + qwen3_1.7b + bertimbau,4,0.4698
+bertimbau_large_suave + xlmr_large_suave + mmbert_base + qwen3_1.7b,4,0.4698
+xlmr_large_suave + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4696
+bertimbau_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,3,0.4696
+bertimbau_large_s43 + mmbert_base,2,0.4693
+bertimbau_large_suave + bertimbau_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4693
+mmbert_base + bertimbau,2,0.4693
+xlmr_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4693
+bertimbau_large_suave + bertimbau_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4693
+bertimbau_large_suave + bertimbau_large + bertimbau_large_s43 + qwen3_1.7b + logreg_C0.25_w12c25,5,0.4693
+bertimbau_large_suave + bertimbau_large + bertimbau,3,0.4693
+xlmr_large + nbsvm_C0.25_w12_semacento,2,0.4693
+bertimbau_large_suave + mmbert_base + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4693
+qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4693
+bertimbau_large + mmbert_base + qwen3_1.7b,3,0.4693
+mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4691
+bertimbau_large_suave + bertimbau_large + mmbert_base,3,0.4691
+xlmr_large_suave + mmbert_base,2,0.4691
+xlmr_large + qwen3_1.7b + logreg_C0.25_w12c25,3,0.4691
+qwen3_1.7b + bertimbau,2,0.4691
+bertimbau_large + xlmr_large,2,0.4691
+xlmr_large + mmbert_base + bertimbau + logreg_C0.25_w12c25,4,0.4691
+mmbert_base + nbsvm_C0.25_w12_semacento,2,0.4691
+bertimbau_large + bertimbau_large_s43 + mmbert_base + qwen3_1.7b,4,0.4688
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b + bertimbau + logreg_C0.25_w12c25,5,0.4688
+bertimbau_large_suave + bertimbau_large + mmbert_base + bertimbau,4,0.4688
+bertimbau_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4688
+bertimbau_large_suave + mmbert_base + bertimbau + logreg_C0.25_w12c25,4,0.4688
+bertimbau_large_s43 + qwen3_1.7b + bertimbau,3,0.4688
+xlmr_large + xlmr_large_suave + mmbert_base + qwen3_1.7b,4,0.4688
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4688
+xlmr_large + xlmr_large_suave + qwen3_1.7b,3,0.4688
+bertimbau_large + qwen3_1.7b + logreg_C0.25_w12c25,3,0.4688
+xlmr_large_suave + qwen3_1.7b,2,0.4686
+bertimbau_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,3,0.4683
+bertimbau_large_suave + mmbert_base + qwen3_1.7b,3,0.4683
+bertimbau_large + bertimbau,2,0.4683
+xlmr_large + xlmr_large_suave + logreg_C0.25_w12c25,3,0.4683
+bertimbau + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4681
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4681
+xlmr_large_suave + nbsvm_C0.25_w12_semacento,2,0.4681
+bertimbau_large + mmbert_base + logreg_C0.25_w12c25,3,0.4681
+bertimbau_large + qwen3_1.7b + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,4,0.4681
+bertimbau_large_suave + bertimbau_large_s43 + mmbert_base,3,0.4681
+bertimbau_large + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4678
+mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,3,0.4678
+bertimbau_large_suave + bertimbau_large + qwen3_1.7b,3,0.4676
+bertimbau_large + bertimbau_large_s43,2,0.4676
+bertimbau_large_s43 + logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,3,0.4673
+xlmr_large_suave + qwen3_1.7b + nbsvm_C0.25_w12_semacento,3,0.4673
+xlmr_large + mmbert_base + logreg_C0.25_w12c25,3,0.4671
+xlmr_large_suave + qwen3_1.7b + logreg_C0.25_w12c25,3,0.4671
+mmbert_base + logreg_C0.25_w12c25,2,0.4668
+xlmr_large + logreg_C0.25_w12c25,2,0.4668
+bertimbau_large_s43 + mmbert_base + qwen3_1.7b,3,0.4668
+xlmr_large + xlmr_large_suave + mmbert_base,3,0.4668
+bertimbau_large + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4665
+bertimbau_large + bertimbau_large_s43 + mmbert_base,3,0.4663
+bertimbau_large + nbsvm_C0.25_w12_semacento,2,0.466
+bertimbau_large_suave + nbsvm_C0.25_w12_semacento,2,0.466
+xlmr_large + mmbert_base + qwen3_1.7b,3,0.4658
+xlmr_large_suave + mmbert_base + logreg_C0.25_w12c25,3,0.4655
+xlmr_large_suave + mmbert_base + qwen3_1.7b + logreg_C0.25_w12c25,4,0.4655
+bertimbau_large,1,0.4653
+bertimbau_large_s43,1,0.4653
+bertimbau_large_s43 + qwen3_1.7b,2,0.4653
+mmbert_base + qwen3_1.7b,2,0.4648
+xlmr_large + qwen3_1.7b,2,0.4643
+logreg_C0.25_w12c25 + nbsvm_C0.25_w12_semacento,2,0.4635
+xlmr_large_suave + mmbert_base + qwen3_1.7b,3,0.4628
+xlmr_large,1,0.4628
+logreg_C0.25_w12c25,1,0.462
+mmbert_base,1,0.462
+xlmr_large + mmbert_base,2,0.4615
+qwen3_1.7b,1,0.4608
+nbsvm_C0.25_w12_semacento,1,0.46
+xlmr_large_suave,1,0.46
+bertimbau,1,0.459

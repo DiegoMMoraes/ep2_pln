@@ -1,0 +1,54 @@
+Experimento final_bertimbau_large_s43: neuralmind/bert-large-portuguese-cased (encoder) | modos ['final'] | saída /kaggle/working/saida/final_bertimbau_large_s43
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Tokens por texto: mediana 182, p90 512, 10.9% truncados
+
+========== FINAL (100% do treino) | semente 43 ==========
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 8837.16it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+classifier.bias                            | MISSING    | 
+classifier.weight                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2512 | perda 1.1047 | ~12.0 min restantes
+  época 1 | lote 400/2512 | perda 1.0964 | ~11.4 min restantes
+  época 1 | lote 600/2512 | perda 1.0911 | ~10.5 min restantes
+  época 1 | lote 800/2512 | perda 1.0888 | ~9.4 min restantes
+  época 1 | lote 1000/2512 | perda 1.0850 | ~8.4 min restantes
+  época 1 | lote 1200/2512 | perda 1.0795 | ~7.4 min restantes
+  época 1 | lote 1400/2512 | perda 1.0753 | ~6.3 min restantes
+  época 1 | lote 1600/2512 | perda 1.0708 | ~5.3 min restantes
+  época 1 | lote 1800/2512 | perda 1.0677 | ~4.1 min restantes
+  época 1 | lote 2000/2512 | perda 1.0651 | ~2.9 min restantes
+  época 1 | lote 2200/2512 | perda 1.0627 | ~1.8 min restantes
+  época 1 | lote 2400/2512 | perda 1.0616 | ~0.7 min restantes
+  semente=43 | epoca=1 | perda_treino=1.0604 | lotes_nao_finitos=0 | minutos=14.6437
+  época 2 | lote 200/2512 | perda 0.9922 | ~14.3 min restantes
+  época 2 | lote 400/2512 | perda 0.9863 | ~12.3 min restantes
+  época 2 | lote 600/2512 | perda 0.9839 | ~11.3 min restantes
+  época 2 | lote 800/2512 | perda 0.9826 | ~10.1 min restantes
+  época 2 | lote 1000/2512 | perda 0.9843 | ~8.9 min restantes
+  época 2 | lote 1200/2512 | perda 0.9807 | ~7.7 min restantes
+  época 2 | lote 1400/2512 | perda 0.9805 | ~6.5 min restantes
+  época 2 | lote 1600/2512 | perda 0.9817 | ~5.3 min restantes
+  época 2 | lote 1800/2512 | perda 0.9829 | ~4.2 min restantes
+  época 2 | lote 2000/2512 | perda 0.9798 | ~3.0 min restantes
+  época 2 | lote 2200/2512 | perda 0.9784 | ~1.8 min restantes
+  época 2 | lote 2400/2512 | perda 0.9788 | ~0.7 min restantes
+  semente=43 | epoca=2 | perda_treino=0.9773 | lotes_nao_finitos=0 | minutos=14.8346
+test1: 900 textos | distribuição prevista {'c5': 328, 'c1': 287, 'c234': 285}
+test2: 897 textos | distribuição prevista {'c5': 343, 'c1': 310, 'c234': 244}
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'final_test1_semente43.csv', 'final_test2_semente43.csv', 'historico.csv', 'log.txt']

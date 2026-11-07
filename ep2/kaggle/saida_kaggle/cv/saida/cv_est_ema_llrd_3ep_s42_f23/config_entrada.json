@@ -1,0 +1,20 @@
+{
+  "saida": "/kaggle/working/saida",
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "modos": [
+    "cv"
+  ],
+  "experimento": "cv_est_ema_llrd_3ep_s42_f23",
+  "folds_cv": [
+    2,
+    3
+  ],
+  "modelo": "neuralmind/bert-large-portuguese-cased",
+  "lr": 2e-05,
+  "llrd": 0.9,
+  "ema": 0.999,
+  "epocas": 3,
+  "sementes": [
+    42
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "experimento": "cv_bertimbau_large_f23",
+  "modelo": "neuralmind/bert-large-portuguese-cased",
+  "tipo": "encoder",
+  "modos": [
+    "cv"
+  ],
+  "folds_cv": [
+    2,
+    3
+  ],
+  "max_len": 512,
+  "tokens_inicio": 128,
+  "epocas": 2,
+  "lr": 1.5e-05,
+  "lote": 8,
+  "acumulacao": 2,
+  "warmup": 0.1,
+  "sementes": [
+    42
+  ],
+  "rotulos_suaves": false,
+  "gradient_checkpointing": false,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "ema": null,
+  "llrd": 1.0,
+  "max_tentativas": 3,
+  "amostra": null,
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "saida": "/kaggle/working/saida"
+}

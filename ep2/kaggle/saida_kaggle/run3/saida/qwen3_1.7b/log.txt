@@ -1,0 +1,65 @@
+Experimento qwen3_1.7b: Qwen/Qwen3-1.7B (llm_lora) | modos ['holdout'] | saída /kaggle/working/saida/qwen3_1.7b
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokens por texto: mediana 215, p90 512, 15.3% truncados
+
+========== HOLDOUT 80/20 | semente 42 ==========
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:07<00:07,  7.44s/it]Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 18.08s/it]Fetching 2 files: 100%|██████████| 2/2 [00:32<00:00, 16.49s/it]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   0%|          | 1/310 [00:06<32:11,  6.25s/it]Loading weights:  44%|████▍     | 136/310 [00:06<00:05, 30.31it/s]Loading weights:  69%|██████▉   | 214/310 [00:06<00:01, 48.73it/s]Loading weights:  85%|████████▌ | 265/310 [00:06<00:00, 64.23it/s]Loading weights:  99%|█████████▉| 307/310 [00:07<00:00, 78.06it/s]Loading weights: 100%|██████████| 310/310 [00:07<00:00, 43.23it/s]
+[transformers] [1mQwen3ForSequenceClassification LOAD REPORT[0m from: Qwen/Qwen3-1.7B
+Key            | Status     | 
+---------------+------------+-
+lm_head.weight | UNEXPECTED | 
+score.weight   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+trainable params: 17,438,720 || all params: 1,738,019,840 || trainable%: 1.0034
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/kaggle/working/ep2_treino.py:272: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/4029 | perda 1.4445 | ~62.0 min restantes
+  época 1 | lote 400/4029 | perda 1.3089 | ~60.2 min restantes
+  época 1 | lote 600/4029 | perda 1.2599 | ~57.0 min restantes
+  época 1 | lote 800/4029 | perda 1.2282 | ~54.5 min restantes
+  época 1 | lote 1000/4029 | perda 1.2084 | ~51.3 min restantes
+  época 1 | lote 1200/4029 | perda 1.1956 | ~47.2 min restantes
+  época 1 | lote 1400/4029 | perda 1.1804 | ~44.3 min restantes
+  época 1 | lote 1600/4029 | perda 1.1714 | ~40.8 min restantes
+  época 1 | lote 1800/4029 | perda 1.1630 | ~37.5 min restantes
+  época 1 | lote 2000/4029 | perda 1.1568 | ~34.4 min restantes
+  época 1 | lote 2200/4029 | perda 1.1502 | ~31.3 min restantes
+  época 1 | lote 2400/4029 | perda 1.1453 | ~27.9 min restantes
+  época 1 | lote 2600/4029 | perda 1.1387 | ~24.4 min restantes
+  época 1 | lote 2800/4029 | perda 1.1334 | ~21.1 min restantes
+  época 1 | lote 3000/4029 | perda 1.1292 | ~17.7 min restantes
+  época 1 | lote 3200/4029 | perda 1.1257 | ~14.3 min restantes
+  época 1 | lote 3400/4029 | perda 1.1225 | ~10.9 min restantes
+  época 1 | lote 3600/4029 | perda 1.1189 | ~7.4 min restantes
+  época 1 | lote 3800/4029 | perda 1.1158 | ~3.9 min restantes
+  época 1 | lote 4000/4029 | perda 1.1126 | ~0.5 min restantes
+  semente=42 | epoca=1 | perda_treino=1.1121 | lotes_nao_finitos=0 | minutos=69.4737 | acuracia=0.4356 | distribuicao_prevista=[1912, 288, 1776]
+  época 2 | lote 200/4029 | perda 1.0199 | ~67.5 min restantes
+  época 2 | lote 400/4029 | perda 1.0216 | ~65.8 min restantes
+  época 2 | lote 600/4029 | perda 1.0174 | ~62.8 min restantes
+  época 2 | lote 800/4029 | perda 1.0233 | ~56.8 min restantes
+  época 2 | lote 1000/4029 | perda 1.0242 | ~52.9 min restantes
+  época 2 | lote 1200/4029 | perda 1.0251 | ~49.0 min restantes
+  época 2 | lote 1400/4029 | perda 1.0251 | ~45.9 min restantes
+  época 2 | lote 1600/4029 | perda 1.0254 | ~42.0 min restantes
+  época 2 | lote 1800/4029 | perda 1.0238 | ~38.6 min restantes
+  época 2 | lote 2000/4029 | perda 1.0234 | ~35.0 min restantes
+  época 2 | lote 2200/4029 | perda 1.0215 | ~31.3 min restantes
+  época 2 | lote 2400/4029 | perda 1.0163 | ~27.8 min restantes
+  época 2 | lote 2600/4029 | perda 1.0150 | ~24.4 min restantes
+  época 2 | lote 2800/4029 | perda 1.0142 | ~21.1 min restantes
+  época 2 | lote 3000/4029 | perda 1.0123 | ~17.6 min restantes
+  época 2 | lote 3200/4029 | perda 1.0108 | ~14.2 min restantes
+  época 2 | lote 3400/4029 | perda 1.0092 | ~10.8 min restantes
+  época 2 | lote 3600/4029 | perda 1.0076 | ~7.4 min restantes
+  época 2 | lote 3800/4029 | perda 1.0068 | ~3.9 min restantes
+  época 2 | lote 4000/4029 | perda 1.0052 | ~0.5 min restantes
+  semente=42 | epoca=2 | perda_treino=1.0049 | lotes_nao_finitos=0 | minutos=69.1457 | acuracia=0.4608 | distribuicao_prevista=[1490, 995, 1491]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'historico.csv', 'holdout_semente42_epoca1.csv', 'holdout_semente42_epoca2.csv', 'log.txt']

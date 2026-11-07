@@ -1,0 +1,38 @@
+=== MODELOS ISOLADOS (holdout 80/20, 3.976 textos) ===
+ 1. BERTimbau large + rótulos suaves (s42)     holdout 0.4728   test1 0.4856
+ 2. Ensemble entregue no EP1 (referência)      holdout 0.4711   test1 0.4967
+ 3. BERTimbau large + EMA (s43)                holdout 0.4668   test1   —
+ 4. BERTimbau large + EMA+LLRD 3ép (s42)       holdout 0.4655   test1   —
+ 5. BERTimbau large (s42)                      holdout 0.4653   test1 0.4933
+ 6. BERTimbau large (s43)                      holdout 0.4653   test1 0.5000
+ 7. Qwen3-4B (LoRA)                            holdout 0.4645   test1 0.4867
+ 8. NorBERTo large, 1024 tokens                holdout 0.4630   test1   —
+ 9. XLM-R large                                holdout 0.4628   test1 0.4800
+10. LogReg palavras+caracteres (C=0,25)        holdout 0.4620   test1   —
+11. mmBERT base                                holdout 0.4620   test1   —
+12. LinearSVC palavras+caracteres              holdout 0.4610   test1   —
+13. Qwen3-1.7B (LoRA)                          holdout 0.4608   test1   —
+14. Ridge palavras+caracteres                  holdout 0.4608   test1   —
+15. XLM-R large + rótulos suaves               holdout 0.4600   test1 0.4789
+16. NB-SVM (C=0,25)                            holdout 0.4600   test1 0.4767
+17. NorBERTo large                             holdout 0.4598   test1   —
+18. BERTimbau base (EP1)                       holdout 0.4590   test1   —
+19. NorBERTo base                              holdout 0.4580   test1   —
+20. ComplementNB                               holdout 0.4547   test1   —
+21. MultinomialNB                              holdout 0.4540   test1   —
+22. moBERTo                                    holdout 0.4535   test1   —
+23. Qwen3-8B (QLoRA, 1 época)                  holdout 0.4467   test1   —
+
+=== ENSEMBLES (média simples; holdout 80/20) ===
+ 1. Versão E: 3 BERTimbau-L + 2 XLM-R + NB-SVM (6)   holdout 0.4874 (+0.0163 vs EP1, p=0.004)   test1 0.4889
+ 2. Versão D: 2 BERTimbau-L + 2 XLM-R + NB-SVM (5)   holdout 0.4842 (+0.0131 vs EP1, p=0.021)   test1 0.4867
+ 3. E + NorBERTo-L 1024 (7)                          holdout 0.4834 (+0.0123 vs EP1, p=0.025)   test1   —
+ 4. E + Qwen3-4B + Qwen3-8B (8)                      holdout 0.4834 (+0.0123 vs EP1, p=0.027)   test1   —
+ 5. 9 BERTimbau-L + 2 XLM-R + NB-SVM (12)            holdout 0.4826 (+0.0116 vs EP1, p=0.044)   test1   —
+ 6. 10 modelos da rodada 3 (10)                      holdout 0.4826 (+0.0116 vs EP1, p=0.024)   test1   —
+ 7. E + Qwen3-4B (7)                                 holdout 0.4816 (+0.0106 vs EP1, p=0.058)   test1 0.4956
+ 8. C: 2 BERTimbau-L + XLM-R + NB-SVM (4)            holdout 0.4801 (+0.0091 vs EP1, p=0.130)   test1 0.4989
+ 9. B: BERTimbau-L + XLM-R + NB-SVM + LogReg (4)     holdout 0.4786 (+0.0075 vs EP1, p=0.199)   test1   —
+10. 9 BERTimbau-L sozinhos (9)                       holdout 0.4786 (+0.0075 vs EP1, p=0.243)   test1   —
+11. A: BERTimbau-L + XLM-R + NB-SVM (3)              holdout 0.4728 (+0.0018 vs EP1, p=0.800)   test1 0.4911
+    Ensemble do EP1 (referência)                     holdout 0.4711   test1 0.4967

@@ -1,0 +1,14 @@
+{
+  "saida": "/kaggle/working/saida",
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "modos": [
+    "holdout"
+  ],
+  "experimento": "est_llrd_s43",
+  "modelo": "neuralmind/bert-large-portuguese-cased",
+  "lr": 2e-05,
+  "llrd": 0.9,
+  "sementes": [
+    43
+  ]
+}

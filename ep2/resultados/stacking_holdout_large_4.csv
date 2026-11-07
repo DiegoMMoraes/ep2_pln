@@ -1,0 +1,12 @@
+metodo,acc,dp
+EP1: ensemble entregue (sem treino aqui),0.4711,0.0163
+Média simples das probabilidades,0.4761,0.0166
+Média simples sem BERT,0.4635,0.0167
+Stacking LogReg C=0.01 [todos],0.4704,0.0159
+Stacking LogReg C=0.1 [todos],0.4708,0.0153
+Stacking LogReg C=1 [todos],0.4714,0.0147
+Stacking HistGradientBoosting [todos],0.462,0.0159
+Stacking LogReg C=0.01 [sem BERT],0.4584,0.0179
+Stacking LogReg C=0.1 [sem BERT],0.458,0.0173
+Stacking LogReg C=1 [sem BERT],0.4575,0.0182
+Stacking HistGradientBoosting [sem BERT],0.4505,0.0132

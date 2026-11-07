@@ -1,0 +1,120 @@
+Divisão agrupada 80/20: 16116 treino, 3976 avaliação
+
+ref_bertimbau (EP1)              acc 0.4590  F1 0.4536
+ref_svc_word12_char25 (EP1)      acc 0.4610  F1 0.4552
+ref_logreg_word12 (EP1)          acc 0.4477  F1 0.4472
+ref_ensemble_entregue (EP1)      acc 0.4711  F1 0.4668
+
+w11 (46463 atributos): 30 configs em 25s
+          config    acc  f1_macro
+  nbsvm_C0.1_w11 0.4522    0.4447
+logreg_C0.25_w11 0.4515    0.4468
+ nbsvm_C0.05_w11 0.4499    0.4382
+
+w12: já concluído, pulando
+
+w12_semsub (450656 atributos): 30 configs em 147s
+                config    acc  f1_macro
+nbsvm_C0.25_w12_semsub 0.4582    0.4581
+nbsvm_C0.05_w12_semsub 0.4582    0.4542
+ nbsvm_C0.5_w12_semsub 0.4562    0.4565
+
+w12_min2 (144685 atributos): 30 configs em 77s
+                 config    acc  f1_macro
+logregbal_C0.5_w12_min2 0.4555    0.4531
+   nbsvm_C0.05_w12_min2 0.4547    0.4505
+      svc_C0.1_w12_min2 0.4540    0.4509
+
+w12_semacento (444657 atributos): 30 configs em 159s
+                   config    acc  f1_macro
+nbsvm_C0.25_w12_semacento 0.4600    0.4598
+ nbsvm_C0.5_w12_semacento 0.4562    0.4566
+ nbsvm_C0.1_w12_semacento 0.4550    0.4533
+
+w12_binario (450656 atributos): 30 configs em 142s
+                 config    acc  f1_macro
+nbsvm_C0.25_w12_binario 0.4582    0.4581
+nbsvm_C0.05_w12_binario 0.4582    0.4542
+ nbsvm_C0.5_w12_binario 0.4562    0.4565
+
+w13 (302490 atributos): 30 configs em 141s
+          config    acc  f1_macro
+  nbsvm_C0.1_w13 0.4595    0.4589
+ nbsvm_C0.05_w13 0.4588    0.4571
+logregbal_C1_w13 0.4565    0.4553
+
+c25 (300000 atributos): 19 configs em 228s
+          config    acc  f1_macro
+logregbal_C1_c25 0.4517    0.4500
+   logreg_C1_c25 0.4515    0.4499
+ logreg_C0.5_c25 0.4507    0.4475
+
+c36 (500000 atributos): 19 configs em 275s
+         config    acc  f1_macro
+  svc_C0.05_c36 0.4547    0.4482
+   svc_C0.1_c36 0.4545    0.4501
+logreg_C0.5_c36 0.4545    0.4504
+
+ch25 (300000 atributos): 19 configs em 333s
+           config    acc  f1_macro
+   logreg_C1_ch25 0.4575    0.4552
+logregbal_C1_ch25 0.4562    0.4542
+    svc_C0.2_ch25 0.4557    0.4528
+
+w12c25 (750656 atributos): 19 configs em 432s
+             config    acc  f1_macro
+logreg_C0.25_w12c25 0.4620    0.4587
+   ridge_a10_w12c25 0.4608    0.4567
+   svc_C0.05_w12c25 0.4608    0.4567
+
+w12c36 (950656 atributos): 19 configs em 535s
+             config    acc  f1_macro
+logreg_C0.25_w12c36 0.4593    0.4561
+ logreg_C0.5_w12c36 0.4593    0.4573
+   svc_C0.05_w12c36 0.4577    0.4536
+
+w13c25 (602490 atributos): 19 configs em 442s
+             config    acc  f1_macro
+ logreg_C0.5_w13c25 0.4613    0.4595
+   svc_C0.05_w13c25 0.4610    0.4569
+logreg_C0.25_w13c25 0.4608    0.4576
+
+w12c25_semacento (744657 atributos): 19 configs em 436s
+                       config    acc  f1_macro
+   svc_C0.05_w12c25_semacento 0.4598    0.4558
+   ridge_a10_w12c25_semacento 0.4593    0.4553
+logreg_C0.25_w12c25_semacento 0.4588    0.4555
+
+=== Top 20 geral ===
+                    config    acc  f1_macro
+       logreg_C0.25_w12c25 0.4620    0.4587
+        logreg_C0.5_w13c25 0.4613    0.4595
+          svc_C0.05_w13c25 0.4610    0.4569
+       logregbal_C1_w13c25 0.4608    0.4601
+       logreg_C0.25_w13c25 0.4608    0.4576
+          svc_C0.05_w12c25 0.4608    0.4567
+          ridge_a10_w12c25 0.4608    0.4567
+     logregbal_C0.5_w13c25 0.4608    0.4593
+ nbsvm_C0.25_w12_semacento 0.4600    0.4598
+          ridge_a10_w13c25 0.4598    0.4557
+svc_C0.05_w12c25_semacento 0.4598    0.4558
+            nbsvm_C0.1_w13 0.4595    0.4589
+          logreg_C1_w12c25 0.4593    0.4584
+       logreg_C0.25_w12c36 0.4593    0.4561
+ridge_a10_w12c25_semacento 0.4593    0.4553
+        logreg_C0.5_w12c36 0.4593    0.4573
+           svc_C0.1_w13c25 0.4590    0.4567
+       logregbal_C1_w12c25 0.4588    0.4580
+        logreg_C0.5_w12c25 0.4588    0.4567
+           nbsvm_C0.05_w13 0.4588    0.4571
+
+=== Melhor configuração de cada modelo ===
+   modelo                         config    acc  f1_macro
+   logreg            logreg_C0.25_w12c25 0.4620    0.4587
+      svc               svc_C0.05_w13c25 0.4610    0.4569
+    ridge               ridge_a10_w12c25 0.4608    0.4567
+logregbal          logregbal_C0.5_w13c25 0.4608    0.4593
+    nbsvm      nbsvm_C0.25_w12_semacento 0.4600    0.4598
+      cnb         cnb_a0.1_w12_semacento 0.4547    0.4484
+      mnb                  mnb_a0.03_w13 0.4540    0.4452
+ sgdhuber sgdhuber_a0.0001_w12_semacento 0.4527    0.4521

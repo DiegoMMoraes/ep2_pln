@@ -1,0 +1,36 @@
+[{"stream_name":"stderr","time":7.368212189,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.368270796,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.368278965,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.368283389,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.999806513,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.9998467,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.99985258,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.999856217,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.119950368,"data":"dependências ok \n"}
+,{"stream_name":"stdout","time":9.13699317,"data":"Writing ep2_treino.py\n"}
+,{"stream_name":"stdout","time":16.556821324,"data":"2 GPU(s): ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":16.55685296,"data":"[GPU 0] iniciado: xlmr_large (FacebookAI/xlm-roberta-large)\n"}
+,{"stream_name":"stdout","time":16.558432832,"data":"[GPU 1] iniciado: qwen3_1.7b (Qwen/Qwen3-1.7B)\n"}
+,{"stream_name":"stdout","time":76.56106439,"data":"[GPU 0] terminou: xlmr_large -\u003e ERRO (código 1); veja xlmr_large/log.txt\n"}
+,{"stream_name":"stdout","time":76.562092906,"data":"[GPU 1] terminou: qwen3_1.7b -\u003e ERRO (código 1); veja qwen3_1.7b/log.txt\n"}
+,{"stream_name":"stdout","time":76.563290618,"data":"--- 1 min | \n"}
+,{"stream_name":"stdout","time":76.564424182,"data":"[GPU 0] iniciado: mmbert_base (jhu-clsp/mmBERT-base)\n"}
+,{"stream_name":"stdout","time":76.565386026,"data":"[GPU 1] iniciado: bertimbau_large_suave (neuralmind/bert-large-portuguese-cased)\n"}
+,{"stream_name":"stdout","time":136.568315869,"data":"[GPU 0] terminou: mmbert_base -\u003e ERRO (código 1); veja mmbert_base/log.txt\n"}
+,{"stream_name":"stdout","time":136.569266186,"data":"[GPU 1] terminou: bertimbau_large_suave -\u003e ERRO (código 1); veja bertimbau_large_suave/log.txt\n"}
+,{"stream_name":"stdout","time":136.570281757,"data":"--- 2 min | \n"}
+,{"stream_name":"stdout","time":136.571212275,"data":"\n"}
+,{"stream_name":"stdout","time":136.571235463,"data":"===== Resumo =====\n"}
+,{"stream_name":"stdout","time":136.571241301,"data":"xlmr_large -\u003e ERRO (código 1); veja xlmr_large/log.txt\n"}
+,{"stream_name":"stdout","time":136.571246866,"data":"qwen3_1.7b -\u003e ERRO (código 1); veja qwen3_1.7b/log.txt\n"}
+,{"stream_name":"stdout","time":136.571251066,"data":"mmbert_base -\u003e ERRO (código 1); veja mmbert_base/log.txt\n"}
+,{"stream_name":"stdout","time":136.571255529,"data":"bertimbau_large_suave -\u003e ERRO (código 1); veja bertimbau_large_suave/log.txt\n"}
+,{"stream_name":"stderr","time":139.570510489,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":139.570570224,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":139.732888499,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":139.732926725,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":140.48202778,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":140.556508552,"data":"[NbConvertApp] Writing 33001 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":143.060926939,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":143.615403023,"data":"[NbConvertApp] Writing 397220 bytes to __results__.html\n"}
+]

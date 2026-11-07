@@ -1,0 +1,41 @@
+Experimento norberto_base: Itau-Unibanco/NorBERTo-base (encoder) | modos ['holdout'] | saída /kaggle/working/saida/norberto_base
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokens por texto: mediana 180, p90 512, 11.0% truncados
+
+========== HOLDOUT 80/20 | semente 42 ==========
+Loading weights:   0%|          | 0/136 [00:00<?, ?it/s]Loading weights: 100%|██████████| 136/136 [00:00<00:00, 2695.42it/s]
+[transformers] [1mModernBertForSequenceClassification LOAD REPORT[0m from: Itau-Unibanco/NorBERTo-base
+Key               | Status     | 
+------------------+------------+-
+decoder.bias      | UNEXPECTED | 
+classifier.weight | MISSING    | 
+classifier.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2015 | perda 1.1398 | ~5.6 min restantes
+  época 1 | lote 400/2015 | perda 1.1169 | ~5.1 min restantes
+  época 1 | lote 600/2015 | perda 1.1092 | ~4.6 min restantes
+  época 1 | lote 800/2015 | perda 1.1019 | ~3.8 min restantes
+  época 1 | lote 1000/2015 | perda 1.0952 | ~3.2 min restantes
+  época 1 | lote 1200/2015 | perda 1.0914 | ~2.6 min restantes
+  época 1 | lote 1400/2015 | perda 1.0894 | ~2.0 min restantes
+  época 1 | lote 1600/2015 | perda 1.0848 | ~1.3 min restantes
+  época 1 | lote 1800/2015 | perda 1.0819 | ~0.7 min restantes
+  época 1 | lote 2000/2015 | perda 1.0792 | ~0.0 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0785 | lotes_nao_finitos=0 | minutos=6.4487 | acuracia=0.4334 | distribuicao_prevista=[2072, 819, 1085]
+  época 2 | lote 200/2015 | perda 0.9979 | ~5.8 min restantes
+  época 2 | lote 400/2015 | perda 0.9978 | ~5.1 min restantes
+  época 2 | lote 600/2015 | perda 0.9947 | ~4.5 min restantes
+  época 2 | lote 800/2015 | perda 0.9922 | ~3.9 min restantes
+  época 2 | lote 1000/2015 | perda 0.9888 | ~3.2 min restantes
+  época 2 | lote 1200/2015 | perda 0.9858 | ~2.6 min restantes
+  época 2 | lote 1400/2015 | perda 0.9823 | ~2.0 min restantes
+  época 2 | lote 1600/2015 | perda 0.9823 | ~1.3 min restantes
+  época 2 | lote 1800/2015 | perda 0.9779 | ~0.7 min restantes
+  época 2 | lote 2000/2015 | perda 0.9755 | ~0.0 min restantes
+  semente=42 | epoca=2 | perda_treino=0.9749 | lotes_nao_finitos=0 | minutos=6.4541 | acuracia=0.4580 | distribuicao_prevista=[1273, 1335, 1368]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'historico.csv', 'holdout_semente42_epoca1.csv', 'holdout_semente42_epoca2.csv', 'log.txt']

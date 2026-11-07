@@ -1,0 +1,18 @@
+metodo,acc,acc_dp_folds,f1_macro
+bertimbau,0.46,0.0029,0.4544
+svc_word12,0.4571,0.0081,0.4541
+svc_word12_char25,0.4586,0.0031,0.4543
+logreg_word12,0.4514,0.0071,0.4512
+complementnb_word12,0.4508,0.0076,0.4499
+multinomialnb_word12,0.4526,0.007,0.4513
+EP1: média ponderada BERT+SVCwc+LogReg (sem viés),0.4705,0.0043,0.4664
+LogReg C=0.01 [todos],0.4717,0.0062,0.4648
+LogReg C=0.1 [todos],0.4709,0.0073,0.4646
+LogReg C=1.0 [todos],0.47,0.0062,0.4639
+LogReg C=10.0 [todos],0.4693,0.0058,0.4632
+HistGradientBoosting [todos],0.4673,0.0093,0.4624
+LogReg C=0.01 [sem BERT],0.4625,0.0104,0.4553
+LogReg C=0.1 [sem BERT],0.4621,0.0096,0.4553
+LogReg C=1.0 [sem BERT],0.4611,0.0079,0.4545
+LogReg C=10.0 [sem BERT],0.4607,0.007,0.4543
+HistGradientBoosting [sem BERT],0.4582,0.007,0.4542

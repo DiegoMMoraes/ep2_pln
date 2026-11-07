@@ -1,0 +1,62 @@
+Gabarito: test1-rotulado-para-teste-estatistico.xlsx (900 instâncias) {'c1': 300, 'c234': 300, 'c5': 300}
+Baseline classe majoritária: acurácia 0.3333
+
+=== EP1 (test1-rotulado-ep1.xlsx) ===
+Acurácia: 0.4967
+F1-macro: 0.4937
+Kappa:    0.2450
+
+Distribuição prevista: {'c1': 270, 'c234': 276, 'c5': 354}
+
+              precision    recall  f1-score   support
+
+          c1     0.5222    0.4700    0.4947       300
+        c234     0.4420    0.4067    0.4236       300
+          c5     0.5198    0.6133    0.5627       300
+
+    accuracy                         0.4967       900
+   macro avg     0.4947    0.4967    0.4937       900
+weighted avg     0.4947    0.4967    0.4937       900
+
+Matriz de confusão:
+           prev c1  prev c234  prev c5
+real c1        141         89       70
+real c234       78        122      100
+real c5         51         65      184
+
+=== EP2 (test1-rotulado-ep2.xlsx) ===
+Acurácia: 0.4889
+F1-macro: 0.4838
+Kappa:    0.2333
+
+Distribuição prevista: {'c1': 289, 'c234': 255, 'c5': 356}
+
+              precision    recall  f1-score   support
+
+          c1     0.5156    0.4967    0.5059       300
+        c234     0.4118    0.3500    0.3784       300
+          c5     0.5225    0.6200    0.5671       300
+
+    accuracy                         0.4889       900
+   macro avg     0.4833    0.4889    0.4838       900
+weighted avg     0.4833    0.4889    0.4838       900
+
+Matriz de confusão:
+           prev c1  prev c234  prev c5
+real c1        149         85       66
+real c234       91        105      104
+real c5         49         65      186
+
+=== Teste de McNemar: EP1 x EP2 (n = 900) ===
+            EP2 acerta  EP2 erra
+EP1 acerta         381        66
+EP1 erra            59       394
+
+Acurácia EP1: 0.4967 | Acurácia EP2: 0.4889 | diferença (EP2 - EP1): -0.0078
+Pares discordantes: b = 66 (só EP1 acerta), c = 59 (só EP2 acerta)
+Qui-quadrado (com correção de continuidade) = 0.2880, p = 0.5915
+Teste exato (binomial), bilateral:            p = 0.5917
+Teste exato (binomial), unilateral EP2 > EP1: p = 0.7628
+Conclusão: diferença não significativa a p < 0,05.
+
+Concordância entre os rótulos do EP1 e do EP2: 0.8233

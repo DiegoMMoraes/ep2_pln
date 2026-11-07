@@ -1,0 +1,50 @@
+Experimento est_ema_s42: neuralmind/bert-large-portuguese-cased (encoder) | modos ['holdout'] | saída /kaggle/working/saida/est_ema_s42
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Tokens por texto: mediana 182, p90 512, 10.9% truncados
+
+========== HOLDOUT 80/20 | semente 42 ==========
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 10302.83it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.bias                       | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+classifier.bias                            | MISSING    | 
+classifier.weight                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/kaggle/working/ep2_treino.py:305: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/2015 | perda 1.1145 | ~11.0 min restantes
+  época 1 | lote 400/2015 | perda 1.1064 | ~9.8 min restantes
+  época 1 | lote 600/2015 | perda 1.1050 | ~8.8 min restantes
+  época 1 | lote 800/2015 | perda 1.0977 | ~7.4 min restantes
+  época 1 | lote 1000/2015 | perda 1.0941 | ~6.2 min restantes
+  época 1 | lote 1200/2015 | perda 1.0879 | ~4.9 min restantes
+  época 1 | lote 1400/2015 | perda 1.0863 | ~3.7 min restantes
+  época 1 | lote 1600/2015 | perda 1.0851 | ~2.5 min restantes
+  época 1 | lote 1800/2015 | perda 1.0836 | ~1.3 min restantes
+  época 1 | lote 2000/2015 | perda 1.0824 | ~0.1 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0826 | lotes_nao_finitos=0 | minutos=12.2920 | acuracia=0.4474 | distribuicao_prevista=[1135, 1068, 1773]
+  época 2 | lote 200/2015 | perda 1.0257 | ~10.9 min restantes
+  época 2 | lote 400/2015 | perda 1.0362 | ~9.7 min restantes
+  época 2 | lote 600/2015 | perda 1.0376 | ~8.5 min restantes
+  época 2 | lote 800/2015 | perda 1.0428 | ~7.3 min restantes
+  época 2 | lote 1000/2015 | perda 1.0434 | ~6.1 min restantes
+  época 2 | lote 1200/2015 | perda 1.0436 | ~5.0 min restantes
+  época 2 | lote 1400/2015 | perda 1.0416 | ~3.7 min restantes
+  época 2 | lote 1600/2015 | perda 1.0425 | ~2.5 min restantes
+  época 2 | lote 1800/2015 | perda 1.0380 | ~1.3 min restantes
+  época 2 | lote 2000/2015 | perda 1.0351 | ~0.1 min restantes
+  semente=42 | epoca=2 | perda_treino=1.0351 | lotes_nao_finitos=0 | minutos=12.2056 | acuracia=0.4505 | distribuicao_prevista=[1329, 939, 1708]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'historico.csv', 'holdout_semente42_epoca1.csv', 'holdout_semente42_epoca2.csv', 'log.txt']

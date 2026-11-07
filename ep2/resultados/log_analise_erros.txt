@@ -1,0 +1,36 @@
+C:\Users\diego\Downloads\EP2\ep2\analise_erros.py:67: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  caracteristicas[nome] = textos.str.contains(padrao, flags=re.IGNORECASE, regex=True).to_numpy()
+Versão E no test1: acurácia 0.4889 (440/900)
+
+Matriz de confusão:
+previsto   c1  c234   c5
+real                    
+c1        149    85   66
+c234       91   105  104
+c5         49    65  186
+
+Recall por classe: c1 0.50, c234 0.35, c5 0.62
+
+Tipos de erro (real→previsto), 6 tipos, 460 erros:
+c234→c5    0.226
+c234→c1    0.198
+c1→c234    0.185
+c1→c5      0.143
+c5→c234    0.141
+c5→c1      0.107
+Erros envolvendo a classe do meio (c234): 75%; erros entre extremos (c1↔c5): 25%
+
+Acurácia por característica do texto:
+                            caracteristica   n  acuracia  acuracia_resto                  dist_real
+                        repetido do treino 100     0.450           0.494 c1 45% / c234 28% / c5 27%
+repetido com rótulos divergentes no treino  69     0.435           0.493 c1 41% / c234 26% / c5 33%
+               texto curto (< 30 palavras) 140     0.493           0.488 c1 36% / c234 24% / c5 40%
+              texto longo (> 300 palavras)  82     0.537           0.484 c1 45% / c234 43% / c5 12%
+       baixa confiança (máx. prob. < 0,45) 328     0.363           0.561 c1 35% / c234 35% / c5 30%
+        alta confiança (máx. prob. ≥ 0,60) 151     0.755           0.435 c1 32% / c234 17% / c5 51%
+                       remete a anexo/link 552     0.476           0.509 c1 35% / c234 33% / c5 32%
+          pede esclarecimento/reformulação 237     0.498           0.486 c1 36% / c234 36% / c5 27%
+                       nega/sem informação 179     0.542           0.476 c1 35% / c234 34% / c5 31%
+                   encaminha a outro órgão 217     0.507           0.483 c1 38% / c234 29% / c5 33%
+
+Amostra de 60 erros -> resultados/analise_erros_amostra.csv

@@ -1,0 +1,2 @@
+semente,epoca,perda_treino,lotes_nao_finitos,minutos,acuracia,distribuicao_prevista,semente_usada,divisao
+42,1,1.1048613171492832,0,213.87699518998463,0.44668008048289737,"[1396, 715, 1865]",42,holdout

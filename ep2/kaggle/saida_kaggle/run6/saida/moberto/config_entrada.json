@@ -1,0 +1,10 @@
+{
+  "saida": "/kaggle/working/saida",
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "modos": [
+    "holdout"
+  ],
+  "experimento": "moberto",
+  "modelo": "Tropic-AI/moBERTo",
+  "lr": 3e-05
+}

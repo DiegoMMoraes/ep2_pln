@@ -1,0 +1,5 @@
+w11: 24 configs em 101s; melhores:
+         config    acc  acc_dp_folds  f1_macro
+   svc_w11_C0.1 0.4554        0.0066    0.4525
+  svc_w11_C0.05 0.4546        0.0047    0.4505
+logreg_w11_C0.5 0.4543        0.0058    0.4523

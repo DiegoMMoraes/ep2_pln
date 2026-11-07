@@ -1,0 +1,9 @@
+{
+  "saida": "/kaggle/working/saida",
+  "modos": [
+    "holdout"
+  ],
+  "experimento": "xlmr_large",
+  "modelo": "FacebookAI/xlm-roberta-large",
+  "lr": 1e-05
+}

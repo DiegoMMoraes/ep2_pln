@@ -1,0 +1,51 @@
+Experimento xlmr_large_suave: FacebookAI/xlm-roberta-large (encoder) | modos ['holdout'] | saída /kaggle/working/saida/xlmr_large_suave
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (560 > 512). Running this sequence through the model will result in indexing errors
+Tokens por texto: mediana 180, p90 512, 10.9% truncados
+
+========== HOLDOUT 80/20 | semente 42 ==========
+  rótulos suaves: 1577 linhas com rótulos divergentes
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 245/389 [00:00<00:00, 2448.29it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2485.34it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.bias                | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+classifier.dense.bias       | MISSING    | 
+classifier.out_proj.weight  | MISSING    | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2015 | perda 1.1138 | ~12.4 min restantes
+  época 1 | lote 400/2015 | perda 1.1091 | ~11.3 min restantes
+  época 1 | lote 600/2015 | perda 1.1045 | ~10.1 min restantes
+  época 1 | lote 800/2015 | perda 1.1021 | ~8.6 min restantes
+  época 1 | lote 1000/2015 | perda 1.0989 | ~7.2 min restantes
+  época 1 | lote 1200/2015 | perda 1.0959 | ~5.8 min restantes
+  época 1 | lote 1400/2015 | perda 1.0919 | ~4.4 min restantes
+  época 1 | lote 1600/2015 | perda 1.0889 | ~3.0 min restantes
+  época 1 | lote 1800/2015 | perda 1.0875 | ~1.5 min restantes
+  época 1 | lote 2000/2015 | perda 1.0858 | ~0.1 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0856 | lotes_nao_finitos=0 | minutos=14.4054 | acuracia=0.4336 | distribuicao_prevista=[1641, 918, 1417]
+  época 2 | lote 200/2015 | perda 1.0399 | ~12.9 min restantes
+  época 2 | lote 400/2015 | perda 1.0437 | ~11.4 min restantes
+  época 2 | lote 600/2015 | perda 1.0420 | ~10.1 min restantes
+  época 2 | lote 800/2015 | perda 1.0415 | ~8.7 min restantes
+  época 2 | lote 1000/2015 | perda 1.0433 | ~7.2 min restantes
+  época 2 | lote 1200/2015 | perda 1.0430 | ~5.9 min restantes
+  época 2 | lote 1400/2015 | perda 1.0405 | ~4.4 min restantes
+  época 2 | lote 1600/2015 | perda 1.0387 | ~3.0 min restantes
+  época 2 | lote 1800/2015 | perda 1.0358 | ~1.5 min restantes
+  época 2 | lote 2000/2015 | perda 1.0343 | ~0.1 min restantes
+  semente=42 | epoca=2 | perda_treino=1.0344 | lotes_nao_finitos=0 | minutos=14.4284 | acuracia=0.4600 | distribuicao_prevista=[1433, 1009, 1534]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'historico.csv', 'holdout_semente42_epoca1.csv', 'holdout_semente42_epoca2.csv', 'log.txt']

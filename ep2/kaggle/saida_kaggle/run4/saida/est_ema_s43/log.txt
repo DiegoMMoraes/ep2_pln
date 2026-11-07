@@ -1,0 +1,48 @@
+Experimento est_ema_s43: neuralmind/bert-large-portuguese-cased (encoder) | modos ['holdout'] | saída /kaggle/working/saida/est_ema_s43
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Tokens por texto: mediana 182, p90 512, 10.9% truncados
+
+========== HOLDOUT 80/20 | semente 43 ==========
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 10171.19it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: neuralmind/bert-large-portuguese-cased
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.bias                       | UNEXPECTED | 
+cls.seq_relationship.weight                | UNEXPECTED | 
+cls.predictions.decoder.weight             | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.seq_relationship.bias                  | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2015 | perda 1.0957 | ~10.3 min restantes
+  época 1 | lote 400/2015 | perda 1.0921 | ~9.2 min restantes
+  época 1 | lote 600/2015 | perda 1.0874 | ~8.3 min restantes
+  época 1 | lote 800/2015 | perda 1.0847 | ~7.3 min restantes
+  época 1 | lote 1000/2015 | perda 1.0847 | ~6.1 min restantes
+  época 1 | lote 1200/2015 | perda 1.0802 | ~4.9 min restantes
+  época 1 | lote 1400/2015 | perda 1.0773 | ~3.7 min restantes
+  época 1 | lote 1600/2015 | perda 1.0739 | ~2.5 min restantes
+  época 1 | lote 1800/2015 | perda 1.0703 | ~1.3 min restantes
+  época 1 | lote 2000/2015 | perda 1.0675 | ~0.1 min restantes
+  semente=43 | epoca=1 | perda_treino=1.0678 | lotes_nao_finitos=0 | minutos=12.1375 | acuracia=0.4628 | distribuicao_prevista=[1505, 771, 1700]
+  época 2 | lote 200/2015 | perda 0.9825 | ~10.8 min restantes
+  época 2 | lote 400/2015 | perda 0.9950 | ~9.8 min restantes
+  época 2 | lote 600/2015 | perda 1.0074 | ~8.4 min restantes
+  época 2 | lote 800/2015 | perda 1.0154 | ~7.4 min restantes
+  época 2 | lote 1000/2015 | perda 1.0150 | ~6.2 min restantes
+  época 2 | lote 1200/2015 | perda 1.0128 | ~5.0 min restantes
+  época 2 | lote 1400/2015 | perda 1.0086 | ~3.7 min restantes
+  época 2 | lote 1600/2015 | perda 1.0088 | ~2.5 min restantes
+  época 2 | lote 1800/2015 | perda 1.0083 | ~1.3 min restantes
+  época 2 | lote 2000/2015 | perda 1.0081 | ~0.1 min restantes
+  semente=43 | epoca=2 | perda_treino=1.0078 | lotes_nao_finitos=0 | minutos=12.2484 | acuracia=0.4668 | distribuicao_prevista=[1397, 1060, 1519]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'historico.csv', 'holdout_semente43_epoca1.csv', 'holdout_semente43_epoca2.csv', 'log.txt']
