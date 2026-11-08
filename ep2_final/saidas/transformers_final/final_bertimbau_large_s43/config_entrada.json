@@ -1,0 +1,13 @@
+{
+  "saida": "/kaggle/working/saida",
+  "pasta_dados": "/kaggle/input/datasets/diegommoraes/ep2-pln/dados_kaggle",
+  "modos": [
+    "final"
+  ],
+  "experimento": "final_bertimbau_large_s43",
+  "modelo": "neuralmind/bert-large-portuguese-cased",
+  "lr": 1.5e-05,
+  "sementes": [
+    43
+  ]
+}

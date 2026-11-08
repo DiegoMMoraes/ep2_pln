@@ -1,0 +1,11 @@
+caracteristica,n,acuracia,acuracia_resto,dist_real
+repetido do treino,100,0.45,0.494,c1 45% / c234 28% / c5 27%
+repetido com rótulos divergentes no treino,69,0.435,0.493,c1 41% / c234 26% / c5 33%
+texto curto (< 30 palavras),140,0.493,0.488,c1 36% / c234 24% / c5 40%
+texto longo (> 300 palavras),82,0.537,0.484,c1 45% / c234 43% / c5 12%
+"baixa confiança (máx. prob. < 0,45)",328,0.363,0.561,c1 35% / c234 35% / c5 30%
+"alta confiança (máx. prob. ≥ 0,60)",151,0.755,0.435,c1 32% / c234 17% / c5 51%
+remete a anexo/link,552,0.476,0.509,c1 35% / c234 33% / c5 32%
+pede esclarecimento/reformulação,237,0.498,0.486,c1 36% / c234 36% / c5 27%
+nega/sem informação,179,0.542,0.476,c1 35% / c234 34% / c5 31%
+encaminha a outro órgão,217,0.507,0.483,c1 38% / c234 29% / c5 33%

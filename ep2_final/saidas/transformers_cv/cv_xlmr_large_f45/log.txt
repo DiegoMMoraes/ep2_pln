@@ -1,0 +1,90 @@
+Experimento cv_xlmr_large_f45: FacebookAI/xlm-roberta-large (encoder) | modos ['cv'] | saída /kaggle/working/saida/cv_xlmr_large_f45
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (560 > 512). Running this sequence through the model will result in indexing errors
+Tokens por texto: mediana 180, p90 512, 10.9% truncados
+
+========== CV fold 4 | semente 42 ==========
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  58%|█████▊    | 224/389 [00:00<00:00, 2237.95it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2568.05it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.layer_norm.weight   | UNEXPECTED | 
+lm_head.bias                | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+classifier.out_proj.weight  | MISSING    | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.dense.bias       | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/1992 | perda 1.1101 | ~12.0 min restantes
+  época 1 | lote 400/1992 | perda 1.1105 | ~10.9 min restantes
+  época 1 | lote 600/1992 | perda 1.1074 | ~9.6 min restantes
+  época 1 | lote 800/1992 | perda 1.1018 | ~8.0 min restantes
+  época 1 | lote 1000/1992 | perda 1.0990 | ~6.6 min restantes
+  época 1 | lote 1200/1992 | perda 1.0961 | ~5.3 min restantes
+  época 1 | lote 1400/1992 | perda 1.0932 | ~4.0 min restantes
+  época 1 | lote 1600/1992 | perda 1.0895 | ~2.6 min restantes
+  época 1 | lote 1800/1992 | perda 1.0871 | ~1.3 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0851 | lotes_nao_finitos=0 | minutos=13.3999 | acuracia=0.4430 | distribuicao_prevista=[1397, 1694, 1067]
+  época 2 | lote 200/1992 | perda 1.0612 | ~11.4 min restantes
+  época 2 | lote 400/1992 | perda 1.0454 | ~10.5 min restantes
+  época 2 | lote 600/1992 | perda 1.0322 | ~9.2 min restantes
+  época 2 | lote 800/1992 | perda 1.0332 | ~7.9 min restantes
+  época 2 | lote 1000/1992 | perda 1.0327 | ~6.6 min restantes
+  época 2 | lote 1200/1992 | perda 1.0336 | ~5.3 min restantes
+  época 2 | lote 1400/1992 | perda 1.0339 | ~4.0 min restantes
+  época 2 | lote 1600/1992 | perda 1.0301 | ~2.6 min restantes
+  época 2 | lote 1800/1992 | perda 1.0311 | ~1.3 min restantes
+  semente=42 | epoca=2 | perda_treino=1.0303 | lotes_nao_finitos=0 | minutos=13.4222 | acuracia=0.4565 | distribuicao_prevista=[1294, 1020, 1844]
+
+========== CV fold 5 | semente 42 ==========
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 263/389 [00:00<00:00, 2625.24it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2643.49it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.layer_norm.weight   | UNEXPECTED | 
+lm_head.bias                | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+classifier.out_proj.weight  | MISSING    | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.dense.bias       | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2008 | perda 1.1100 | ~12.9 min restantes
+  época 1 | lote 400/2008 | perda 1.1087 | ~10.9 min restantes
+  época 1 | lote 600/2008 | perda 1.1095 | ~9.6 min restantes
+  época 1 | lote 800/2008 | perda 1.1062 | ~8.2 min restantes
+  época 1 | lote 1000/2008 | perda 1.1046 | ~6.8 min restantes
+  época 1 | lote 1200/2008 | perda 1.1020 | ~5.4 min restantes
+  época 1 | lote 1400/2008 | perda 1.0975 | ~4.1 min restantes
+  época 1 | lote 1600/2008 | perda 1.0941 | ~2.7 min restantes
+  época 1 | lote 1800/2008 | perda 1.0917 | ~1.4 min restantes
+  época 1 | lote 2000/2008 | perda 1.0897 | ~0.1 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0898 | lotes_nao_finitos=0 | minutos=13.5074 | acuracia=0.4127 | distribuicao_prevista=[1676, 1928, 428]
+  época 2 | lote 200/2008 | perda 1.0574 | ~12.2 min restantes
+  época 2 | lote 400/2008 | perda 1.0383 | ~10.7 min restantes
+  época 2 | lote 600/2008 | perda 1.0373 | ~9.3 min restantes
+  época 2 | lote 800/2008 | perda 1.0400 | ~7.9 min restantes
+  época 2 | lote 1000/2008 | perda 1.0363 | ~6.7 min restantes
+  época 2 | lote 1200/2008 | perda 1.0360 | ~5.4 min restantes
+  época 2 | lote 1400/2008 | perda 1.0349 | ~4.1 min restantes
+  época 2 | lote 1600/2008 | perda 1.0338 | ~2.7 min restantes
+  época 2 | lote 1800/2008 | perda 1.0329 | ~1.4 min restantes
+  época 2 | lote 2000/2008 | perda 1.0322 | ~0.1 min restantes
+  semente=42 | epoca=2 | perda_treino=1.0322 | lotes_nao_finitos=0 | minutos=13.5204 | acuracia=0.4608 | distribuicao_prevista=[1144, 1314, 1574]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'cv_fold4_semente42_epoca1.csv', 'cv_fold4_semente42_epoca2.csv', 'cv_fold5_semente42_epoca1.csv', 'cv_fold5_semente42_epoca2.csv', 'historico.csv', 'log.txt']

@@ -1,0 +1,93 @@
+Experimento cv_xlmr_large_f23: FacebookAI/xlm-roberta-large (encoder) | modos ['cv'] | saída /kaggle/working/saida/cv_xlmr_large_f23
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (560 > 512). Running this sequence through the model will result in indexing errors
+Tokens por texto: mediana 180, p90 512, 10.9% truncados
+
+========== CV fold 2 | semente 42 ==========
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  54%|█████▍    | 211/389 [00:00<00:00, 2095.73it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 3320.15it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.bias                | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+classifier.dense.bias       | MISSING    | 
+classifier.out_proj.weight  | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2004 | perda 1.1069 | ~11.8 min restantes
+  época 1 | lote 400/2004 | perda 1.1077 | ~10.7 min restantes
+  época 1 | lote 600/2004 | perda 1.1012 | ~9.4 min restantes
+  época 1 | lote 800/2004 | perda 1.0983 | ~7.9 min restantes
+  época 1 | lote 1000/2004 | perda 1.0957 | ~6.6 min restantes
+  época 1 | lote 1200/2004 | perda 1.0956 | ~5.3 min restantes
+  época 1 | lote 1400/2004 | perda 1.0935 | ~4.0 min restantes
+  época 1 | lote 1600/2004 | perda 1.0911 | ~2.7 min restantes
+  época 1 | lote 1800/2004 | perda 1.0888 | ~1.4 min restantes
+  época 1 | lote 2000/2004 | perda 1.0872 | ~0.0 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0872 | lotes_nao_finitos=0 | minutos=13.4715 | acuracia=0.4247 | distribuicao_prevista=[616, 1798, 1648]
+  época 2 | lote 200/2004 | perda 1.0521 | ~12.3 min restantes
+  época 2 | lote 400/2004 | perda 1.0474 | ~10.6 min restantes
+  época 2 | lote 600/2004 | perda 1.0451 | ~9.2 min restantes
+  época 2 | lote 800/2004 | perda 1.0405 | ~8.0 min restantes
+  época 2 | lote 1000/2004 | perda 1.0380 | ~6.7 min restantes
+  época 2 | lote 1200/2004 | perda 1.0386 | ~5.4 min restantes
+  época 2 | lote 1400/2004 | perda 1.0363 | ~4.1 min restantes
+  época 2 | lote 1600/2004 | perda 1.0343 | ~2.7 min restantes
+  época 2 | lote 1800/2004 | perda 1.0356 | ~1.4 min restantes
+  época 2 | lote 2000/2004 | perda 1.0360 | ~0.0 min restantes
+  semente=42 | epoca=2 | perda_treino=1.0360 | lotes_nao_finitos=0 | minutos=13.4978 | acuracia=0.4591 | distribuicao_prevista=[1391, 910, 1761]
+
+========== CV fold 3 | semente 42 ==========
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 247/389 [00:00<00:00, 2468.22it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2555.15it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.bias                | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+classifier.dense.bias       | MISSING    | 
+classifier.out_proj.weight  | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2029 | perda 1.1170 | ~12.1 min restantes
+  época 1 | lote 400/2029 | perda 1.1114 | ~11.1 min restantes
+  época 1 | lote 600/2029 | perda 1.1090 | ~9.6 min restantes
+  época 1 | lote 800/2029 | perda 1.1058 | ~8.3 min restantes
+  época 1 | lote 1000/2029 | perda 1.1033 | ~6.9 min restantes
+  época 1 | lote 1200/2029 | perda 1.1014 | ~5.5 min restantes
+  época 1 | lote 1400/2029 | perda 1.0998 | ~4.2 min restantes
+  época 1 | lote 1600/2029 | perda 1.0954 | ~2.9 min restantes
+  época 1 | lote 1800/2029 | perda 1.0918 | ~1.5 min restantes
+  época 1 | lote 2000/2029 | perda 1.0887 | ~0.2 min restantes
+  semente=42 | epoca=1 | perda_treino=1.0883 | lotes_nao_finitos=0 | minutos=13.6042 | acuracia=0.4433 | distribuicao_prevista=[672, 1997, 1195]
+  época 2 | lote 200/2029 | perda 1.0614 | ~12.6 min restantes
+  época 2 | lote 400/2029 | perda 1.0560 | ~11.0 min restantes
+  época 2 | lote 600/2029 | perda 1.0519 | ~9.6 min restantes
+  época 2 | lote 800/2029 | perda 1.0484 | ~8.2 min restantes
+  época 2 | lote 1000/2029 | perda 1.0464 | ~6.8 min restantes
+  época 2 | lote 1200/2029 | perda 1.0460 | ~5.5 min restantes
+  época 2 | lote 1400/2029 | perda 1.0429 | ~4.2 min restantes
+  época 2 | lote 1600/2029 | perda 1.0411 | ~2.9 min restantes
+  época 2 | lote 1800/2029 | perda 1.0413 | ~1.5 min restantes
+  época 2 | lote 2000/2029 | perda 1.0402 | ~0.2 min restantes
+  semente=42 | epoca=2 | perda_treino=1.0399 | lotes_nao_finitos=0 | minutos=13.6235 | acuracia=0.4653 | distribuicao_prevista=[1154, 1208, 1502]
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'cv_fold2_semente42_epoca1.csv', 'cv_fold2_semente42_epoca2.csv', 'cv_fold3_semente42_epoca1.csv', 'cv_fold3_semente42_epoca2.csv', 'historico.csv', 'log.txt']

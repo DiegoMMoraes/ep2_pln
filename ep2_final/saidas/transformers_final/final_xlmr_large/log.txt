@@ -1,0 +1,150 @@
+Experimento final_xlmr_large: FacebookAI/xlm-roberta-large (encoder) | modos ['final'] | saída /kaggle/working/saida/final_xlmr_large
+GPU Tesla T4 | torch 2.11.0+cu130 | transformers 5.20.2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (560 > 512). Running this sequence through the model will result in indexing errors
+Tokens por texto: mediana 180, p90 512, 10.9% truncados
+
+========== FINAL (100% do treino) | semente 42 ==========
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  58%|█████▊    | 224/389 [00:00<00:00, 2235.97it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2801.76it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.bias                | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+classifier.dense.bias       | MISSING    | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.out_proj.weight  | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+/kaggle/working/ep2_treino.py:305: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  agendador.step()
+  época 1 | lote 200/2512 | perda 1.1168 | ~14.9 min restantes
+  época 1 | lote 400/2512 | perda 1.1119 | ~14.3 min restantes
+  época 1 | lote 600/2512 | perda 1.1079 | ~13.0 min restantes
+  época 1 | lote 800/2512 | perda 1.1048 | ~11.7 min restantes
+  época 1 | lote 1000/2512 | perda 1.1051 | ~10.3 min restantes
+  época 1 | lote 1200/2512 | perda 1.1057 | ~8.9 min restantes
+  época 1 | lote 1400/2512 | perda 1.1059 | ~7.5 min restantes
+  época 1 | lote 1600/2512 | perda 1.1058 | ~6.1 min restantes
+  época 1 | lote 1800/2512 | perda 1.1059 | ~4.8 min restantes
+  época 1 | lote 2000/2512 | perda 1.1058 | ~3.4 min restantes
+  época 1 | lote 2200/2512 | perda 1.1051 | ~2.1 min restantes
+  época 1 | lote 2400/2512 | perda 1.1052 | ~0.7 min restantes
+  semente=42 | epoca=1 | perda_treino=1.1052 | lotes_nao_finitos=0 | minutos=16.7978
+  época 2 | lote 200/2512 | perda 1.1034 | ~14.9 min restantes
+  época 2 | lote 400/2512 | perda 1.1057 | ~14.3 min restantes
+  época 2 | lote 600/2512 | perda 1.1039 | ~12.6 min restantes
+  época 2 | lote 800/2512 | perda 1.1030 | ~11.3 min restantes
+  época 2 | lote 1000/2512 | perda 1.1030 | ~10.0 min restantes
+  época 2 | lote 1200/2512 | perda 1.1028 | ~8.7 min restantes
+  época 2 | lote 1400/2512 | perda 1.1030 | ~7.3 min restantes
+  época 2 | lote 1600/2512 | perda 1.1033 | ~6.0 min restantes
+  época 2 | lote 1800/2512 | perda 1.1031 | ~4.7 min restantes
+  época 2 | lote 2000/2512 | perda 1.1027 | ~3.4 min restantes
+  época 2 | lote 2200/2512 | perda 1.1028 | ~2.1 min restantes
+  época 2 | lote 2400/2512 | perda 1.1028 | ~0.7 min restantes
+  semente=42 | epoca=2 | perda_treino=1.1028 | lotes_nao_finitos=0 | minutos=16.5527
+  COLAPSO: 100% das predições numa só classe (semente 42); retreinando
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  65%|██████▍   | 252/389 [00:00<00:00, 2509.24it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2440.42it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.bias                | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+classifier.dense.bias       | MISSING    | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.out_proj.weight  | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2512 | perda 1.1710 | ~16.5 min restantes
+  época 1 | lote 400/2512 | perda 1.1486 | ~14.9 min restantes
+  época 1 | lote 600/2512 | perda 1.1424 | ~13.4 min restantes
+  época 1 | lote 800/2512 | perda 1.1459 | ~11.9 min restantes
+  época 1 | lote 1000/2512 | perda 1.1373 | ~10.4 min restantes
+  época 1 | lote 1200/2512 | perda 1.1315 | ~8.9 min restantes
+  época 1 | lote 1400/2512 | perda 1.1284 | ~7.5 min restantes
+  época 1 | lote 1600/2512 | perda 1.1257 | ~6.2 min restantes
+  época 1 | lote 1800/2512 | perda 1.1239 | ~4.8 min restantes
+  época 1 | lote 2000/2512 | perda 1.1218 | ~3.4 min restantes
+  época 1 | lote 2200/2512 | perda 1.1203 | ~2.1 min restantes
+  época 1 | lote 2400/2512 | perda 1.1190 | ~0.7 min restantes
+  semente=1042 | epoca=1 | perda_treino=1.1183 | lotes_nao_finitos=0 | minutos=16.6799
+  época 2 | lote 200/2512 | perda 1.1045 | ~14.9 min restantes
+  época 2 | lote 400/2512 | perda 1.1021 | ~13.8 min restantes
+  época 2 | lote 600/2512 | perda 1.1028 | ~12.5 min restantes
+  época 2 | lote 800/2512 | perda 1.1037 | ~11.2 min restantes
+  época 2 | lote 1000/2512 | perda 1.1044 | ~9.9 min restantes
+  época 2 | lote 1200/2512 | perda 1.1036 | ~8.5 min restantes
+  época 2 | lote 1400/2512 | perda 1.1040 | ~7.3 min restantes
+  época 2 | lote 1600/2512 | perda 1.1037 | ~6.0 min restantes
+  época 2 | lote 1800/2512 | perda 1.1035 | ~4.7 min restantes
+  época 2 | lote 2000/2512 | perda 1.1036 | ~3.3 min restantes
+  época 2 | lote 2200/2512 | perda 1.1033 | ~2.0 min restantes
+  época 2 | lote 2400/2512 | perda 1.1034 | ~0.7 min restantes
+  semente=1042 | epoca=2 | perda_treino=1.1034 | lotes_nao_finitos=0 | minutos=16.5138
+  COLAPSO: 100% das predições numa só classe (semente 1042); retreinando
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights:  61%|██████    | 237/389 [00:00<00:00, 2367.83it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 2377.91it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                         | Status     | 
+----------------------------+------------+-
+lm_head.bias                | UNEXPECTED | 
+lm_head.dense.bias          | UNEXPECTED | 
+roberta.pooler.dense.bias   | UNEXPECTED | 
+lm_head.dense.weight        | UNEXPECTED | 
+lm_head.layer_norm.bias     | UNEXPECTED | 
+lm_head.layer_norm.weight   | UNEXPECTED | 
+roberta.pooler.dense.weight | UNEXPECTED | 
+classifier.dense.bias       | MISSING    | 
+classifier.out_proj.bias    | MISSING    | 
+classifier.out_proj.weight  | MISSING    | 
+classifier.dense.weight     | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  época 1 | lote 200/2512 | perda 1.1211 | ~15.1 min restantes
+  época 1 | lote 400/2512 | perda 1.1122 | ~13.7 min restantes
+  época 1 | lote 600/2512 | perda 1.1098 | ~12.5 min restantes
+  época 1 | lote 800/2512 | perda 1.1072 | ~11.3 min restantes
+  época 1 | lote 1000/2512 | perda 1.1078 | ~10.2 min restantes
+  época 1 | lote 1200/2512 | perda 1.1058 | ~8.8 min restantes
+  época 1 | lote 1400/2512 | perda 1.1055 | ~7.5 min restantes
+  época 1 | lote 1600/2512 | perda 1.1033 | ~6.2 min restantes
+  época 1 | lote 1800/2512 | perda 1.1009 | ~4.9 min restantes
+  época 1 | lote 2000/2512 | perda 1.0990 | ~3.5 min restantes
+  época 1 | lote 2200/2512 | perda 1.0955 | ~2.1 min restantes
+  época 1 | lote 2400/2512 | perda 1.0931 | ~0.8 min restantes
+  semente=2042 | epoca=1 | perda_treino=1.0923 | lotes_nao_finitos=0 | minutos=17.1528
+  época 2 | lote 200/2512 | perda 1.0675 | ~15.3 min restantes
+  época 2 | lote 400/2512 | perda 1.0556 | ~14.5 min restantes
+  época 2 | lote 600/2512 | perda 1.0512 | ~12.8 min restantes
+  época 2 | lote 800/2512 | perda 1.0510 | ~11.6 min restantes
+  época 2 | lote 1000/2512 | perda 1.0481 | ~10.3 min restantes
+  época 2 | lote 1200/2512 | perda 1.0448 | ~9.0 min restantes
+  época 2 | lote 1400/2512 | perda 1.0433 | ~7.6 min restantes
+  época 2 | lote 1600/2512 | perda 1.0438 | ~6.3 min restantes
+  época 2 | lote 1800/2512 | perda 1.0432 | ~4.9 min restantes
+  época 2 | lote 2000/2512 | perda 1.0418 | ~3.5 min restantes
+  época 2 | lote 2200/2512 | perda 1.0407 | ~2.1 min restantes
+  época 2 | lote 2400/2512 | perda 1.0390 | ~0.8 min restantes
+  semente=2042 | epoca=2 | perda_treino=1.0389 | lotes_nao_finitos=0 | minutos=17.1885
+test1: 900 textos | distribuição prevista {'c5': 386, 'c234': 257, 'c1': 257}
+test2: 897 textos | distribuição prevista {'c5': 382, 'c1': 269, 'c234': 246}
+
+Concluído. Arquivos: ['config.json', 'config_entrada.json', 'final_test1_semente42.csv', 'final_test2_semente42.csv', 'historico.csv', 'log.txt']

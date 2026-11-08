@@ -1,0 +1,11 @@
+=== 1. McNemar na validação cruzada (versão E x ensemble do EP1) ===
+cenário | n | acc E | acc EP1 | dif. | só EP1 acerta | só E acerta | qui-quadrado | p qui-quadrado | p exato
+E, 5 folds | 20092 | 0.4806 | 0.4705 | +0.0101 | 1244 | 1447 | 15.16 | 9.9e-05 | 9.8e-05
+E, folds 2-5 | 16116 | 0.4789 | 0.4703 | +0.0086 | 1029 | 1167 | 8.55 | 0.0035 | 0.0035
+E sem xlmr_large_suave, 5 folds | 20092 | 0.4790 | 0.4705 | +0.0085 | 1272 | 1443 | 10.64 | 0.0011 | 0.0011
+E sem xlmr_large_suave, folds 2-5 | 16116 | 0.4785 | 0.4703 | +0.0081 | 1045 | 1176 | 7.61 | 0.0058 | 0.0058
+
+=== 2. Poder do McNemar com 900 textos (300 por classe), 2000 sorteios das previsões OOF da CV ===
+diferença média E - EP1: +0.0105 (dp 0.0117); percentis 2,5% e 97,5%: -0.0122 e +0.0333
+fração dos sorteios com p < 0,05 e E melhor (poder): 10.9%
+fração dos sorteios em que a E fica abaixo do EP1: 16.9%
