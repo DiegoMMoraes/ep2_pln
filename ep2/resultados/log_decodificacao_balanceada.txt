@@ -1,0 +1,10 @@
+Holdout completo (não balanceado): {'c1': 1217, 'c234': 1390, 'c5': 1369}
+
+200 amostras balanceadas de 900 textos do holdout (como o test1):
+  EP1 argmax       acc média 0.4733 (dp 0.0135)
+  EP1 balanceada   acc média 0.4763 (dp 0.0147)
+  E argmax         acc média 0.4906 (dp 0.0151)
+  E balanceada     acc média 0.4842 (dp 0.0151)
+
+Ganho médio da balanceada sobre o argmax: EP1 +0.0030 | E -0.0064
+E balanceada vs EP1 entregue (argmax): ganho médio +0.0108; McNemar unilateral p < 0,05 em 16% das amostras (mediana p = 0.206)

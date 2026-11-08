@@ -314,11 +314,11 @@ Componentes da E na CV: bertimbau_large 0,4643; bertimbau_large_s43 0,4625; xlmr
 **Testes de robustez:**
 - Só os folds 2 a 5, sem o fold usado para escolher a E: E 0,4789 contra EP1 0,4703 (+0,86 ponto, p = 0,0035).
 - No fold 2, o xlmr_large_suave entrou em colapso parcial: nunca previu c1 e ficou com 0,37. A proteção não disparou, porque o limite é 85% numa só classe. Sem esse componente, a E de 5 componentes fica em 0,4790 (+0,85 ponto, p = 0,001). O colapso de um componente quase não afeta a média do ensemble.
-- Houve 5 colapsos totais (100% numa só classe), todos retreinados automaticamente com a semente + 1000.
+- Houve 4 colapsos totais (100% numa só classe), todos retreinados automaticamente com a semente + 1000.
 
 **Conclusões:**
 1. Nenhum modelo isolado supera o ensemble do EP1 na CV. O melhor deles (rótulos suaves) empata (p = 0,39). Os ganhos dos isolados no holdout eram ruído do fold 1.
-2. A versão E supera o EP1 nos 5 folds, com +1,0 ponto (+0,86 ponto sem o fold de seleção). Com 20 mil textos o resultado é significativo (p ≤ 0,004). No test1 (900 textos), essa mesma diferença não pode ser detectada, porque o poder estatístico fica em cerca de 30%.
+2. A versão E supera o EP1 nos 5 folds, com +1,0 ponto (+0,86 ponto sem o fold de seleção). Com 20 mil textos o resultado é significativo (p ≤ 0,004). No test1 (900 textos), essa mesma diferença não pode ser detectada, porque o poder estatístico é baixo: em sorteios de 900 textos balanceados das previsões da CV, o McNemar dá p < 0,05 a favor da E em só 10,9% das vezes, e a E fica abaixo do EP1 em 16,9% (`dados_relatorio.py`, `resultados/log_dados_relatorio.txt`).
 3. O ganho vem da diversidade do ensemble (BERTimbau large + XLM-R + NB-SVM), e não de nenhum modelo isolado.
 
 ## 14. Análise de características (aula 08), em 07/11
@@ -333,7 +333,7 @@ A descrição completa está em [ANALISE_CARACTERISTICAS.md](ANALISE_CARACTERIST
 - **Local:** 6 textos do test1, com a contribuição dos n-gramas no NB-SVM e o LIME no NB-SVM e no BERTimbau do EP1. O BERTimbau do EP1 serve de substituto porque os pesos dos transformers da E não estão salvos.
 
 **Resultados**
-- **Características espúrias:** nomes de pessoas e siglas de órgãos são ≥26% das 300 de maior peso em c1 e c234, e 38% em c5. Números e datas são de 7% a 12%.
+- **Características espúrias:** nomes de pessoas e siglas de órgãos são ~26% das 300 de maior peso em c1 e c234, e 38% em c5. Números e datas são de 7% a 12%.
 - **Efeito do solicitante:** a cidadã "Odila" tem 46 textos no treino, todos c5. Os mesmos nomes aparecem em ~8% do test1 e do test2. Nesses textos, a versão E acerta 0,662, contra 0,474 nos demais.
 - **Fidelidade:** o NB-SVM concorda com a E em 72–73% dos casos (kappa 0,58–0,60). O NB-SVM e o BERTimbau concordam pouco entre si (kappa 0,40), o que explica o ganho do ensemble.
 - **LIME:** o NB-SVM decide por nomes e números, e o BERTimbau, por palavras de conteúdo (informação, cópia, anexo).

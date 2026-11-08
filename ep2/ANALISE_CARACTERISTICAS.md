@@ -21,7 +21,7 @@ python analise_caracteristicas.py     # --sem-bert pula o LIME no BERTimbau
 - n-gramas binários de palavras 1–2, sem acentos;
 - LogReg um-contra-todos com C = 0,25.
 
-O peso de um n-grama numa classe é o coeficiente da LogReg multiplicado pela razão de log-contagem do Naive Bayes. É o equivalente ao `eli5.show_weights` (slides 22–24 e 26). Não usamos o eli5 porque ele não é compatível com o scikit-learn 1.9, mas o cálculo dos pesos é o mesmo.
+O peso de um n-grama numa classe é o coeficiente da LogReg multiplicado pela razão de log-contagem do Naive Bayes. É o equivalente ao `eli5.show_weights` (slides 22–24 e 26). Os pesos foram calculados diretamente dos coeficientes, sem a biblioteca eli5, mas o cálculo é o mesmo.
 
 **Etapas**
 1. **Interpretação global:** ranking dos n-gramas de maior peso em c1, c234 e c5.
