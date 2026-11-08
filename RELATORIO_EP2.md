@@ -45,7 +45,7 @@ Esse último teve a maior acurácia no test1, mas não foi escolhido (seção 8.
 ## 3. Pré-processamento
 
 **Comum a todos os modelos**
-- Valores ausentes viram texto vazio, e tudo é convertido para string (`src/data_loader.py`).
+- Valores ausentes viram texto vazio, e tudo é convertido para string (`ep2_final/src/data_loader.py`).
 - **Não removemos duplicatas do treino.** Textos que só diferem em espaços e quebras de linha são tratados como o mesmo texto pela função `chave_texto`, que colapsa espaços em branco. Ela é usada para:
   - agrupar as divisões, de modo que cópias do mesmo texto nunca fiquem no treino e na avaliação ao mesmo tempo;
   - calcular os rótulos suaves.
@@ -54,16 +54,16 @@ Esse último teve a maior acurácia no test1, mas não foi escolhido (seção 8.
 - O texto entra sem normalização própria. A vetorização do scikit-learn aplica minúsculas e o `token_pattern` padrão.
 - No NB-SVM final: `CountVectorizer(ngram_range=(1, 2), binary=True, strip_accents='unicode')`.
 
-**Transformers** (`kaggle/ep2_treino.py`)
+**Transformers** (`ep2_final/kaggle/ep2_treino.py`)
 - Espaços normalizados com `chave_texto`; depois, o tokenizador do próprio modelo. Não removemos acentos nem passamos para minúsculas, porque os modelos são *cased*.
-- **Truncamento início + fim:** o limite é de 512 tokens. Nos textos mais longos (10,9% do treino), mantêm-se os 128 primeiros e os 382 últimos tokens. O final da resposta costuma dizer se o pedido foi atendido, negado ou encaminhado. A mediana é de 182 tokens por texto (`kaggle/saida_kaggle/final/saida/final_bertimbau_large_suave/log.txt`).
+- **Truncamento início + fim:** o limite é de 512 tokens. Nos textos mais longos (10,9% do treino), mantêm-se os 128 primeiros e os 382 últimos tokens. O final da resposta costuma dizer se o pedido foi atendido, negado ou encaminhado. A mediana é de 182 tokens por texto (`ep2_final/saidas/transformers_final/final_bertimbau_large_suave/log.txt`).
 - **Rótulos suaves** (componentes 3 e 5): o alvo de cada texto de treino é a distribuição dos rótulos de todas as cópias desse texto no treino. Por exemplo, um texto que aparece uma vez como c1 e outra como c5 tem alvo [0,5; 0; 0,5]. Textos sem divergência mantêm o alvo *one-hot*. No treino completo, 1.935 linhas pertencem a grupos com rótulos divergentes. A perda é a entropia cruzada com alvo probabilístico.
 
 ## 4. Parâmetros avaliados
 
 ### 4.1 Modelos clássicos
 
-A busca foi feita na divisão 80/20 (seção 6), com 343 configurações no total (`busca_holdout.py`, `resultados/busca_holdout.csv`).
+A busca foi feita na divisão 80/20 (seção 6), com 343 configurações no total (`ep2/busca_holdout.py`, `ep2/resultados/busca_holdout.csv`).
 
 | Modelo | Parâmetro | Valores |
 | :--- | :--- | :--- |
@@ -90,7 +90,7 @@ A busca foi feita na divisão 80/20 (seção 6), com 343 configurações no tota
 
 ### 4.2 Transformers
 
-Não houve busca em grade. Cada modelo foi avaliado com uma configuração padrão, e algumas variações foram testadas uma a uma (`kaggle/ep2_treino.py`; configurações em `kaggle/saida_kaggle/*/saida/*/config_entrada.json`).
+Não houve busca em grade. Cada modelo foi avaliado com uma configuração padrão, e algumas variações foram testadas uma a uma (`ep2_final/kaggle/ep2_treino.py`; configurações em `ep2/kaggle/saida_kaggle/*/saida/*/config_entrada.json`).
 
 | Parâmetro | Valores considerados |
 | :--- | :--- |
@@ -110,7 +110,7 @@ Valores fixos: AdamW com *weight decay* 0,01, *warmup* linear de 10% seguido de 
 
 ### 5.1 Melhor configuração de cada modelo clássico
 
-Acurácia na divisão 80/20 (`resultados/busca_holdout.csv`).
+Acurácia na divisão 80/20 (`ep2/resultados/busca_holdout.csv`).
 
 | Modelo | Parâmetro | Valor ótimo | Atributos | Acurácia |
 | :--- | :--- | :--- | :--- | :--- |
@@ -210,9 +210,9 @@ O ganho dos modelos isolados no holdout não se confirmou na CV. Nenhum deles su
 | A: BERTimbau large + XLM-R + NB-SVM | 0,4728 | |
 | Stacking com HistGradientBoosting (7 modelos) | 0,4546 | |
 
-- **Simplificação.** Avaliamos os 1.023 subconjuntos dos 10 componentes. Para cada tamanho k, a melhor combinação foi escolhida numa metade do holdout e medida na outra. Escolhendo assim, o ganho sobre o EP1 é negativo com até 3 componentes (k ≤ 3) e passa a +1,0 ponto com 6 (`resultados/simplificacao_ensemble.csv`).
-- **Aprendizado confiante** (cleanlab). Ele marcou 44,6% do treino como suspeito. Remover, re-rotular ou reduzir o peso desses textos **piorou** os clássicos: a média de regressão logística e NB-SVM caiu de 0,4635 para 0,4479–0,4620 (`resultados/aprendizado_confiante.csv`).
-- **Decodificação balanceada.** Impõe 1/3 de textos por classe nas previsões, como no test1. Em 200 amostras balanceadas de 900 textos do holdout, melhorou o EP1 em +0,30 ponto e **piorou a versão final em −0,64 ponto**, então foi descartada (`resultados/log_decodificacao_balanceada.txt`).
+- **Simplificação.** Avaliamos os 1.023 subconjuntos dos 10 componentes. Para cada tamanho k, a melhor combinação foi escolhida numa metade do holdout e medida na outra. Escolhendo assim, o ganho sobre o EP1 é negativo com até 3 componentes (k ≤ 3) e passa a +1,0 ponto com 6 (`ep2/resultados/simplificacao_ensemble.csv`).
+- **Aprendizado confiante** (cleanlab). Ele marcou 44,6% do treino como suspeito. Remover, re-rotular ou reduzir o peso desses textos **piorou** os clássicos: a média de regressão logística e NB-SVM caiu de 0,4635 para 0,4479–0,4620 (`ep2/resultados/aprendizado_confiante.csv`).
+- **Decodificação balanceada.** Impõe 1/3 de textos por classe nas previsões, como no test1. Em 200 amostras balanceadas de 900 textos do holdout, melhorou o EP1 em +0,30 ponto e **piorou a versão final em −0,64 ponto**, então foi descartada (`ep2/resultados/log_decodificacao_balanceada.txt`).
 
 ### 7.4 Label smoothing com BERTimbau base
 
@@ -248,7 +248,7 @@ Na comparação pareada com a mesma semente, o efeito isolado do label smoothing
 | Modelo EP1 (ensemble entregue) | test1 | 0,4967 | 0,4937 | 0,2450 |
 | **Modelo EP2 (versão final)** | test1 | 0,4889 | 0,4838 | 0,2333 |
 
-**Tabela de contingência do McNemar** (`comparacao_teste1_ep1_ep2.txt`):
+**Tabela de contingência do McNemar** (`ep2_final/resultados/comparacao_teste1_ep1_ep2.txt`):
 
 | | EP2 acerta | EP2 erra |
 | :--- | :--- | :--- |
@@ -259,7 +259,7 @@ Na comparação pareada com a mesma semente, o efeito isolado do label smoothing
 
 ### 8.2 Validação cruzada de 5 folds (20.092 textos): critério da decisão
 
-A comparação foi feita nos mesmos folds agrupados da validação cruzada do EP1 (`cv_comparacao.py`, `resultados/cv_comparacao.csv`).
+A comparação foi feita nos mesmos folds agrupados da validação cruzada do EP1 (`ep2_final/cv_comparacao.py`, `ep2_final/resultados/cv_comparacao.csv`).
 
 | Modelo | Acurácia | Fold 1 | Fold 2 | Fold 3 | Fold 4 | Fold 5 | vs EP1 | Folds acima do EP1 | McNemar p |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -273,7 +273,7 @@ A comparação foi feita nos mesmos folds agrupados da validação cruzada do EP
 - 1.447 textos só a versão final acerta, contra 1.244 que só o EP1 acerta;
 - McNemar com correção de continuidade de 15,16, **p = 9,9 × 10⁻⁵**; o teste exato dá p = 9,8 × 10⁻⁵.
 
-**Testes de robustez** (`dados_relatorio.py`, `resultados/log_dados_relatorio.txt`)
+**Testes de robustez** (`ep2_final/dados_relatorio.py`, `ep2_final/resultados/log_dados_relatorio.txt`)
 
 | Cenário | n | Acurácia versão final | Acurácia EP1 | Diferença | McNemar | p |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -295,7 +295,7 @@ McNemar do ensemble BERT-LS: `comparacao_teste1_ep1_label_smoothing.txt`, com 42
 
 O ensemble com label smoothing foi o melhor no test1: +1,11 ponto, ou 10 acertos a mais que o EP1. **Decidimos não usá-lo**, por quatro motivos:
 1. **No test1, nenhum dos dois é significativamente diferente do EP1.** O BERT-LS tem p = 0,30 e a versão final, p = 0,59. Com 900 textos, as duas diferenças estão dentro do ruído.
-2. **O test1 tem pouco poder estatístico.** Sorteamos 2.000 conjuntos de 900 textos balanceados (300 por classe) das previsões *out-of-fold* da validação cruzada. Neles, a vantagem média da versão final sobre o EP1 é de +1,05 ponto. Mesmo assim, o McNemar só dá p < 0,05 a favor da versão final em **10,9%** dos sorteios, e a versão final fica **abaixo** do EP1 em **16,9%** deles (`resultados/log_dados_relatorio.txt`). Ou seja, ficar abaixo do EP1 no test1 é compatível com um modelo melhor.
+2. **O test1 tem pouco poder estatístico.** Sorteamos 2.000 conjuntos de 900 textos balanceados (300 por classe) das previsões *out-of-fold* da validação cruzada. Neles, a vantagem média da versão final sobre o EP1 é de +1,05 ponto. Mesmo assim, o McNemar só dá p < 0,05 a favor da versão final em **10,9%** dos sorteios, e a versão final fica **abaixo** do EP1 em **16,9%** deles (`ep2_final/resultados/log_dados_relatorio.txt`). Ou seja, ficar abaixo do EP1 no test1 é compatível com um modelo melhor.
 3. **Na validação cruzada, a versão final é melhor e de forma consistente.** São 0,4806 contra 0,4739 do BERT-LS e 0,4705 do EP1, com vantagem em **5 de 5 folds**. O BERT-LS ganhou do EP1 em 3 de 5. A CV usa 20.092 textos, 22 vezes o test1.
 4. **Escolher pelo test1 seria usá-lo para seleção de modelo.** O enunciado reserva o test1 apenas para o teste estatístico.
 
@@ -303,11 +303,11 @@ O ensemble com label smoothing foi o melhor no test1: +1,11 ponto, ou 10 acertos
 
 ## 9. Análise
 
-As análises completas estão em `ep2/ANALISE_CARACTERISTICAS.md` e `ep2/ANALISE_ERROS.md`.
+As análises completas estão em `ep2_final/ANALISE_CARACTERISTICAS.md` e `ep2_final/ANALISE_ERROS.md`.
 
 ### 9.1 Interpretação global
 
-Os transformers não são diretamente interpretáveis. Por isso, usamos como **modelo de apoio** o **NB-SVM**, que é linear e é um dos componentes da própria versão final. O peso de cada n-grama numa classe é o coeficiente da regressão logística multiplicado pela razão de log-contagem do NB. Os pesos foram calculados diretamente dos coeficientes, que é o mesmo cálculo do `eli5.show_weights`, sem usar a biblioteca (`analise_caracteristicas.py`, `resultados/caracteristicas_globais.csv`).
+Os transformers não são diretamente interpretáveis. Por isso, usamos como **modelo de apoio** o **NB-SVM**, que é linear e é um dos componentes da própria versão final. O peso de cada n-grama numa classe é o coeficiente da regressão logística multiplicado pela razão de log-contagem do NB. Os pesos foram calculados diretamente dos coeficientes, que é o mesmo cálculo do `eli5.show_weights`, sem usar a biblioteca (`ep2_final/analise_caracteristicas.py`, `ep2_final/resultados/caracteristicas_globais.csv`).
 
 **N-gramas de maior peso por classe** ("docs" é o número de textos do treino que contêm o n-grama):
 
@@ -344,7 +344,7 @@ Seis textos do test1 foram explicados: os 3 acertos de maior confiança (um por 
 - a contribuição de cada n-grama no NB-SVM, equivalente ao `eli5.show_predictions`;
 - o **LIME** (Ribeiro et al., 2016; 500 perturbações) no NB-SVM e no BERTimbau do EP1.
 
-Usamos o BERTimbau do EP1 como substituto porque os pesos dos transformers da versão final não estavam disponíveis localmente (`resultados/caracteristicas_locais.csv`).
+Usamos o BERTimbau do EP1 como substituto porque os pesos dos transformers da versão final não estavam disponíveis localmente (`ep2_final/resultados/caracteristicas_locais.csv`).
 
 | test1 | Caso | Real → previsto (confiança) | NB-SVM (maiores pesos) | LIME no BERTimbau |
 | :--- | :--- | :--- | :--- | :--- |
@@ -363,7 +363,7 @@ Usamos o BERTimbau do EP1 como substituto porque os pesos dos transformers da ve
 
 ### 9.3 Análise de erros
 
-Analisamos os erros da versão final no test1 (`analise_erros.py`, `resultados/log_analise_erros.txt`, `resultados/analise_erros_amostra.csv`).
+Analisamos os erros da versão final no test1 (`ep2_final/analise_erros.py`, `ep2_final/resultados/log_analise_erros.txt`, `ep2_final/resultados/analise_erros_amostra.csv`).
 
 **Matriz de confusão** (acurácia 0,4889; nas linhas, a classe real):
 
@@ -403,52 +403,43 @@ Analisamos os erros da versão final no test1 (`analise_erros.py`, `resultados/l
 
 **Repositório:** https://github.com/DiegoMMoraes/ep2_pln
 
+**Organização**
+
+| Pasta | Conteúdo |
+| :--- | :--- |
+| `ep2_final/` | Tudo o que é necessário para reproduzir o modelo final, a entrega, a comparação com o EP1 e as análises. O passo a passo está em `ep2_final/README.md`. |
+| `ep2/` | Experimentos exploratórios (busca de hiperparâmetros, stacking, outros transformers, LLMs, aprendizado confiante etc.) e o diário `ep2/EXPERIMENTOS.md`. |
+| `ep1/` | Código e modelos do EP1, usados como referência. |
+
 Os arquivos de modelo do EP1 com mais de 100 MB (`model.safetensors` do BERTimbau e `svc_word12_char25.joblib`) ficaram fora do git. O `ep1/README.md` explica como regenerá-los.
 
 **Dependências**
 - **Local:**
 
   ```bash
-  pip install pandas openpyxl numpy scipy scikit-learn joblib statsmodels lime cleanlab torch transformers
+  pip install pandas openpyxl numpy scipy scikit-learn joblib statsmodels lime torch transformers
   ```
 
-- **Kaggle:** torch e transformers já vêm instalados; o notebook instala peft e bitsandbytes, usados só pelos LLMs.
+- **Kaggle:** torch e transformers já vêm instalados.
 
-**Passo a passo para reproduzir a entrega**
-1. **Dados no Kaggle.** Crie um Dataset com os arquivos de `ep2/kaggle/dados/`: `train.xlsx`, `test1.xlsx`, `test2.xlsx`, `divisao_80_20.csv` e `folds_5.csv`.
-2. **Transformers (Kaggle).**
-   - Abra o notebook `ep2/kaggle/envio_final/ep2_transformers.ipynb`, com acelerador **GPU T4 x2**, Internet ligada e o Dataset como entrada.
-   - Rode *Save & Run All*. São os 5 experimentos em modo `final`, e a rodada leva cerca de 1h50.
-   - Baixe a pasta `saida/` para `ep2/kaggle/saida_kaggle/final/saida/`.
-   - Pelo CLI:
-
-     ```bash
-     kaggle kernels push -p ep2/kaggle/envio_final --accelerator NvidiaTeslaT4
-     ```
-
-     ```bash
-     kaggle kernels output <usuario>/ep2-final -p ep2/kaggle/saida_kaggle/final
-     ```
-
-3. **NB-SVM (local):**
+**Passo a passo** (de dentro de `ep2_final/`)
+1. **Entrega a partir das probabilidades salvas, sem GPU.** O `ensemble_final.py` grava `entrega/test2-rotulado-ep2.xlsx`, que é a entrega, e `entrega/test1-rotulado-ep2.xlsx`, conferindo abas, colunas, número de linhas e ordem dos textos.
 
    ```bash
-   cd ep2 && python nbsvm_final.py
+   python nbsvm_final.py
    ```
-
-4. **Ensemble e entrega:** gera `test2-rotulado-ep2.xlsx`, que é a entrega, e `test1-rotulado-ep2.xlsx`, conferindo abas, colunas e número de linhas.
 
    ```bash
-   cd ep2 && python ensemble_final.py
+   python ensemble_final.py
    ```
 
-5. **McNemar no test1:**
+2. **McNemar no test1:**
 
    ```bash
-   python comparar_teste1.py --ep2 test1-rotulado-ep2.xlsx --saida comparacao_teste1_ep1_ep2.txt
+   python comparar_teste1.py --ep2 entrega/test1-rotulado-ep2.xlsx
    ```
 
-6. **Validação cruzada e números do relatório** (a partir de `ep2/`):
+3. **Validação cruzada e números do relatório:**
 
    ```bash
    python nbsvm_cv.py
@@ -462,8 +453,7 @@ Os arquivos de modelo do EP1 com mais de 100 MB (`model.safetensors` do BERTimba
    python dados_relatorio.py
    ```
 
-   Os folds 2 a 5 dos transformers rodam no Kaggle em modo `cv`.
-7. **Análises:**
+4. **Análises:**
 
    ```bash
    python analise_erros.py
@@ -473,4 +463,11 @@ Os arquivos de modelo do EP1 com mais de 100 MB (`model.safetensors` do BERTimba
    python analise_caracteristicas.py
    ```
 
-**Observação sobre reprodutibilidade.** O treino de transformers na GPU não é determinístico. Um retreino produz probabilidades ligeiramente diferentes, e alguns rótulos podem mudar. O diário completo dos experimentos está em `ep2/EXPERIMENTOS.md`.
+5. **Retreino dos transformers (Kaggle).**
+   - Crie um Dataset com `train.xlsx`, `test1.xlsx`, `test2.xlsx`, `folds_5.csv` e `divisao_80_20.csv`, de `ep2_final/dados/`.
+   - Abra `ep2_final/kaggle/ep2_transformers.ipynb` com acelerador **GPU T4 x2**, Internet ligada e o Dataset como entrada, e rode *Save & Run All*. São os 5 experimentos em modo `final`, e a rodada leva cerca de 1h50.
+   - Copie as pastas `saida/final_<experimento>/` para `ep2_final/saidas/transformers_final/` e repita o passo 1.
+
+Rodando os passos 1 a 4 sobre as saídas salvas, obtém-se exatamente a entrega e todos os números deste relatório.
+
+**Observação sobre reprodutibilidade.** O treino de transformers na GPU não é determinístico. Um retreino produz probabilidades ligeiramente diferentes, e alguns rótulos podem mudar.

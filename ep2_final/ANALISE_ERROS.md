@@ -1,4 +1,4 @@
-# Análise de erros: versão E no test1
+# Análise de erros: versão final no test1
 
 Esta análise segue a aula 08 (*Análise de características e de erros*). O objetivo é inspecionar as instâncias classificadas incorretamente e identificar **classes de problemas**, começando pelas mais frequentes. O slide 53 propõe três categorias:
 - instâncias difíceis de julgar ou classificar;
@@ -7,21 +7,21 @@ Esta análise segue a aula 08 (*Análise de características e de erros*). O obj
 
 ## 1. Dados e modelo analisados
 
-- **Modelo:** a versão E. É a média simples das probabilidades de 3 BERTimbau large, 2 XLM-R large e 1 NB-SVM, todos treinados com 100% do `train.xlsx`.
-- **Conjunto:** test1 (900 textos, 300 por classe). Os rótulos verdadeiros vêm do gabarito do professor (`../test1-rotulado-para-teste-estatistico.xlsx`).
+- **Modelo:** a versão final. É a média simples das probabilidades de 3 BERTimbau large, 2 XLM-R large e 1 NB-SVM, todos treinados com 100% do `train.xlsx`.
+- **Conjunto:** test1 (900 textos, 300 por classe). Os rótulos verdadeiros vêm do gabarito do professor (`dados/test1-gabarito.xlsx`).
   - Usamos o test1 porque é o único conjunto rotulado que o modelo final não viu no treino.
   - O test1 não foi usado para escolher modelo nem hiperparâmetros; a análise é feita depois da escolha.
 - **Entradas do script:**
-  - previsões: `../test1-rotulado-ep2.xlsx`;
-  - probabilidades do ensemble: `finais/ensemble/probabilidades_test1.csv`;
-  - treino: `../train.xlsx`, usado para detectar textos repetidos.
+  - previsões: `entrega/test1-rotulado-ep2.xlsx`;
+  - probabilidades do ensemble: `saidas/ensemble/probabilidades_test1.csv`;
+  - treino: `dados/train.xlsx`, usado para detectar textos repetidos.
 
 ## 2. Como foi feita
 
 A análise tem quatro etapas. As três primeiras são automáticas, feitas pelo script `analise_erros.py`. A quarta é a leitura manual de uma amostra de erros.
 
 ```bash
-cd ep2
+cd ep2_final
 python analise_erros.py
 ```
 

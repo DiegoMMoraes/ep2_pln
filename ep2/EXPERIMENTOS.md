@@ -1,5 +1,7 @@
 # EP2: diário de experimentos
 
+> A versão final (chamada de "versão E" neste diário) e tudo o que é necessário para reproduzi-la estão em [`../ep2_final/`](../ep2_final/README.md). Esta pasta guarda os experimentos exploratórios.
+
 Referência (EP1, entregue): ensemble BERTimbau + SVC palavra+caractere + LogReg, média ponderada sem viés.
 Teste1 (gabarito do professor): acurácia 0,4967. O teste1 **não** é usado para escolher modelos; serve só para o McNemar.
 
