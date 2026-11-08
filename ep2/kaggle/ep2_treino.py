@@ -45,6 +45,7 @@ PADRAO = {
     'lora_r': 16, 'lora_alpha': 32, 'lora_dropout': 0.05,
     'ema': None,                  # ex. 0.999: avalia/usa a média móvel exponencial dos pesos (um modelo só, mais estável)
     'llrd': 1.0,                  # ex. 0.9: lr decrescente nas camadas de baixo (camada i recebe lr * llrd^(L-i))
+    'salvar_modelo': False,       # modo final: grava o modelo (fp16) e o tokenizador em <saida>/modelo_semente<s>
     'max_tentativas': 3,          # se o modelo colapsar (>85% das predições numa classe), retreina com outra semente
     'amostra': None,              # ex. 400: usa só N textos (teste rápido do código)
     'pasta_dados': None,          # None = procura train.xlsx em /kaggle/input, /content e na pasta atual
@@ -445,6 +446,14 @@ def main(caminho_config):
                 salvar_probs(probs, os.path.join(saida, f'final_{nome}_semente{semente}.csv'), np.arange(len(teste)))
                 log(f'{nome}: {len(teste)} textos | distribuição prevista '
                     + str(pd.Series(np.array(CLASSES)[probs.argmax(1)]).value_counts().to_dict()))
+            if cfg['salvar_modelo']:
+                destino = os.path.join(saida, f'modelo_semente{semente}')
+                modelo.half().save_pretrained(destino, safe_serialization=True)
+                tokenizer.save_pretrained(destino)
+                with open(os.path.join(destino, 'config_ep2.json'), 'w', encoding='utf-8') as f:
+                    json.dump({'classes': list(CLASSES), 'max_len': cfg['max_len'],
+                               'tokens_inicio': cfg['tokens_inicio'], 'modelo_base': cfg['modelo']}, f, indent=2)
+                log(f'Modelo salvo em {destino}')
             del modelo
             torch.cuda.empty_cache()
     log(f'\nConcluído. Arquivos: {sorted(os.listdir(saida))}')

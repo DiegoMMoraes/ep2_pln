@@ -245,7 +245,21 @@ Eles concordam 68-72% com os BERTs, mas **não somam ao ensemble**:
 
 ## 12. Análise de erros da versão E no test1, em 04/11 (aula 08)
 
+A descrição completa está em [ANALISE_ERROS.md](ANALISE_ERROS.md).
+
 `python analise_erros.py` gera `resultados/log_analise_erros.txt`, `resultados/analise_erros_caracteristicas.csv` e `resultados/analise_erros_amostra.csv` (60 erros, com a coluna `categoria_manual`).
+
+**Como foi feita** (o modelo e os hiperparâmetros já estavam escolhidos, e o test1 não influenciou nenhuma escolha):
+1. **Matriz de confusão e tipos de erro.** As previsões da versão E no test1 são comparadas com o gabarito do professor. Os erros são separados entre os que envolvem a classe do meio (c234) e os entre extremos (c1↔c5).
+2. **Acurácia por característica.** Cada texto é marcado automaticamente por:
+   - repetição no treino, e se o texto repetido tem rótulos divergentes lá;
+   - comprimento;
+   - confiança do ensemble (probabilidade máxima);
+   - regex para respostas que remetem a anexo, pedem esclarecimento, negam ou encaminham.
+
+   Depois, a acurácia de cada grupo é comparada com a do resto.
+3. **Amostra estratificada.** São sorteados 10 erros de cada um dos 6 tipos de confusão (semente 42), num total de 60.
+4. **Leitura manual.** Os 60 textos foram lidos e cada um recebeu uma categoria (A a F). As categorias saíram da leitura (codificação aberta) e depois foram associadas às categorias do slide 53 da aula 08: instância difícil, problema de rotulação/definição do problema, falta de características.
 
 **Matriz de confusão** (linhas = classe real; acurácia 0,4889):
 
@@ -306,3 +320,20 @@ Componentes da E na CV: bertimbau_large 0,4643; bertimbau_large_s43 0,4625; xlmr
 1. Nenhum modelo isolado supera o ensemble do EP1 na CV. O melhor deles (rótulos suaves) empata (p = 0,39). Os ganhos dos isolados no holdout eram ruído do fold 1.
 2. A versão E supera o EP1 nos 5 folds, com +1,0 ponto (+0,86 ponto sem o fold de seleção). Com 20 mil textos o resultado é significativo (p ≤ 0,004). No test1 (900 textos), essa mesma diferença não pode ser detectada, porque o poder estatístico fica em cerca de 30%.
 3. O ganho vem da diversidade do ensemble (BERTimbau large + XLM-R + NB-SVM), e não de nenhum modelo isolado.
+
+## 14. Análise de características (aula 08), em 07/11
+
+A descrição completa está em [ANALISE_CARACTERISTICAS.md](ANALISE_CARACTERISTICAS.md). Para reproduzir: `python analise_caracteristicas.py`.
+
+**Método**
+- **Modelo de apoio** (slide 20): o NB-SVM, que é o componente linear da versão E, treinado com 100% do treino.
+- **Global:** pesos dos n-gramas por classe, equivalente ao `eli5.show_weights`.
+- **Atalhos:** classificação dos 300 n-gramas de maior peso por classe em nome próprio/sigla, número, saudação, contato, template e conteúdo.
+- **Fidelidade:** kappa entre o NB-SVM e a versão E.
+- **Local:** 6 textos do test1, com a contribuição dos n-gramas no NB-SVM e o LIME no NB-SVM e no BERTimbau do EP1. O BERTimbau do EP1 serve de substituto porque os pesos dos transformers da E não estão salvos.
+
+**Resultados**
+- **Características espúrias:** nomes de pessoas e siglas de órgãos são ≥26% das 300 de maior peso em c1 e c234, e 38% em c5. Números e datas são de 7% a 12%.
+- **Efeito do solicitante:** a cidadã "Odila" tem 46 textos no treino, todos c5. Os mesmos nomes aparecem em ~8% do test1 e do test2. Nesses textos, a versão E acerta 0,662, contra 0,474 nos demais.
+- **Fidelidade:** o NB-SVM concorda com a E em 72–73% dos casos (kappa 0,58–0,60). O NB-SVM e o BERTimbau concordam pouco entre si (kappa 0,40), o que explica o ganho do ensemble.
+- **LIME:** o NB-SVM decide por nomes e números, e o BERTimbau, por palavras de conteúdo (informação, cópia, anexo).
